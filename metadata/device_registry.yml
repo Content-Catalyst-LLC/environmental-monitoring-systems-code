@@ -1,0 +1,19 @@
+devices:
+  - device_id: ENV-001
+    device_type: air_quality_station
+    hardware_platform: ESP32
+    firmware_version: 1.0.0
+    deployment_site: Urban Corridor
+    active: true
+  - device_id: ENV-002
+    device_type: water_quality_node
+    hardware_platform: STM32
+    firmware_version: 1.1.0
+    deployment_site: River Reach A
+    active: true
+  - device_id: ENV-003
+    device_type: soil_moisture_station
+    hardware_platform: RP2040
+    firmware_version: 0.9.5
+    deployment_site: Research Plot
+    active: true

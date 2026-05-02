@@ -1,0 +1,7 @@
+indicators:
+  - name: valid_record_rate
+    description: Share of environmental observations passing basic quality checks.
+  - name: mean_signal_quality
+    description: Average signal-quality score by sensor or domain.
+  - name: mean_battery_voltage
+    description: Average battery voltage for field reliability monitoring.

@@ -1,0 +1,14 @@
+{
+  "model_name": "environmental_anomaly_tinyml_stub",
+  "task": "environmental anomaly scoring",
+  "input_features": [
+    "mean_value",
+    "standard_deviation",
+    "minimum_value",
+    "maximum_value",
+    "signal_energy",
+    "recent_change_rate"
+  ],
+  "deployment_target": "microcontroller or constrained edge device",
+  "intended_use": "educational scaffold for TinyML monitoring workflows"
+}

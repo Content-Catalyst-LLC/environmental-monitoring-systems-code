@@ -1,0 +1,9 @@
+calibration_manifest:
+  purpose: Track calibration status for environmental sensors.
+  required_metadata:
+    - sensor_id
+    - calibrated_at
+    - calibration_method
+    - scale_factor
+    - offset_value
+    - reference_standard
