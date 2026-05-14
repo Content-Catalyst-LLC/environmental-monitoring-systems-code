@@ -1,0 +1,7 @@
+governance_id,date,program_id,decision,owner,status,public_note_required
+gov-001,2026-05-01,surface-temperature-reference-network,Approved as reference-quality anchor record with representativeness caveat,climate_agency,closed,true
+gov-002,2026-05-02,historical-surface-temperature-network,Prioritize metadata rescue and relocation review,climate_agency,open,true
+gov-003,2026-05-03,ocean-heat-content-network,Expose pre-float historical coverage caveat,ocean_agency,open,true
+gov-004,2026-05-04,coastal-sea-level-network,Review datum and vertical land motion documentation,coastal_agency,open,true
+gov-005,2026-05-05,cryosphere-mass-balance-program,Document method transition and field-access gaps,cryosphere_program,open,true
+gov-006,2026-05-06,land-biosphere-carbon-observation,Pair flux records with satellite and land-cover caveats,ecosystem_network,open,true

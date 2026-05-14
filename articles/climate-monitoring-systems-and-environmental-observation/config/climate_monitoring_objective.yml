@@ -1,0 +1,23 @@
+climate_monitoring_objective:
+  version: "1.0.0"
+  title: "Climate Monitoring Systems and Environmental Observation"
+  purpose: "Demonstrate climate-record readiness, continuity, metadata, calibration, homogenization, versioning, uncertainty communication, and governance."
+  domains:
+    - atmosphere
+    - ocean
+    - cryosphere
+    - land
+    - land_biosphere
+    - hydrology
+    - carbon_cycle
+    - reanalysis
+  decision_uses:
+    - trend_detection
+    - climate_assessment
+    - reanalysis_support
+    - model_evaluation
+    - adaptation_planning
+    - infrastructure_standards
+    - public_reporting
+    - environmental_accountability
+    - climate_services

@@ -1,0 +1,7 @@
+audit_id,program_id,domain,coverage_dimension,target_zone_or_record,coverage_score,evidence_gap,priority,notes
+audit-001,surface-temperature-reference-network,atmosphere,spatial_coverage,national_reference_coverage,0.78,Reference stations are strong but sparse relative to regional microclimates,medium,Use as anchor not full-coverage record
+audit-002,historical-surface-temperature-network,atmosphere,metadata_completeness,historical_station_records,0.64,Relocation and instrument histories incomplete for some periods,high,Prioritize metadata rescue
+audit-003,ocean-heat-content-network,ocean,historical_coverage,pre_argo_ocean_baseline,0.60,Historical subsurface ocean coverage sparse before float era,high,Expose baseline caveat
+audit-004,coastal-sea-level-network,ocean,datum_continuity,tide_gauge_datum_history,0.68,Datum and vertical land motion context need review,high,Strengthen datum and GPS linkage
+audit-005,cryosphere-mass-balance-program,cryosphere,field_continuity,remote_glacier_sites,0.58,Remote field access and method transitions weaken continuity,high,Document method and access gaps
+audit-006,land-biosphere-carbon-observation,land_biosphere,network_density,flux_tower_regions,0.66,Flux towers do not represent all land-cover and climate regions,medium,Pair with satellite and ecological records

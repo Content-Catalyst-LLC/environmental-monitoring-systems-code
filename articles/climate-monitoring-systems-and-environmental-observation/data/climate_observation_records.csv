@@ -1,0 +1,9 @@
+observation_id,platform_id,observation_date,domain,climate_variable,value,unit,qc_flag,record_stage,provenance_id
+obs-001,clim-001,2026-01-01,atmosphere,surface_temperature,2.1,degC,pass,qc_observation,meta-001
+obs-002,clim-001,2026-02-01,atmosphere,surface_temperature,4.0,degC,pass,qc_observation,meta-001
+obs-003,clim-002,1984-06-01,atmosphere,surface_temperature,22.4,degC,review_required,raw_observation,meta-002
+obs-004,clim-003,2026-01-01,ocean,ocean_heat_content,12.8,relative_index,pass,qc_observation,meta-003
+obs-005,clim-004,2026-01-01,ocean,sea_level,0.34,m,review_required,qc_observation,meta-004
+obs-006,clim-005,2025-09-01,cryosphere,glacier_mass_balance,-0.82,m_water_equivalent,review_required,raw_observation,meta-005
+obs-007,clim-006,2026-01-01,land_biosphere,carbon_flux,-2.4,gC_m2_day,pass,qc_observation,meta-006
+obs-008,clim-007,2026-01-01,land,land_surface_temperature,4.8,degC,pass,qc_observation,meta-007

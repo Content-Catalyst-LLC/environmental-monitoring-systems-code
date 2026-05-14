@@ -1,0 +1,8 @@
+indicator_id,record_id,year,climate_variable,value,baseline_mean,anomaly,unit,trend_ready,notes
+ind-001,cdr-001,2021,surface_temperature,12.8,11.9,0.9,degC,true,Reference record anomaly
+ind-002,cdr-001,2022,surface_temperature,13.1,11.9,1.2,degC,true,Reference record anomaly
+ind-003,cdr-001,2023,surface_temperature,13.4,11.9,1.5,degC,true,Reference record anomaly
+ind-004,cdr-003,2023,ocean_heat_content,13.2,10.8,2.4,relative_index,true,Ocean heat index anomaly
+ind-005,cdr-004,2023,sea_level,0.38,0.21,0.17,m,false,Datum review pending
+ind-006,cdr-005,2025,glacier_mass_balance,-0.82,-0.34,-0.48,m_water_equivalent,false,Method transition caveat
+ind-007,cdr-006,2023,land_surface_temperature,15.6,14.2,1.4,degC,true,Satellite land-surface anomaly

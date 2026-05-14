@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ClimateDataRecordManifest",
+  "type": "object",
+  "required": [
+    "record_id",
+    "record_title",
+    "domain",
+    "climate_variable",
+    "version",
+    "baseline_start",
+    "baseline_end",
+    "record_start",
+    "record_end",
+    "processing_status",
+    "uncertainty_statement",
+    "citation_required"
+  ],
+  "properties": {
+    "record_id": {"type": "string"},
+    "record_title": {"type": "string"},
+    "domain": {"type": "string"},
+    "climate_variable": {"type": "string"},
+    "version": {"type": "string"},
+    "baseline_start": {"type": "number"},
+    "baseline_end": {"type": "number"},
+    "record_start": {"type": "number"},
+    "record_end": {"type": "number"},
+    "processing_status": {"type": "string"},
+    "uncertainty_statement": {"type": "string"},
+    "citation_required": {"type": "boolean"}
+  }
+}

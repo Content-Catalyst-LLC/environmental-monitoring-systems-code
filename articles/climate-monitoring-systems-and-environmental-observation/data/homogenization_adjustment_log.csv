@@ -1,0 +1,6 @@
+adjustment_id,platform_id,climate_variable,breakpoint_date,breakpoint_type,adjustment_method,adjustment_value,unit,uncertainty_effect,status,notes
+adj-001,clim-002,surface_temperature,1984-06-01,station_relocation,neighbor_reference_adjustment,0.18,degC,increases_uncertainty,review_required,Station move detected
+adj-002,clim-002,surface_temperature,1999-09-01,instrument_change,pairwise_homogenization,-0.08,degC,minor,pass,Instrument transition adjusted
+adj-003,clim-004,sea_level,2007-01-01,datum_change,datum_reconciliation,0.012,m,increases_uncertainty,review_required,Datum shift needs documentation
+adj-004,clim-005,glacier_mass_balance,2018-08-01,method_change,method_transition_caveat,0.00,m_water_equivalent,increases_uncertainty,review_required,Field method changed
+adj-005,clim-007,land_surface_temperature,2012-01-01,satellite_mission_transition,cross_mission_intercalibration,0.05,degC,minor,pass,Satellite mission overlap correction

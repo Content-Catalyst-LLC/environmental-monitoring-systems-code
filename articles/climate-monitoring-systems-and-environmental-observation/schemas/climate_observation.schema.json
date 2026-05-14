@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ClimateObservation",
+  "type": "object",
+  "required": [
+    "observation_id",
+    "platform_id",
+    "observation_date",
+    "domain",
+    "climate_variable",
+    "value",
+    "unit",
+    "qc_flag",
+    "record_stage",
+    "provenance_id"
+  ],
+  "properties": {
+    "observation_id": {"type": "string"},
+    "platform_id": {"type": "string"},
+    "observation_date": {"type": "string"},
+    "domain": {"type": "string"},
+    "climate_variable": {"type": "string"},
+    "value": {"type": "number"},
+    "unit": {"type": "string"},
+    "qc_flag": {"type": "string"},
+    "record_stage": {"type": "string"},
+    "provenance_id": {"type": "string"}
+  }
+}

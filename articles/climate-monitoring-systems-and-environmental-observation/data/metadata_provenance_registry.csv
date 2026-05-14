@@ -1,0 +1,8 @@
+metadata_id,platform_id,metadata_type,metadata_status,record_owner,last_reviewed,critical_gap,notes
+meta-001,clim-001,station_history,complete,climate_agency,2026-05-01,false,Reference station has stable metadata
+meta-002,clim-002,station_history,partial,climate_agency,2026-05-01,true,Station relocation occurred in 1984 and 1999
+meta-003,clim-003,platform_algorithm,complete,ocean_agency,2026-05-02,false,Float processing version documented
+meta-004,clim-004,datum_history,review_required,coastal_agency,2026-05-02,true,Datum adjustment history needs review
+meta-005,clim-005,field_protocol,partial,cryosphere_program,2026-05-03,true,Field access gaps and method changes require caveat
+meta-006,clim-006,instrument_history,complete,ecosystem_network,2026-05-04,false,Flux-tower sensor changes documented
+meta-007,clim-007,retrieval_algorithm,complete,space_agency,2026-05-04,false,Satellite retrieval version and uncertainty documented

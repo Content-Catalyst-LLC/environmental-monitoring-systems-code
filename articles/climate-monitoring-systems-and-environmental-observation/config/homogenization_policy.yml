@@ -1,0 +1,11 @@
+homogenization_policy:
+  version: "1.0.0"
+  rule: "Known station moves, instrument transitions, method changes, satellite mission transitions, and datum shifts require break-point review, documented treatment, and uncertainty caveats."
+  required_fields:
+    - platform_id
+    - climate_variable
+    - breakpoint_date
+    - breakpoint_type
+    - adjustment_method
+    - uncertainty_effect
+    - status

@@ -1,0 +1,8 @@
+platform_id,platform_name,platform_type,domain,owner,latitude,longitude,start_year,end_year,variables,operational_status,continuity_role,notes
+clim-001,Reference Surface Temperature Station,climate_reference_station,atmosphere,climate_agency,38.6300,-90.2100,2005,NA,surface_temperature_precipitation_humidity_wind,active,anchor_record,Stable reference-quality surface station
+clim-002,Long-Running Cooperative Station,surface_station,atmosphere,climate_agency,38.7100,-90.3200,1950,NA,surface_temperature_precipitation,active,historical_record,Long record with station history caveats
+clim-003,Ocean Heat Float Network,ocean_float,ocean,ocean_agency,0.0000,-150.0000,2004,NA,temperature_salinity_pressure,active,subsurface_ocean_record,Argo-like ocean monitoring network
+clim-004,Coastal Tide Gauge,tide_gauge,ocean,coastal_agency,29.9500,-90.0700,1935,NA,sea_level,active,sea_level_record,Long coastal sea-level record
+clim-005,Glacier Mass Balance Site,field_station,cryosphere,cryosphere_program,60.1000,-149.0000,1980,NA,glacier_mass_balance,review_required,cryosphere_record,Remote field record with access constraints
+clim-006,Land Biosphere Flux Tower,flux_tower,land_biosphere,ecosystem_network,39.1000,-89.9000,2010,NA,carbon_flux_evapotranspiration_temperature,active,land_carbon_record,Carbon and energy exchange record
+clim-007,Satellite Land Surface Temperature Mission,satellite,land,space_agency,0.0000,0.0000,2000,NA,land_surface_temperature_albedo,active,spatial_coverage_record,Requires retrieval validation and intercalibration

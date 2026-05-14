@@ -1,0 +1,7 @@
+record_id,record_title,domain,climate_variable,version,baseline_start,baseline_end,record_start,record_end,processing_status,uncertainty_statement,citation_required
+cdr-001,Reference Surface Temperature Record,atmosphere,surface_temperature,v1.0,1991,2020,2005,2026,approved,Reference station continuity is strong but regional representativeness is limited,true
+cdr-002,Historical Surface Temperature Record,atmosphere,surface_temperature,v0.9,1991,2020,1950,2026,review_required,Station relocations and instrument transitions require homogenization caveats,true
+cdr-003,Ocean Heat Content Monitoring Record,ocean,ocean_heat_content,v1.0,2005,2020,2004,2026,approved,Historical pre-float baselines are sparse,true
+cdr-004,Coastal Sea Level Record,ocean,sea_level,v0.8,1991,2020,1935,2026,review_required,Datum and land-motion context require caveat,true
+cdr-005,Glacier Mass Balance Record,cryosphere,glacier_mass_balance,v0.8,1991,2020,1980,2025,review_required,Field access and method transitions increase uncertainty,true
+cdr-006,Land Surface Temperature Satellite Record,land,land_surface_temperature,v1.0,2001,2020,2000,2026,approved,Retrieval uncertainty and validation limits apply,true

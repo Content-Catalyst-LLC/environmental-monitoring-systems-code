@@ -1,0 +1,33 @@
+article:
+  title: "Climate Monitoring Systems and Environmental Observation"
+  slug: "climate-monitoring-systems-and-environmental-observation"
+  subtitle: "Climate Records, Earth-System Observation, Continuity, and Planetary Accountability"
+  series: "Environmental Monitoring Systems"
+  site_url: "https://sustainablecatalyst.com/climate-monitoring-systems-and-environmental-observation/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/environmental-monitoring-systems-code/tree/main/articles/climate-monitoring-systems-and-environmental-observation"
+
+navigation_note:
+  top_gateway_rule: "Use the five-button navigation to point to article maps / pillar pages whenever possible; reserve individual article links for Related articles."
+  github_block_position: "Place the GitHub repository section after the code samples."
+
+technical_level: "research-grade climate monitoring, Earth-system observation, record continuity, metadata, calibration, homogenization, reanalysis linkage, uncertainty, and governance scaffold"
+
+workflows:
+  mathematical_lens: "Baselines, anomalies, simple trend models, record continuity, coverage, and climate-record evidence quality"
+  python:
+    - "Climate-monitoring readiness scoring"
+    - "Record-continuity, metadata, calibration, homogenization, coverage, and governance triage"
+    - "Climate anomaly and trend-readiness review"
+  r:
+    - "Climate-record readiness reporting"
+    - "Record continuity, anomaly, coverage, and governance summary tables"
+  sql:
+    - "Climate observation platform registry"
+    - "Metadata and provenance registry"
+    - "Calibration and intercomparison log"
+    - "Climate observation records"
+    - "Homogenization and adjustment log"
+    - "Climate data record manifest"
+    - "Indicator and anomaly table"
+    - "Coverage and continuity audit"
+    - "Climate monitoring governance log"

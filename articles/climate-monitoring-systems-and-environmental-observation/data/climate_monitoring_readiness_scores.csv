@@ -1,0 +1,8 @@
+program_id,domain,climate_variable,record_continuity,metadata_completeness,calibration_quality,homogenization_readiness,spatial_coverage,version_control,uncertainty_communication,governance_readiness,high_stakes_use
+surface-temperature-reference-network,atmosphere,surface_temperature,0.92,0.88,0.90,0.86,0.78,0.84,0.82,0.86,true
+historical-surface-temperature-network,atmosphere,surface_temperature,0.82,0.70,0.78,0.72,0.76,0.78,0.74,0.78,true
+ocean-heat-content-network,ocean,ocean_heat_content,0.78,0.80,0.84,0.76,0.68,0.82,0.78,0.80,true
+coastal-sea-level-network,ocean,sea_level,0.84,0.74,0.76,0.70,0.72,0.76,0.74,0.76,true
+cryosphere-mass-balance-program,cryosphere,glacier_mass_balance,0.72,0.76,0.78,0.74,0.62,0.76,0.74,0.78,true
+land-biosphere-carbon-observation,land_biosphere,vegetation_carbon_flux,0.70,0.72,0.74,0.70,0.66,0.72,0.70,0.74,true
+satellite-land-temperature-record,land,land_surface_temperature,0.86,0.82,0.80,0.78,0.88,0.84,0.76,0.80,true

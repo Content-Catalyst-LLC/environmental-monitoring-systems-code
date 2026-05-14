@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "name": "climate_monitoring_platforms",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "platform_id": "clim-001",
+        "platform_type": "climate_reference_station",
+        "domain": "atmosphere"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2100, 38.6300]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "platform_id": "clim-004",
+        "platform_type": "tide_gauge",
+        "domain": "ocean"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.0700, 29.9500]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "platform_id": "clim-005",
+        "platform_type": "field_station",
+        "domain": "cryosphere"
+      },
+      "geometry": {"type": "Point", "coordinates": [-149.0000, 60.1000]}
+    }
+  ]
+}

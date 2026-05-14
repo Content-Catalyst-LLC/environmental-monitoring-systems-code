@@ -1,0 +1,14 @@
+record_quality_policy:
+  version: "1.0.0"
+  required_checks:
+    - platform_metadata_complete
+    - station_or_platform_history
+    - observation_unit_valid
+    - baseline_period_defined
+    - calibration_status
+    - qc_status
+    - homogenization_review
+    - version_identifier
+    - uncertainty_statement
+    - coverage_caveat
+  rule: "Climate claims must not be made from records lacking continuity, metadata, calibration, versioning, uncertainty, and valid-use caveats."

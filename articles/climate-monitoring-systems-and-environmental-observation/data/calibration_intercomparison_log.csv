@@ -1,0 +1,7 @@
+calibration_id,platform_id,event_date,event_type,reference_standard_or_overlap,result,status,notes
+cal-001,clim-001,2026-01-15,annual_calibration,reference_thermometer,within_tolerance,pass,Reference station sensors calibrated
+cal-002,clim-002,1999-06-01,station_overlap,old_new_station_overlap,limited_overlap,review_required,Relocation overlap period short
+cal-003,clim-003,2025-12-01,float_intercomparison,ship_ctd_profile,within_tolerance,pass,Float records cross-checked with ship profile
+cal-004,clim-004,2025-11-15,tide_gauge_datum_review,benchmark_survey,pending_review,review_required,Datum history needs final confirmation
+cal-005,clim-005,2025-09-01,field_method_review,stake_network_and_geodetic_survey,method_transition,review_required,Mass-balance method changed
+cal-006,clim-007,2026-02-01,satellite_intercalibration,cross_mission_overlap,within_tolerance,pass,Satellite product aligned with overlap mission
