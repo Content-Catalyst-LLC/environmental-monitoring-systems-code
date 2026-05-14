@@ -1,0 +1,6 @@
+event_id,component_id,edge_rule_id,event_type,phenomenon_time,result_time,ingested_at,confidence,quality_flag,raw_context_retained,delayed_record,notes
+evt-001,flood-threshold-gateway,edge-water-threshold-001,threshold_crossing,2026-05-14T12:00:00Z,2026-05-14T12:00:03Z,2026-05-14T12:00:11Z,0.94,pass,true,false,Water level exceeded local threshold
+evt-002,acoustic-biodiversity-node,edge-acoustic-classifier-001,local_classification,2026-05-14T04:32:00Z,2026-05-14T04:32:08Z,2026-05-14T05:20:00Z,0.72,review_required,true,true,Bird-call detection delayed through mesh gateway
+evt-003,water-quality-edge-sonde,edge-turbidity-qc-001,qc_failure,2026-05-14T12:10:00Z,2026-05-14T12:10:04Z,2026-05-14T12:10:16Z,0.88,suspect,true,false,Turbidity spike flagged for review
+evt-004,wildfire-smoke-camera-edge,edge-smoke-detection-001,image_detection,2026-05-14T13:05:00Z,2026-05-14T13:05:09Z,2026-05-14T13:05:25Z,0.79,preliminary,true,false,Smoke-like plume detected by edge image model
+evt-005,stormwater-flow-alert-system,edge-flow-alarm-001,local_alarm,2026-05-14T13:10:00Z,2026-05-14T13:10:02Z,2026-05-14T13:10:09Z,0.91,calibration_expired,true,false,Flow alarm issued but calibration is expired

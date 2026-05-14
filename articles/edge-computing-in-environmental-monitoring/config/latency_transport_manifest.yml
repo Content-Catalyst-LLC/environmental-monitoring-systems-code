@@ -1,0 +1,29 @@
+latency_transport_manifest:
+  version: "1.0.0"
+  latency_classes:
+    urgent:
+      target_seconds: 30
+      examples:
+        - flood_threshold
+        - smoke_detection
+        - infrastructure_alarm
+    near_real_time:
+      target_seconds: 300
+      examples:
+        - water_quality_alert
+        - air_quality_anomaly
+    delayed_operational:
+      target_seconds: 3600
+      examples:
+        - biodiversity_detection
+        - soil_moisture_review
+    archival:
+      target_seconds: 86400
+      examples:
+        - long_term_trend_analysis
+  transport_requirements:
+    - priority_class
+    - retry_policy
+    - acknowledgement_policy
+    - delayed_record_flag
+    - dropped_record_count

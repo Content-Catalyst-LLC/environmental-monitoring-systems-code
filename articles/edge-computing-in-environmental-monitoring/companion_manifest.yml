@@ -1,0 +1,37 @@
+article:
+  title: "Edge Computing in Environmental Monitoring"
+  slug: "edge-computing-in-environmental-monitoring"
+  subtitle: "Local Processing, Resilience, and Real-Time Environmental Intelligence"
+  series: "Environmental Monitoring Systems"
+  site_url: "https://sustainablecatalyst.com/edge-computing-in-environmental-monitoring/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/environmental-monitoring-systems-code/tree/main/articles/edge-computing-in-environmental-monitoring"
+
+technical_level: "research-grade environmental edge computing, latency readiness, bandwidth reduction, retained-context auditing, local inference transparency, buffer replay, and governance scaffold"
+
+workflows:
+  mathematical_lens: "Latency readiness, bandwidth reduction, loss penalty, edge traceability, retained context, inference transparency, QC readiness, and edge evidence quality"
+  python:
+    - "Edge readiness and evidence-quality scoring"
+    - "Latency, bandwidth, retention, traceability, QC, inference, and decision-fit review"
+    - "High-stakes edge component triage"
+  r:
+    - "Edge node, gateway, model, and alert readiness reporting"
+    - "Review-priority summaries"
+    - "Evidence-quality tables"
+  sql:
+    - "Edge device registry"
+    - "Edge rule registry"
+    - "Edge model registry"
+    - "Edge event records"
+    - "Readiness scores"
+    - "Governance log"
+  typescript:
+    - "Edge node, rule, model, event, and alert display types"
+  systems:
+    - "C embedded threshold scaffold"
+    - "C++ gateway buffer and replay queue"
+    - "MicroPython low-power edge node with adaptive sampling"
+    - "Go edge health endpoint"
+    - "Rust edge event validator"
+    - "TinyML edge inference placeholder"
+    - "PYNQ/HDL streaming threshold placeholders"

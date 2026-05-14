@@ -1,0 +1,13 @@
+retention_loss_policy:
+  version: "1.0.0"
+  retention_classes:
+    raw_required:
+      description: "Raw records must be retained when high-stakes alerts, regulatory claims, or public warnings depend on local inference."
+    audit_sample_required:
+      description: "Periodic raw or low-confidence samples should be retained for model review, validation, and retraining."
+    summary_allowed:
+      description: "Routine low-risk monitoring may be summarized when uncertainty and loss are documented."
+    discard_allowed_with_log:
+      description: "Discarding is allowed only when discarded volume, rule, and reason are recorded."
+  high_stakes_rule: "High-stakes edge decisions require retained raw context or event windows sufficient for audit."
+  low_confidence_rule: "Low-confidence edge model outputs should be sampled for central review."

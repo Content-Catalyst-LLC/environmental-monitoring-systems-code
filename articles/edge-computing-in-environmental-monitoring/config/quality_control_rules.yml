@@ -1,0 +1,17 @@
+quality_control_rules:
+  version: "1.0.0"
+  local_checks:
+    - range_check
+    - spike_check
+    - flatline_check
+    - missing_record_check
+    - stale_calibration_check
+    - sensor_health_check
+    - confidence_threshold_check
+  central_checks:
+    - cross_device_comparison
+    - drift_review
+    - seasonal_threshold_review
+    - model_performance_review
+    - false_positive_false_negative_review
+  coordination_rule: "Local and central QC flags must be preserved separately and reconciled during review."

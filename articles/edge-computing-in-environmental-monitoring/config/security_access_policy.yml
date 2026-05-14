@@ -1,0 +1,13 @@
+security_access_policy:
+  version: "1.0.0"
+  controls:
+    - device_identity_required
+    - gateway_identity_required
+    - signed_firmware_required_for_high_stakes_systems
+    - authenticated_ingestion
+    - encrypted_transport_for_public_or_high_stakes_data
+    - access_control_matrix
+    - model_update_approval
+    - rule_update_approval
+    - retired_device_blocklist
+  public_evidence_rule: "Public-facing edge-derived outputs should expose method, confidence, quality, caveat, and evidence status without exposing sensitive credentials or infrastructure details."

@@ -1,0 +1,7 @@
+device_id,domain,site_id,edge_component_type,observed_property,unit,processor_class,firmware_version,calibration_status,power_mode,connectivity_mode,owner,high_stakes_use,notes
+edge-river-001,water,river-station-a,gateway_threshold_engine,water_level,m,embedded_linux,v1.4.2,valid,solar_battery,cellular,hydrology_team,true,Flood threshold gateway with local alerting
+edge-acoustic-002,biodiversity,forest-site-b,edge_audio_classifier,bird_call_detection,count,arm_sbc,v0.8.5,valid,battery_solar,mesh_to_cellular,ecology_team,false,Acoustic biodiversity node with local classification
+edge-sonde-003,water_quality,reservoir-site-c,local_qc_alert_node,turbidity,ntu,embedded_linux,v2.0.1,valid,solar_battery,cellular,water_quality_team,true,Water-quality sonde with local QC and thresholds
+edge-smoke-004,air_quality,wildfire-watch-d,image_event_detector,smoke_plume_detection,binary,gpu_edge_node,v1.1.0,valid,mains_backup,cellular,sensor_ops_team,true,Camera edge node for smoke detection
+edge-soil-005,soil,ag-field-e,adaptive_sampling_node,soil_moisture,percent,microcontroller,v0.9.7,review_required,battery_lpwan,lpwan,agroecology_team,false,Low-power adaptive sampling soil node
+edge-storm-006,infrastructure,stormwater-site-f,local_alarm_gateway,flow_rate,l_s,embedded_linux,v1.2.0,expired,mains,wired,stormwater_team,true,Stormwater edge gateway with expired calibration

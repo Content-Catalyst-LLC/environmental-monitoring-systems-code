@@ -1,0 +1,5 @@
+model_id,component_id,domain,model_type,input_signal,output_label,model_version,training_domain,confidence_required,drift_monitoring_status,review_status
+model-acoustic-birds-001,acoustic-biodiversity-node,biodiversity,audio_classifier,audio_window,bird_call_detected,v0.8.5,temperate_forest_spring_summer,0.70,needs_more_validation,review_required
+model-smoke-image-001,wildfire-smoke-camera-edge,air_quality,image_classifier,image_frame,smoke_plume_likely,v1.1.0,wildfire_watch_cameras_clear_daylight,0.75,active,review_required
+model-sensor-fault-001,water-quality-edge-sonde,water_quality,rule_augmented_anomaly,sonde_timeseries,sensor_fault_likely,v1.0.0,reservoir_and_river_sondes,0.80,active,approved
+model-flow-anomaly-001,stormwater-flow-alert-system,infrastructure,threshold_anomaly,flow_timeseries,stormwater_flow_alarm,v1.0.0,urban_stormwater_sites,0.85,not_configured,review_required

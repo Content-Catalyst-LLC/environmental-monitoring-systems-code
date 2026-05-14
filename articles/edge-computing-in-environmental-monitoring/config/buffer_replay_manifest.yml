@@ -1,0 +1,13 @@
+buffer_replay_manifest:
+  version: "1.0.0"
+  requirements:
+    - local_buffer_capacity_documented
+    - buffer_depth_metric
+    - outage_window_recorded
+    - replay_order_preserved
+    - delayed_record_flag_required
+    - overflow_policy_defined
+    - priority_queue_policy_defined
+    - replay_log_required
+  delayed_record_rule: "Replayed records must preserve phenomenon time, result time, ingestion time, and delayed-record status."
+  overflow_rule: "Buffer overflow must count dropped records and preserve high-priority event records first."

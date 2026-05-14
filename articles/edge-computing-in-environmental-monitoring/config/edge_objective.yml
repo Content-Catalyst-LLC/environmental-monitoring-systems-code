@@ -1,0 +1,33 @@
+edge_objective:
+  version: "1.0.0"
+  title: "Edge Computing in Environmental Monitoring"
+  purpose: "Demonstrate local-processing evidence quality, latency readiness, bandwidth management, retained context, edge traceability, inference transparency, and governance"
+  domains:
+    - water
+    - water_quality
+    - biodiversity
+    - air_quality
+    - soil
+    - infrastructure
+  decision_uses:
+    - hazard_alerting
+    - operational_response
+    - ecological_monitoring
+    - adaptive_sampling
+    - public_health_review
+    - infrastructure_maintenance
+    - environmental_accountability
+  required_evidence_dimensions:
+    - device_identity
+    - local_rule_id
+    - model_id
+    - model_version
+    - confidence_score
+    - phenomenon_time
+    - result_time
+    - ingestion_time
+    - retained_context
+    - discarded_data_policy
+    - latency_target
+    - edge_traceability
+    - decision_fit

@@ -1,0 +1,6 @@
+governance_id,date,component_id,decision,owner,status,public_note_required
+gov-001,2026-05-01,flood-threshold-gateway,Approved for operational flood threshold alerting with retained event windows,hydrology_team,closed,true
+gov-002,2026-05-02,acoustic-biodiversity-node,Require improved retained-context and inference-transparency before public biodiversity claims,ecology_team,open,false
+gov-003,2026-05-03,water-quality-edge-sonde,Approved with local QC and central review for high-turbidity events,water_quality_team,closed,true
+gov-004,2026-05-04,wildfire-smoke-camera-edge,Require more validation and false-positive review before public smoke alerts,sensor_ops_team,open,true
+gov-005,2026-05-05,stormwater-flow-alert-system,Block public alarm use until calibration and traceability review are complete,stormwater_team,open,true

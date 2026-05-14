@@ -1,0 +1,7 @@
+component_id,domain,component_type,observed_latency_seconds,target_latency_seconds,raw_data_mb,transmitted_data_mb,discarded_without_audit_mb,retained_context_score,edge_traceability,qc_readiness,inference_transparency,decision_fit,high_stakes_use
+flood-threshold-gateway,water,gateway_threshold_engine,8,15,120,22,6,0.84,0.82,0.86,0.80,0.90,true
+acoustic-biodiversity-node,biodiversity,edge_audio_classifier,45,60,850,40,320,0.62,0.70,0.76,0.68,0.72,false
+water-quality-edge-sonde,water_quality,local_qc_and_alert_node,18,20,75,28,4,0.88,0.78,0.82,0.76,0.86,true
+wildfire-smoke-camera-edge,air_quality,image_event_detector,20,30,1500,60,260,0.72,0.76,0.80,0.78,0.84,true
+soil-adaptive-node,soil,adaptive_sampling_node,90,120,40,12,10,0.74,0.80,0.74,0.72,0.76,false
+stormwater-flow-alert-system,infrastructure,local_alarm_gateway,6,5,95,35,12,0.82,0.74,0.76,0.72,0.86,true

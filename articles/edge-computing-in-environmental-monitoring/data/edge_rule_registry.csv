@@ -1,0 +1,7 @@
+edge_rule_id,component_id,rule_type,observed_property,threshold_or_method,version,owner,autonomy_level,retention_requirement,review_status
+edge-water-threshold-001,flood-threshold-gateway,threshold,water_level,greater_than_3_2m,v1.0,hydrology_team,alert,pre_post_event_window_10min,approved
+edge-acoustic-classifier-001,acoustic-biodiversity-node,classification,bird_call_detection,edge_audio_model_confidence_0_70,v0.8,ecology_team,infer,retain_low_confidence_samples,review_required
+edge-turbidity-qc-001,water-quality-edge-sonde,qc_and_threshold,turbidity,range_spike_flatline_and_threshold,v1.2,water_quality_team,alert,retain_raw_when_qc_fails,approved
+edge-smoke-detection-001,wildfire-smoke-camera-edge,image_detection,smoke_plume_detection,image_model_confidence_0_75,v1.1,sensor_ops_team,alert,retain_event_clip_and_audit_sample,review_required
+edge-soil-adaptive-001,soil-adaptive-node,adaptive_sampling,soil_moisture,increase_sampling_below_18_percent,v0.9,agroecology_team,prioritize,retain_sampling_mode_log,approved
+edge-flow-alarm-001,stormwater-flow-alert-system,local_alarm,flow_rate,greater_than_750_l_s,v1.0,stormwater_team,alert,retain_raw_and_action_log,review_required
