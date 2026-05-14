@@ -1,0 +1,6 @@
+transition_id,product_family,from_mission,to_mission,transition_type,overlap_available,cross_calibration_documented,algorithm_version_change,reprocessing_required,status
+transition-001,GOES,goes-nop,goes-r-series,mission_transition,true,true,true,true,documented
+transition-002,Landsat,landsat-8,landsat-9,mission_transition,true,true,false,false,documented
+transition-003,Altimetry,jason-3,sentinel-6,mission_transition,true,true,false,false,documented
+transition-004,Vegetation,modis,viirs,cross_sensor_continuity,true,partial,true,true,review_required
+transition-005,SeaIce,microwave_record_v1,microwave_record_v2,algorithm_transition,false,true,true,true,documented

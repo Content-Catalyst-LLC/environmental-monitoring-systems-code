@@ -1,0 +1,8 @@
+product_id,domain,sensing_mode,usable_coverage,calibration_score,validation_score,uncertainty_characterized,domain_suitability,continuity_score,proxy_transparency,in_situ_validation,decision_fit,high_stakes_use
+goes-storm-imagery,atmosphere,geostationary_optical_ir,0.92,0.90,0.86,0.82,0.88,0.84,0.90,0.78,0.92,true
+sentinel-flood-extent,flood,sar,0.82,0.88,0.76,0.74,0.80,0.72,0.82,0.68,0.86,true
+vegetation-stress-index,biosphere,optical_ir,0.68,0.82,0.70,0.68,0.74,0.78,0.62,0.64,0.78,false
+sea-ice-continuity-record,cryosphere,microwave,0.90,0.86,0.84,0.82,0.86,0.92,0.88,0.80,0.84,true
+land-cover-change,land,optical_thermal,0.76,0.84,0.78,0.72,0.80,0.82,0.76,0.70,0.82,true
+ocean-sea-level,ocean,radar_altimetry,0.88,0.90,0.88,0.86,0.88,0.94,0.90,0.82,0.86,true
+ice-elevation-change,cryosphere,lidar,0.72,0.88,0.82,0.80,0.84,0.86,0.84,0.76,0.80,true

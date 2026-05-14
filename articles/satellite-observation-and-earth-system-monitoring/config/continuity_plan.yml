@@ -1,0 +1,12 @@
+continuity_plan:
+  version: "1.0.0"
+  requirements:
+    - mission_overlap_documented
+    - cross_calibration_documented
+    - algorithm_version_tracking
+    - product_reprocessing_policy
+    - uncertainty_preservation
+    - product_change_log
+    - archive_stewardship
+  climate_record_rule: "Any product used for climate trend interpretation must document mission transitions, algorithm changes, and calibration continuity."
+  public_use_rule: "Public-facing continuity claims must include product version, uncertainty caveat, and mission-transition status where relevant."

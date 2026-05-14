@@ -1,0 +1,18 @@
+integration_manifest:
+  version: "1.0.0"
+  integration_modes:
+    - satellite_to_in_situ_validation
+    - satellite_to_model_assimilation
+    - satellite_to_dashboard_service
+    - satellite_to_climate_record
+    - satellite_to_hazard_response
+    - satellite_to_public_evidence_package
+  required_fields:
+    - product_id
+    - source_mission
+    - validation_dataset
+    - model_or_service_target
+    - uncertainty_handling
+    - temporal_alignment
+    - spatial_alignment
+    - decision_use

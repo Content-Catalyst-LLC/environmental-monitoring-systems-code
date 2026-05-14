@@ -1,0 +1,36 @@
+article:
+  title: "Satellite Observation and Earth System Monitoring"
+  slug: "satellite-observation-and-earth-system-monitoring"
+  subtitle: "Orbital Evidence, Coupled Systems, and Planetary Change"
+  series: "Environmental Monitoring Systems"
+  site_url: "https://sustainablecatalyst.com/satellite-observation-and-earth-system-monitoring/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/environmental-monitoring-systems-code/tree/main/articles/satellite-observation-and-earth-system-monitoring"
+
+technical_level: "research-grade satellite product readiness, orbital evidence quality, retrieval governance, mission continuity, and Earth-system monitoring scaffold"
+
+workflows:
+  mathematical_lens: "Revisit rate, usable coverage, retrieval quality, continuity strength, proxy transparency, and satellite evidence quality"
+  python:
+    - "Satellite product readiness scoring"
+    - "Retrieval quality assessment"
+    - "Continuity, proxy transparency, validation, and decision-fit review"
+  r:
+    - "Satellite product readiness reporting"
+    - "Mission and sensing-mode comparison"
+    - "Review-priority tables"
+  sql:
+    - "Mission and sensor inventory"
+    - "Satellite product registry"
+    - "Calibration and validation records"
+    - "Continuity transition records"
+    - "Product governance log"
+  typescript:
+    - "Earth-observation product card types"
+    - "Uncertainty and proxy-label display types"
+  systems:
+    - "Go satellite product API health service"
+    - "Rust satellite product metadata validator"
+    - "C/C++ in situ validation source stubs"
+    - "MicroPython field validation node"
+    - "TinyML edge inference evidence placeholder"
+    - "PYNQ/HDL streaming product-quality placeholders"

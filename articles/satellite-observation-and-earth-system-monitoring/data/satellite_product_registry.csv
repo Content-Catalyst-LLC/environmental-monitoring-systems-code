@@ -1,0 +1,8 @@
+product_id,mission_id,domain,sensing_mode,product_type,processing_level,variable,unit,temporal_cadence,spatial_scale,evidence_status,decision_use
+goes-storm-imagery,goes-r-series,atmosphere,geostationary_optical_ir,imagery,L1b_L2,cloud_and_storm_fields,various,minutes,regional,retrieved_or_visualized,weather_monitoring
+sentinel-flood-extent,sentinel-1,flood,sar,classification,L2,water_extent,polygon,event_based,local_to_regional,retrieved_classification,hazard_response
+vegetation-stress-index,terra-aqua-modis,biosphere,optical_ir,index,L3,vegetation_stress,index,daily_to_monthly,regional_to_global,retrieved_index,drought_and_ecosystem_monitoring
+sea-ice-continuity-record,terra-aqua-modis,cryosphere,microwave_optical,climate_record,L3,sea_ice_extent,area,daily_to_monthly,polar,retrieved_record,climate_monitoring
+land-cover-change,landsat-8-9,land,optical_thermal,classification,L2_L3,land_cover_class,class,seasonal_to_annual,local_to_regional,retrieved_classification,land_change_monitoring
+ocean-sea-level,jason-sentinel6,ocean,radar_altimetry,climate_record,L2_L3,sea_surface_height,m,repeat_track,global_ocean,retrieved_record,climate_and_ocean_monitoring
+ice-elevation-change,icesat-2,cryosphere,lidar,profile_product,L2_L3,ice_elevation,m,repeat_track,polar_and_global_track,retrieved_profile,cryosphere_monitoring

@@ -1,0 +1,15 @@
+uncertainty_proxy_policy:
+  version: "1.0.0"
+  evidence_status_labels:
+    measured_signal: "Instrument-observed radiance, reflectance, backscatter, waveform, or related signal."
+    retrieved_product: "Geophysical variable produced through algorithmic retrieval from orbital signal."
+    classified_product: "Thematic category or class produced through classification."
+    modeled_output: "Output produced through model, assimilation, or forecast process."
+    scenario_output: "Conditional output based on specified assumptions."
+    decision_product: "User-facing product with thresholds, context, or action guidance."
+  public_display_requirements:
+    - evidence_status_label
+    - uncertainty_or_quality_flag
+    - product_version
+    - valid_use_statement
+    - method_or_product_guide_link

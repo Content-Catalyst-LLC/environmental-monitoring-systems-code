@@ -1,0 +1,33 @@
+observation_objective:
+  version: "1.0.0"
+  title: "Satellite Observation and Earth System Monitoring"
+  purpose: "Demonstrate orbital evidence quality, retrieval readiness, mission continuity, proxy transparency, and decision-use review"
+  earth_system_domains:
+    - atmosphere
+    - land
+    - ocean
+    - cryosphere
+    - biosphere
+    - hydrology
+    - hazards
+    - climate
+  decision_uses:
+    - weather_monitoring
+    - hazard_response
+    - climate_monitoring
+    - land_change_monitoring
+    - ecosystem_observation
+    - ocean_monitoring
+    - cryosphere_monitoring
+    - public_communication
+  required_evidence_dimensions:
+    - mission_context
+    - orbit_and_revisit
+    - sensing_mode
+    - calibration
+    - retrieval_logic
+    - validation
+    - uncertainty
+    - continuity
+    - proxy_status
+    - decision_fit

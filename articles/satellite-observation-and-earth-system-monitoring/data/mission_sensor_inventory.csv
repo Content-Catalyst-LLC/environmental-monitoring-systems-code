@@ -1,0 +1,8 @@
+mission_id,mission_family,agency,orbit_type,sensing_mode,primary_domains,revisit_category,coverage_scope,notes
+goes-r-series,GOES,NOAA,geostationary,optical_ir_lightning,atmosphere|weather|hazards,continuous_regional,hemispheric,Continuous geostationary environmental monitoring
+sentinel-1,Sentinel,Copernicus/ESA,polar_low_earth,sar,land|flood|ice|ocean,repeat_global,global_routine,SAR supports all-weather day-night observation
+sentinel-2,Sentinel,Copernicus/ESA,polar_low_earth,optical_multispectral,land|water|vegetation|coasts,repeat_global,global_routine,Multispectral land and coastal monitoring
+terra-aqua-modis,EOS/NASA,NASA,polar_low_earth,optical_ir,land|ocean|atmosphere|fire,frequent_global,global,Long-running Earth observation products and climate-relevant records
+icesat-2,ICESat,NASA,polar_low_earth,lidar,ice|vegetation|topography,repeat_track,global_track,Laser altimetry for ice elevation and surface structure
+jason-sentinel6,Altimetry,NASA/NOAA/ESA/EUMETSAT,low_earth_altimetry,radar_altimetry,ocean|sea_level,repeat_track,global_ocean,Sea-level and ocean altimetry continuity
+landsat-8-9,Landsat,NASA/USGS,polar_low_earth,optical_thermal,land|water|urban|ecosystems,repeat_global,global_archive,Long-term land observation archive

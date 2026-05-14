@@ -1,0 +1,7 @@
+governance_id,date,product_id,decision,owner,status,public_note_required
+gov-001,2026-05-01,goes-storm-imagery,Approved operational use with latency and quality caveats,atmospheric_products_team,closed,true
+gov-002,2026-05-02,sentinel-flood-extent,Require more in situ validation before public impact claims,hazard_mapping_team,open,true
+gov-003,2026-05-03,vegetation-stress-index,Require proxy-transparency note for drought interpretation,ecosystem_products_team,open,true
+gov-004,2026-05-04,sea-ice-continuity-record,Approved as continuity-aware climate monitoring product,cryosphere_team,closed,true
+gov-005,2026-05-05,land-cover-change,Require class-specific validation summary before use in policy reporting,land_products_team,open,true
+gov-006,2026-05-06,ocean-sea-level,Approved with cross-calibration documentation,ocean_altimetry_team,closed,true

@@ -1,0 +1,21 @@
+satellite_product_governance:
+  version: "1.0.0"
+  required_reviews:
+    - mission_use_review
+    - calibration_review
+    - geolocation_review
+    - retrieval_algorithm_review
+    - validation_review
+    - uncertainty_review
+    - continuity_review
+    - proxy_transparency_review
+    - decision_use_review
+    - public_caveat_review
+  change_log_required_for:
+    - algorithm_version_change
+    - calibration_update
+    - mission_transition
+    - processing_level_change
+    - product_reprocessing
+    - public_dashboard_release
+    - uncertainty_method_change

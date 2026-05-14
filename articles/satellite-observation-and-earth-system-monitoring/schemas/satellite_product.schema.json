@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SatelliteProduct",
+  "type": "object",
+  "required": [
+    "product_id",
+    "mission_id",
+    "domain",
+    "sensing_mode",
+    "product_type",
+    "processing_level",
+    "variable",
+    "unit",
+    "temporal_cadence",
+    "spatial_scale",
+    "evidence_status",
+    "decision_use"
+  ],
+  "properties": {
+    "product_id": {"type": "string"},
+    "mission_id": {"type": "string"},
+    "domain": {"type": "string"},
+    "sensing_mode": {"type": "string"},
+    "product_type": {"type": "string"},
+    "processing_level": {"type": "string"},
+    "variable": {"type": "string"},
+    "unit": {"type": "string"},
+    "temporal_cadence": {"type": "string"},
+    "spatial_scale": {"type": "string"},
+    "evidence_status": {"type": "string"},
+    "decision_use": {"type": "string"},
+    "quality_flags": {"type": "array", "items": {"type": "string"}},
+    "uncertainty": {"type": "string"},
+    "product_version": {"type": "string"}
+  }
+}

@@ -1,0 +1,8 @@
+record_id,product_id,calibration_score,validation_score,uncertainty_characterized,domain_suitability,in_situ_validation,validation_status,notes
+calval-001,goes-storm-imagery,0.90,0.86,0.82,0.88,0.78,operational_reviewed,Strong operational imagery with decision caveats
+calval-002,sentinel-flood-extent,0.88,0.76,0.74,0.80,0.68,needs_more_ground_validation,SAR flood extent requires local validation
+calval-003,vegetation-stress-index,0.82,0.70,0.68,0.74,0.64,domain_limited,Vegetation stress interpretation varies by biome
+calval-004,sea-ice-continuity-record,0.86,0.84,0.82,0.86,0.80,climate_reviewed,Strong continuity and cryosphere relevance
+calval-005,land-cover-change,0.84,0.78,0.72,0.80,0.70,reviewed,Classification accuracy varies by class and region
+calval-006,ocean-sea-level,0.90,0.88,0.86,0.88,0.82,climate_reviewed,Strong altimetry continuity requirement
+calval-007,ice-elevation-change,0.88,0.82,0.80,0.84,0.76,reviewed,Track-based lidar product requires sampling interpretation
