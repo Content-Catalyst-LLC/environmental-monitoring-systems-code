@@ -1,0 +1,25 @@
+risk_monitoring_manifest:
+  version: "1.0.0"
+  title: "Monitoring Environmental Risk and Resilience"
+  monitored_domains:
+    - urban_heat
+    - flood_risk
+    - coastal_resilience
+    - wildfire
+    - drought_water_security
+    - water_quality
+  decision_uses:
+    - early_warning
+    - adaptation_planning
+    - recovery_governance
+    - infrastructure_resilience
+    - ecological_resilience
+    - equity_audit
+  minimum_evidence_requirements:
+    hazard_score: 0.0
+    exposure_score: 0.0
+    vulnerability_score: 0.0
+    capacity_score_required: true
+    threshold_registry_required: true
+    recovery_tracking_required: true
+    equity_audit_required: true

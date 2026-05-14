@@ -1,0 +1,6 @@
+hazard_id,hazard_type,indicator,unit,current_value,warning_threshold,critical_threshold,freshness_hours,source
+haz-heat-001,heat,heat_index,degF,106,100,110,1,weather_and_urban_sensor_network
+haz-flood-001,flood,river_stage,ft,18.4,17.0,20.0,1,stream_gauge_network
+haz-wildfire-001,wildfire,fire_weather_index,index,0.83,0.70,0.90,3,meteorological_fire_weather_product
+haz-drought-001,drought,reservoir_storage_fraction,fraction,0.38,0.45,0.30,24,water_resource_monitoring
+haz-water-001,water_quality,turbidity,NTU,34,25,50,2,watershed_sensor_network

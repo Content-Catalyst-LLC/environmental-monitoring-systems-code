@@ -1,0 +1,21 @@
+recovery_monitoring_policy:
+  version: "1.0.0"
+  required_follow_up_days:
+    - 7
+    - 30
+    - 90
+    - 180
+    - 365
+  required_dimensions:
+    - service_recovery
+    - household_recovery
+    - infrastructure_recovery
+    - ecological_recovery
+    - institutional_recovery
+    - residual_risk
+  disaggregation_required:
+    - geography
+    - population_group
+    - service
+    - ecosystem
+    - infrastructure_system

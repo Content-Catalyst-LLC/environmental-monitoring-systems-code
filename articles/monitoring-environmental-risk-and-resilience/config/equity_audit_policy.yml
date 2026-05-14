@@ -1,0 +1,14 @@
+equity_audit_policy:
+  version: "1.0.0"
+  required_checks:
+    - exposure_inequality
+    - warning_access
+    - response_capacity
+    - recovery_inequality
+    - monitoring_coverage
+    - adaptation_benefit_distribution
+  required_outputs:
+    - coverage_gap_summary
+    - disaggregated_risk_table
+    - recovery_inequality_table
+    - residual_risk_review

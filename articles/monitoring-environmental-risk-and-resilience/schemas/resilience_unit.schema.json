@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ResilienceUnit",
+  "type": "object",
+  "required": [
+    "unit_id",
+    "domain",
+    "hazard_score",
+    "exposure_score",
+    "vulnerability_score",
+    "capacity_score",
+    "threshold_proximity",
+    "recovery_ratio"
+  ],
+  "properties": {
+    "unit_id": {"type": "string"},
+    "domain": {"type": "string"},
+    "hazard_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "exposure_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "vulnerability_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "capacity_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "redundancy_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "learning_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "governance_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "ecological_condition_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "threshold_proximity": {"type": "number", "minimum": 0},
+    "recovery_ratio": {"type": "number", "minimum": 0},
+    "notes": {"type": "string"}
+  }
+}

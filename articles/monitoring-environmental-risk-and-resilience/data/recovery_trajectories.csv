@@ -1,0 +1,13 @@
+unit_id,domain,days_after_event,function_restored,target_function,vulnerability_score
+urban-heat-zone-001,urban_heat,7,0.35,1.00,0.74
+urban-heat-zone-001,urban_heat,30,0.55,1.00,0.74
+urban-heat-zone-001,urban_heat,90,0.68,1.00,0.74
+watershed-002,flood_risk,7,0.42,1.00,0.55
+watershed-002,flood_risk,30,0.70,1.00,0.55
+watershed-002,flood_risk,90,0.86,1.00,0.55
+coastal-wetland-003,coastal_resilience,7,0.25,1.00,0.48
+coastal-wetland-003,coastal_resilience,30,0.46,1.00,0.48
+coastal-wetland-003,coastal_resilience,90,0.63,1.00,0.48
+forest-fire-zone-004,wildfire,7,0.18,1.00,0.62
+forest-fire-zone-004,wildfire,30,0.37,1.00,0.62
+forest-fire-zone-004,wildfire,90,0.50,1.00,0.62

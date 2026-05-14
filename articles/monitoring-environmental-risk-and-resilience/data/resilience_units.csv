@@ -1,0 +1,6 @@
+unit_id,domain,hazard_score,exposure_score,vulnerability_score,capacity_score,redundancy_score,learning_score,governance_score,ecological_condition_score,threshold_proximity,recovery_ratio,notes
+urban-heat-zone-001,urban_heat,0.86,0.82,0.74,0.42,0.35,0.52,0.58,0.40,0.91,0.55,High heat exposure with low cooling and social capacity
+watershed-002,flood_risk,0.78,0.65,0.55,0.62,0.58,0.64,0.67,0.72,0.82,0.70,Watershed with moderate flood risk and partial recovery
+coastal-wetland-003,coastal_resilience,0.70,0.60,0.48,0.66,0.70,0.60,0.64,0.78,0.74,0.76,Coastal wetland with ecological buffering capacity
+forest-fire-zone-004,wildfire,0.88,0.58,0.62,0.46,0.44,0.50,0.55,0.52,0.93,0.50,Wildfire-prone area approaching threshold escalation
+water-system-005,drought_water_security,0.76,0.72,0.66,0.50,0.48,0.56,0.60,0.58,0.88,0.62,Drought-sensitive water system with limited redundancy

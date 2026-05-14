@@ -1,0 +1,34 @@
+article:
+  title: "Monitoring Environmental Risk and Resilience"
+  slug: "monitoring-environmental-risk-and-resilience"
+  subtitle: "Hazards, Recovery, Thresholds, and Adaptive Capacity"
+  series: "Environmental Monitoring Systems"
+  site_url: "https://sustainablecatalyst.com/monitoring-environmental-risk-and-resilience/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/environmental-monitoring-systems-code/tree/main/articles/monitoring-environmental-risk-and-resilience"
+
+technical_level: "research-grade environmental risk, resilience, threshold, recovery, and adaptive-capacity monitoring scaffold"
+
+workflows:
+  mathematical_lens: "Risk, threshold proximity, recovery ratio, resilience score, and change in post-event risk"
+  python:
+    - "Hazard-exposure-vulnerability-capacity risk scoring"
+    - "Threshold proximity review"
+    - "Recovery and resilience review-priority classification"
+  r:
+    - "Recovery trajectory reporting"
+    - "Longitudinal function restoration summaries"
+    - "Equity and vulnerability reporting"
+  sql:
+    - "Hazard inventory"
+    - "Exposure registry"
+    - "Vulnerability and capacity profile"
+    - "Threshold registry"
+    - "Recovery trajectories"
+    - "Post-event learning records"
+  systems:
+    - "Go risk API health check service"
+    - "Rust threshold validation CLI scaffold"
+    - "C/C++ hazard sensor and event-buffer stubs"
+    - "MicroPython threshold alert node"
+    - "TinyML anomaly detection placeholder"
+    - "PYNQ/HDL streaming threshold placeholders"

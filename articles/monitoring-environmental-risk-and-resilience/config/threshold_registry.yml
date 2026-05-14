@@ -1,0 +1,35 @@
+threshold_registry:
+  version: "1.0.0"
+  thresholds:
+    - threshold_id: heat-critical
+      domain: urban_heat
+      variable: heat_index
+      warning_value: 100
+      critical_value: 110
+      unit: degF
+      uncertainty_band: 3
+      escalation_action: open_cooling_centers_and_direct_outreach
+    - threshold_id: flood-critical
+      domain: flood_risk
+      variable: river_stage
+      warning_value: 17.0
+      critical_value: 20.0
+      unit: ft
+      uncertainty_band: 0.5
+      escalation_action: activate_flood_warning_and_evacuation_review
+    - threshold_id: wildfire-critical
+      domain: wildfire
+      variable: fire_weather_index
+      warning_value: 0.70
+      critical_value: 0.90
+      unit: index
+      uncertainty_band: 0.05
+      escalation_action: prepare_evacuation_and_smoke_protection
+    - threshold_id: drought-critical
+      domain: drought_water_security
+      variable: reservoir_storage_fraction
+      warning_value: 0.45
+      critical_value: 0.30
+      unit: fraction
+      uncertainty_band: 0.03
+      escalation_action: activate_drought_response_plan

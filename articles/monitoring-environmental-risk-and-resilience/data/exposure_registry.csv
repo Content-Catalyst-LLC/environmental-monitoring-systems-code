@@ -1,0 +1,7 @@
+exposure_id,unit_id,exposure_type,count_or_value,critical_service,notes
+exp-001,urban-heat-zone-001,population,42000,false,Population exposed to severe urban heat
+exp-002,urban-heat-zone-001,elderly_population,6400,false,Older residents with elevated heat vulnerability
+exp-003,watershed-002,housing_units,8700,false,Homes in flood-prone area
+exp-004,watershed-002,wastewater_facility,1,true,Critical wastewater facility in flood zone
+exp-005,forest-fire-zone-004,households,3500,false,Households near wildfire interface
+exp-006,water-system-005,water_customers,120000,true,Customers served by drought-sensitive water system
