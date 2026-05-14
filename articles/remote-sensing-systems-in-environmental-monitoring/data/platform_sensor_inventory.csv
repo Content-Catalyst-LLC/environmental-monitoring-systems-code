@@ -1,0 +1,8 @@
+platform_id,platform_type,agency_or_owner,sensing_mode,primary_domains,spatial_resolution_class,revisit_category,coverage_scope,notes
+landsat-8-9,satellite,NASA/USGS,optical_thermal,land|water|urban|ecosystems,moderate,repeat_global,global_archive,Long-term land and thermal observation archive
+sentinel-1,satellite,Copernicus/ESA,sar,flood|wetlands|ice|land,moderate,repeat_global,global_routine,SAR supports all-weather day-night monitoring
+sentinel-2,satellite,Copernicus/ESA,optical_multispectral,land|vegetation|water|coasts,moderate_to_high,repeat_global,global_routine,Multispectral land and coastal monitoring
+goes-r-series,satellite,NOAA,geostationary_optical_ir,weather|atmosphere|hazards,regional,continuous_regional,hemispheric,Continuous geostationary environmental monitoring
+uav-multispectral-001,drone,field_monitoring_team,multispectral,restoration|agriculture|habitat,very_high,tasked_local,local_site,Drone-based local validation and monitoring
+airborne-lidar-001,aircraft,regional_survey_team,lidar,topography|canopy|floodplain,high,campaign_based,regional_campaign,Aircraft lidar for elevation and structure
+tower-thermal-001,tower,urban_monitoring_team,thermal_ir,urban_heat|surface_temperature,local_fixed,continuous_local,site_scale,Fixed stand-off thermal observation

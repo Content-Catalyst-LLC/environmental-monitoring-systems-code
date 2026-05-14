@@ -1,0 +1,13 @@
+preprocessing_manifest:
+  version: "1.0.0"
+  required_steps:
+    - radiometric_calibration
+    - geometric_correction
+    - geolocation
+    - atmospheric_or_sensor_correction_if_applicable
+    - cloud_shadow_or_quality_mask_if_applicable
+    - speckle_filtering_if_applicable
+    - compositing_or_mosaicking_if_applicable
+    - product_version_record
+  product_use_rule: "Remote-sensing products used for public or high-stakes decisions must document preprocessing steps and quality masks."
+  change_detection_rule: "Time-series workflows must control for seasonality, product version, sensor transition, and valid coverage."

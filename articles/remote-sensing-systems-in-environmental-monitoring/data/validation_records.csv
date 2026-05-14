@@ -1,0 +1,8 @@
+record_id,product_id,correction_quality,validation_score,uncertainty_characterized,domain_suitability,field_validation,validation_status,notes
+val-001,landsat-land-cover-change,0.86,0.80,0.76,0.82,0.74,reviewed,Land-cover change product requires class-specific accuracy notes
+val-002,sentinel-sar-flood-extent,0.82,0.76,0.74,0.80,0.68,needs_more_field_validation,SAR flood extent requires additional local validation
+val-003,vegetation-stress-index,0.80,0.70,0.66,0.74,0.64,domain_limited,Vegetation stress proxy varies by biome and season
+val-004,urban-heat-thermal-field,0.84,0.78,0.76,0.80,0.72,reviewed,Thermal product needs emissivity and time-of-day caveats
+val-005,drone-restoration-cover,0.88,0.84,0.78,0.86,0.86,field_reviewed,Strong local validation but limited spatial extent
+val-006,airborne-canopy-height,0.90,0.86,0.82,0.88,0.80,reviewed,Lidar canopy product depends on campaign timing and density
+val-007,goes-smoke-plume,0.84,0.78,0.74,0.82,0.70,operational_reviewed,Continuous smoke product requires uncertainty and plume interpretation caveats

@@ -1,0 +1,22 @@
+remote_sensing_product_governance:
+  version: "1.0.0"
+  required_reviews:
+    - observation_objective_review
+    - platform_sensor_review
+    - preprocessing_review
+    - inference_method_review
+    - validation_review
+    - uncertainty_review
+    - proxy_transparency_review
+    - time_series_continuity_review
+    - decision_use_review
+    - public_caveat_review
+  change_log_required_for:
+    - sensor_or_platform_change
+    - processing_level_change
+    - correction_method_change
+    - classification_method_change
+    - training_data_change
+    - product_reprocessing
+    - public_dashboard_release
+    - uncertainty_method_change

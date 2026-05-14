@@ -1,0 +1,16 @@
+uncertainty_proxy_policy:
+  version: "1.0.0"
+  evidence_status_labels:
+    measured_signal: "Instrument-observed reflectance, radiance, thermal emission, backscatter, waveform, or related signal."
+    corrected_product: "Product after calibration, geolocation, atmospheric correction, masking, or filtering."
+    index_product: "Derived index standing in for environmental condition."
+    retrieved_product: "Geophysical or environmental variable produced through algorithmic retrieval."
+    classified_product: "Thematic class or category produced through classification."
+    modeled_output: "Output produced through model, fusion, or forecast process."
+    decision_product: "User-facing product with thresholds, context, or action guidance."
+  public_display_requirements:
+    - evidence_status_label
+    - uncertainty_or_quality_flag
+    - product_version
+    - valid_use_statement
+    - method_or_product_guide_link

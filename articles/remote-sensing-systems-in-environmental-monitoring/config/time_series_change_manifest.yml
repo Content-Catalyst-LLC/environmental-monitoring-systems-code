@@ -1,0 +1,13 @@
+time_series_change_manifest:
+  version: "1.0.0"
+  requirements:
+    - baseline_period_defined
+    - comparison_period_defined
+    - seasonal_window_documented
+    - product_version_consistent
+    - sensor_transition_reviewed
+    - valid_coverage_threshold
+    - uncertainty_or_confidence_recorded
+    - field_review_required_for_high_stakes_claims
+  valid_coverage_threshold: 0.70
+  public_claim_rule: "Public change claims must distinguish observed change, classified change, inferred process, and decision interpretation."

@@ -1,0 +1,8 @@
+product_id,platform_id,domain,sensing_mode,product_type,processing_level,variable,unit,temporal_cadence,spatial_scale,evidence_status,decision_use
+landsat-land-cover-change,landsat-8-9,land,optical_thermal,classification,L2_L3,land_cover_change,class_change,seasonal_to_annual,local_to_regional,classified_product,land_change_monitoring
+sentinel-sar-flood-extent,sentinel-1,flood,sar,classification,L2,water_extent,polygon,event_based,local_to_regional,retrieved_classification,hazard_response
+vegetation-stress-index,sentinel-2,biosphere,optical_multispectral,index,L2_L3,vegetation_stress,index,weekly_to_monthly,local_to_regional,retrieved_index,drought_and_ecosystem_monitoring
+urban-heat-thermal-field,landsat-8-9,urban_heat,thermal_ir,retrieval,L2,land_surface_temperature,celsius,seasonal,urban_regional,retrieved_product,urban_heat_assessment
+drone-restoration-cover,uav-multispectral-001,restoration,multispectral,classification,processed,vegetation_cover,percent,campaign_based,site_scale,classified_product,restoration_monitoring
+airborne-canopy-height,airborne-lidar-001,forest,lidar,structure_metric,processed,canopy_height,m,campaign_based,regional_campaign,retrieved_structure,forest_structure_monitoring
+goes-smoke-plume,goes-r-series,atmosphere,geostationary_optical_ir,visualization_and_retrieval,L2,smoke_plume_extent,polygon,minutes,regional,retrieved_or_visualized,hazard_monitoring

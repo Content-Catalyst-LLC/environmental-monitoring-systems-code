@@ -1,0 +1,7 @@
+change_id,product_id,baseline_period,comparison_period,change_type,seasonal_controlled,product_version_consistent,field_review_required,status
+change-001,landsat-land-cover-change,2018-2020,2024-2026,land_cover_conversion,true,true,true,reviewed
+change-002,sentinel-sar-flood-extent,pre_event,event_window,flood_extent,true,true,true,operational_review
+change-003,vegetation-stress-index,2015-2020,2026,vegetation_stress_anomaly,true,true,true,review_required
+change-004,urban-heat-thermal-field,summer_2018_2020,summer_2026,urban_heat_increase,true,true,false,reviewed
+change-005,drone-restoration-cover,pre_restoration,post_restoration,vegetation_recovery,false,true,true,site_review
+change-006,airborne-canopy-height,2019_campaign,2026_campaign,canopy_structure_change,false,true,true,review_required

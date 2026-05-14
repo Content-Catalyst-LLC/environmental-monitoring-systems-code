@@ -1,0 +1,35 @@
+remote_sensing_objective:
+  version: "1.0.0"
+  title: "Remote Sensing Systems in Environmental Monitoring"
+  purpose: "Demonstrate signal-to-claim evidence quality, product readiness, proxy transparency, validation, and decision-use review"
+  environmental_domains:
+    - land
+    - water
+    - flood
+    - biosphere
+    - urban_heat
+    - forest
+    - atmosphere
+    - restoration
+    - coasts
+    - cryosphere
+    - hazards
+  decision_uses:
+    - land_change_monitoring
+    - hazard_response
+    - ecosystem_observation
+    - restoration_monitoring
+    - urban_heat_assessment
+    - public_communication
+    - environmental_accountability
+  required_evidence_dimensions:
+    - platform_context
+    - sensing_mode
+    - resolution_and_revisit
+    - preprocessing
+    - inference_logic
+    - validation
+    - uncertainty
+    - time_series_continuity
+    - proxy_status
+    - decision_fit

@@ -1,0 +1,8 @@
+product_id,domain,sensing_mode,valid_coverage,correction_quality,validation_score,uncertainty_characterized,domain_suitability,time_series_continuity,proxy_transparency,field_validation,decision_fit,high_stakes_use
+landsat-land-cover-change,land,optical_thermal,0.82,0.86,0.80,0.76,0.82,0.88,0.82,0.74,0.84,true
+sentinel-sar-flood-extent,flood,sar,0.84,0.82,0.76,0.74,0.80,0.72,0.82,0.68,0.88,true
+vegetation-stress-index,biosphere,optical_ir_index,0.70,0.80,0.70,0.66,0.74,0.78,0.62,0.64,0.78,false
+urban-heat-thermal-field,urban_heat,thermal_ir,0.78,0.84,0.78,0.76,0.80,0.70,0.80,0.72,0.86,true
+drone-restoration-cover,restoration,multispectral,0.92,0.88,0.84,0.78,0.86,0.62,0.84,0.86,0.82,false
+airborne-canopy-height,forest,lidar,0.88,0.90,0.86,0.82,0.88,0.68,0.86,0.80,0.84,false
+goes-smoke-plume,atmosphere,geostationary_optical_ir,0.86,0.84,0.78,0.74,0.82,0.84,0.80,0.70,0.90,true

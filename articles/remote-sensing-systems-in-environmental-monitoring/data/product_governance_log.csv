@@ -1,0 +1,7 @@
+governance_id,date,product_id,decision,owner,status,public_note_required
+gov-001,2026-05-01,landsat-land-cover-change,Approved for regional land-change article with class-specific caveats,land_products_team,closed,true
+gov-002,2026-05-02,sentinel-sar-flood-extent,Require more field validation before public impact claims,hazard_mapping_team,open,true
+gov-003,2026-05-03,vegetation-stress-index,Require proxy-transparency note for drought and ecosystem interpretation,ecosystem_products_team,open,true
+gov-004,2026-05-04,urban-heat-thermal-field,Approved with time-of-day and emissivity caveats,urban_heat_team,closed,true
+gov-005,2026-05-05,drone-restoration-cover,Approved for site-scale restoration monitoring only,field_monitoring_team,closed,false
+gov-006,2026-05-06,airborne-canopy-height,Require campaign-date caveat before trend interpretation,forest_structure_team,open,false

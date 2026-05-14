@@ -1,0 +1,36 @@
+article:
+  title: "Remote Sensing Systems in Environmental Monitoring"
+  slug: "remote-sensing-systems-in-environmental-monitoring"
+  subtitle: "Scale, Spectral Inference, and Environmental Change"
+  series: "Environmental Monitoring Systems"
+  site_url: "https://sustainablecatalyst.com/remote-sensing-systems-in-environmental-monitoring/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/environmental-monitoring-systems-code/tree/main/articles/remote-sensing-systems-in-environmental-monitoring"
+
+technical_level: "research-grade remote-sensing product readiness, evidence-chain review, proxy transparency, field validation, time-series continuity, and decision-support scaffold"
+
+workflows:
+  mathematical_lens: "Spatial resolution, revisit, valid coverage, inference quality, classification accuracy, proxy transparency, field validation, and remote evidence quality"
+  python:
+    - "Remote-sensing product readiness scoring"
+    - "Inference quality assessment"
+    - "Proxy transparency, valid coverage, field validation, time-series, and decision-fit review"
+  r:
+    - "Remote-sensing product readiness reporting"
+    - "Sensing-mode and product comparison"
+    - "Review-priority tables"
+  sql:
+    - "Platform and sensor inventory"
+    - "Remote-sensing product registry"
+    - "Validation records"
+    - "Time-series change records"
+    - "Product governance log"
+  typescript:
+    - "Remote-sensing product card types"
+    - "Uncertainty and proxy-label display types"
+  systems:
+    - "Go remote-sensing product API health service"
+    - "Rust remote-sensing product metadata validator"
+    - "C/C++ field validation source stubs"
+    - "MicroPython field validation node"
+    - "TinyML local inference evidence placeholder"
+    - "PYNQ/HDL quality-mask and tile-processing placeholders"
