@@ -1,0 +1,10 @@
+quality_control_rules:
+  version: "1.0.0"
+  checks:
+    - {check_id: range-check, severity: error, description: "Value must fall within plausible range."}
+    - {check_id: spike-check, severity: warning, description: "Short-interval jumps must be reviewed."}
+    - {check_id: flatline-check, severity: warning, description: "Persistent identical values may indicate sensor fault."}
+    - {check_id: drift-check, severity: warning, description: "Slow systematic deviation requires calibration review."}
+    - {check_id: missing-data-check, severity: warning, description: "Expected records missing from a window should be flagged."}
+    - {check_id: stale-calibration-check, severity: error, description: "Expired-calibration device records need review."}
+    - {check_id: delayed-record-check, severity: warning, description: "Delayed records should be labeled."}

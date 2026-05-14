@@ -1,0 +1,13 @@
+connectivity_manifest:
+  version: "1.0.0"
+  transport_modes: [cellular, lpwan, satellite, radio_mesh, wired, hybrid]
+  requirements:
+    - acknowledgement_policy
+    - retry_policy
+    - latency_class
+    - encryption_required
+    - authentication_required
+    - fallback_route_if_available
+    - store_and_forward_policy
+    - delayed_record_flag
+  rule: "High-stakes environmental alerts require documented delivery completeness, latency testing, and delayed-record labeling."

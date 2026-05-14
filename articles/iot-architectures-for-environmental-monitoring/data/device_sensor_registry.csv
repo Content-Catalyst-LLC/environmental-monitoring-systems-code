@@ -1,0 +1,8 @@
+device_id,domain,site_id,device_type,observed_property,unit,calibration_status,firmware_version,power_mode,owner,high_stakes_use,notes
+river-node-001,water,river-station-a,water_level_sensor,water_level,m,valid,v1.4.2,solar_battery,hydrology_team,true,Operational river-level node
+coastal-buoy-002,coastal,coastal-bay-b,multiparameter_buoy,water_temperature,celsius,valid,v2.1.0,solar_battery,coastal_team,true,Coastal buoy with intermittent connectivity
+soil-node-003,soil,ag-field-c,soil_moisture_probe,soil_moisture,percent,review_required,v0.9.8,battery_lpwan,agroecology_team,false,Low-power soil cluster sensor
+air-node-004,air_quality,urban-site-d,pm_sensor,pm25,ug_m3,valid,v3.2.1,mains_backup,air_quality_team,true,Urban air-quality node
+habitat-camera-005,biodiversity,forest-site-e,camera_trap,species_detection,count,valid,v1.0.5,battery_solar,ecology_team,false,Camera trap with edge inference placeholder
+storm-drain-006,infrastructure,stormwater-site-f,flow_sensor,flow_rate,l_s,expired,v1.2.0,mains,stormwater_team,true,Calibration expired and needs review
+weather-node-007,weather,field-site-g,weather_station,wind_speed,m_s,valid,v2.0.3,solar_battery,weather_team,true,Weather telemetry node

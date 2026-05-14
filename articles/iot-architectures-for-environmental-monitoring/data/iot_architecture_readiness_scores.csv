@@ -1,0 +1,8 @@
+component_id,domain,component_type,device_availability,delivery_completeness,semantic_completeness,qc_readiness,edge_traceability,decision_fit,end_to_end_latency_minutes,target_latency_minutes,high_stakes_use
+river-level-node-network,water,sensor_network,0.92,0.88,0.86,0.84,0.78,0.90,8,10,true
+coastal-buoy-gateway,coastal,gateway,0.82,0.76,0.82,0.80,0.72,0.84,25,15,true
+soil-moisture-lpwan-cluster,soil,low_power_sensor_cluster,0.78,0.84,0.74,0.72,0.80,0.76,90,120,false
+urban-air-quality-platform,air_quality,platform_service,0.88,0.90,0.92,0.86,0.82,0.88,12,15,true
+habitat-camera-edge-node,biodiversity,edge_inference_node,0.80,0.78,0.76,0.70,0.74,0.72,240,360,false
+stormwater-flow-alert-system,infrastructure,alert_system,0.74,0.82,0.80,0.76,0.74,0.86,6,5,true
+weather-node-observation-service,weather,observation_service,0.90,0.88,0.84,0.82,0.80,0.86,9,10,true

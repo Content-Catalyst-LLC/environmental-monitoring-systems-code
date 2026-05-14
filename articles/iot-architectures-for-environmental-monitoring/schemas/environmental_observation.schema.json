@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EnvironmentalObservation",
+  "type": "object",
+  "required": ["observation_id", "device_id", "observed_property", "value", "unit", "phenomenon_time", "result_time", "ingested_at", "location", "quality_flag", "calibration_status"],
+  "properties": {
+    "observation_id": {"type": "string"},
+    "device_id": {"type": "string"},
+    "sensor_id": {"type": "string"},
+    "observed_property": {"type": "string"},
+    "value": {"type": ["number", "string", "boolean"]},
+    "unit": {"type": "string"},
+    "phenomenon_time": {"type": "string", "format": "date-time"},
+    "result_time": {"type": "string", "format": "date-time"},
+    "ingested_at": {"type": "string", "format": "date-time"},
+    "location": {
+      "type": "object",
+      "required": ["latitude", "longitude"],
+      "properties": {
+        "latitude": {"type": "number"},
+        "longitude": {"type": "number"},
+        "site_id": {"type": "string"}
+      }
+    },
+    "quality_flag": {"type": "string"},
+    "calibration_status": {"type": "string"},
+    "edge_rule_id": {"type": "string"},
+    "provenance": {"type": "string"}
+  }
+}

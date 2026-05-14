@@ -1,0 +1,7 @@
+gateway_id,site_id,connected_devices,transport_mode,edge_rules_enabled,buffer_policy,failover_policy,edge_traceability,notes
+gateway-river-a,river-station-a,river-node-001,cellular,true,store_and_forward_72h,local_buffer_then_retry,0.82,River gateway with threshold and buffering rules
+gateway-coastal-b,coastal-bay-b,coastal-buoy-002,satellite,true,store_and_forward_168h,batch_retry,0.72,Satellite gateway needs stronger edge event logging
+gateway-ag-c,ag-field-c,soil-node-003,lpwan,true,store_and_forward_48h,lpwan_retry,0.80,Low-power gateway for soil cluster
+gateway-urban-d,urban-site-d,air-node-004,wired_cellular_backup,true,store_and_forward_24h,backup_link,0.86,Urban gateway with redundant transport
+gateway-forest-e,forest-site-e,habitat-camera-005,mesh_to_cellular,true,store_and_forward_96h,mesh_retry,0.76,Camera gateway with edge inference output
+gateway-storm-f,stormwater-site-f,storm-drain-006,wired,true,store_and_forward_24h,local_alarm,0.74,Stormwater gateway requires traceability review

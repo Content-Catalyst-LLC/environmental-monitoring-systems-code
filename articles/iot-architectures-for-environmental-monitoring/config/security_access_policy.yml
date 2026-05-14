@@ -1,0 +1,11 @@
+security_access_policy:
+  version: "1.0.0"
+  controls:
+    - device_identity_required
+    - gateway_identity_required
+    - encrypted_transport_required_for_public_or_high_stakes_data
+    - authentication_required_for_ingestion
+    - key_rotation_policy
+    - firmware_update_record
+    - access_control_matrix
+    - retired_device_blocklist

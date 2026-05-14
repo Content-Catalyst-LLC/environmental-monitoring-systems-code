@@ -1,0 +1,7 @@
+alert_rule_id,domain,observed_property,threshold_type,threshold_value,severity,owner,suppression_window_minutes,action_pathway,review_status
+alert-water-level-high,water,water_level,greater_than,3.2,high,hydrology_team,30,field_response_and_public_notice,approved
+alert-coastal-temp-anomaly,coastal,water_temperature,z_score,2.5,medium,coastal_team,60,scientist_review,review_required
+alert-soil-moisture-low,soil,soil_moisture,less_than,18,medium,agroecology_team,120,irrigation_review,approved
+alert-pm25-high,air_quality,pm25,greater_than,35,high,air_quality_team,30,public_health_review,approved
+alert-camera-detection,biodiversity,species_detection,greater_than,0,low,ecology_team,1440,ecology_review,review_required
+alert-stormwater-flow,infrastructure,flow_rate,greater_than,750,high,stormwater_team,15,maintenance_dispatch,review_required

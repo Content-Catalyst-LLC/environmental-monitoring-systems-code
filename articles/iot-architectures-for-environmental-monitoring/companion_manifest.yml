@@ -1,0 +1,13 @@
+article:
+  title: "IoT Architectures for Environmental Monitoring"
+  slug: "iot-architectures-for-environmental-monitoring"
+  subtitle: "Devices, Platforms, and Environmental Intelligence"
+  series: "Environmental Monitoring Systems"
+  site_url: "https://sustainablecatalyst.com/iot-architectures-for-environmental-monitoring/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/environmental-monitoring-systems-code/tree/main/articles/iot-architectures-for-environmental-monitoring"
+technical_level: "research-grade environmental IoT architecture, edge-to-cloud traceability, semantic interoperability, quality control, latency, resilience, and governance scaffold"
+workflows:
+  python: "Architecture readiness scoring and review-priority triage"
+  r: "Device, gateway, platform, and alert readiness reporting"
+  sql: "Device registry, gateway registry, readiness scores, alert rules, observation samples, and governance logs"
+  systems: "Embedded C, C++, MicroPython, Go, Rust, TypeScript, TinyML, PYNQ, and HDL scaffolds"

@@ -1,0 +1,13 @@
+edge_rule_manifest:
+  version: "1.0.0"
+  logging_required_for:
+    - local_threshold
+    - filtering
+    - aggregation
+    - compression
+    - anomaly_detection
+    - local_alarm
+    - retry_or_buffer_flush
+    - failover
+  raw_data_policy: "Retain raw observations where feasible for high-stakes environmental claims."
+  traceability_rule: "Every edge transformation used in public, operational, or regulatory decision support must be versioned and logged."

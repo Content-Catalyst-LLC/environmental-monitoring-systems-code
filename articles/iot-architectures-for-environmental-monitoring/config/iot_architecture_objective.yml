@@ -1,0 +1,27 @@
+iot_architecture_objective:
+  version: "1.0.0"
+  title: "IoT Architectures for Environmental Monitoring"
+  purpose: "Demonstrate device-to-decision evidence quality, architecture readiness, semantic completeness, edge traceability, latency, and governance."
+  domains: [water, coastal, soil, air_quality, biodiversity, infrastructure, weather]
+  decision_uses:
+    - operational_response
+    - hazard_alerting
+    - public_health_review
+    - environmental_reporting
+    - ecological_monitoring
+    - infrastructure_maintenance
+    - long_term_trend_analysis
+  required_evidence_dimensions:
+    - device_identity
+    - observed_property
+    - unit
+    - location
+    - phenomenon_time
+    - result_time
+    - ingestion_time
+    - calibration_status
+    - quality_flag
+    - edge_traceability
+    - delivery_completeness
+    - latency_class
+    - decision_fit

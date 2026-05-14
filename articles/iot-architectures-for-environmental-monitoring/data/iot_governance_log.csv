@@ -1,0 +1,6 @@
+governance_id,date,component_id,decision,owner,status,public_note_required
+gov-001,2026-05-01,river-level-node-network,Approved for operational flood-threshold monitoring with QC caveats,hydrology_team,closed,true
+gov-002,2026-05-02,coastal-buoy-gateway,Required edge traceability and latency review before public alerting,coastal_team,open,true
+gov-003,2026-05-03,soil-moisture-lpwan-cluster,Required semantic completeness improvements before cross-site comparison,agroecology_team,open,false
+gov-004,2026-05-04,urban-air-quality-platform,Approved public dashboard with quality flags and alert explanation,air_quality_team,closed,true
+gov-005,2026-05-05,stormwater-flow-alert-system,Blocked automatic public alert pending calibration and latency review,stormwater_team,open,true
