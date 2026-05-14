@@ -1,0 +1,6 @@
+governance_id,date,component,decision,owner,status,public_note_required
+gov-001,2026-05-01,source_inventory,Approved water API as public and operational source,water_data_team,closed,true
+gov-002,2026-05-02,flood_model,Required uncertainty labels before public dashboard use,hazard_modeling_team,open,true
+gov-003,2026-05-03,habitat_layer,Blocked cross-domain comparison pending semantic review,ecology_team,open,false
+gov-004,2026-05-04,air_exposure_dashboard,Approved public evidence package for community users,public_health_team,closed,true
+gov-005,2026-05-05,compliance_records,Required semantic notes distinguishing activity metrics from environmental outcomes,regulatory_data_team,open,true

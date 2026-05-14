@@ -1,0 +1,6 @@
+workflow_id,workflow_name,input_sources,output_asset,update_cadence,has_lineage,has_uncertainty_label,owner
+wf-001,streamflow_indicator_build,src-water-001,streamflow-api-001,15_minutes,true,true,water_data_team
+wf-002,flood_scenario_generation,src-water-001|src-flood-002,flood-scenario-model-002,event_based,false,false,hazard_modeling_team
+wf-003,habitat_layer_refresh,src-habitat-003,habitat-layer-003,quarterly,false,false,ecology_team
+wf-004,air_exposure_dashboard_build,src-air-004,air-exposure-dashboard-004,5_minutes,true,true,public_health_team
+wf-005,compliance_record_summary,src-reg-005,compliance-records-005,monthly,true,true,regulatory_data_team

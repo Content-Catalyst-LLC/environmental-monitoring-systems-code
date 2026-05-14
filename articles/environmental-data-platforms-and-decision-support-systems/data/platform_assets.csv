@@ -1,0 +1,8 @@
+asset_id,domain,asset_type,metadata_complete,semantic_compatibility,lineage_complete,uncertainty_visible,decision_fit,is_high_stakes,notes
+streamflow-api-001,water,api_stream,0.92,0.88,0.90,0.86,0.84,true,Operational water-data source suitable for warning and planning
+flood-scenario-model-002,flood,model_output,0.84,0.78,0.76,0.62,0.81,true,Flood scenario model needs stronger uncertainty visibility and lineage
+habitat-layer-003,biodiversity,geospatial_layer,0.68,0.64,0.55,0.58,0.70,false,Habitat layer needs metadata and semantic review
+air-exposure-dashboard-004,air_quality,decision_view,0.88,0.82,0.86,0.90,0.92,true,Community-facing air exposure decision view
+compliance-records-005,regulatory,administrative_record,0.80,0.74,0.82,0.72,0.76,true,Compliance records need semantic review before cross-program comparison
+climate-scenario-006,climate,scenario_output,0.86,0.80,0.78,0.70,0.88,true,Scenario output requires assumptions and model-version review
+land-cover-raster-007,land,remote_sensing_product,0.82,0.76,0.80,0.68,0.74,false,Land-cover raster needs uncertainty label for classification outputs

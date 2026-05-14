@@ -1,0 +1,27 @@
+data_quality_rules:
+  version: "1.0.0"
+  checks:
+    - check_id: required-source-id
+      field: source_id
+      rule: "not_null"
+      severity: "error"
+    - check_id: required-owner
+      field: owner
+      rule: "not_null"
+      severity: "error"
+    - check_id: required-update-cadence
+      field: update_cadence
+      rule: "not_null"
+      severity: "warning"
+    - check_id: metadata-required
+      field: has_metadata
+      rule: "must_be_true_for_public_or_high_stakes_use"
+      severity: "error"
+    - check_id: quality-flags-required
+      field: has_quality_flags
+      rule: "must_be_true_for_decision_support"
+      severity: "warning"
+    - check_id: lineage-required
+      field: has_lineage
+      rule: "must_be_true_for_model_or_dashboard_outputs"
+      severity: "warning"

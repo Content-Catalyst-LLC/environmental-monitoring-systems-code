@@ -1,0 +1,30 @@
+platform_objective:
+  version: "1.0.0"
+  title: "Environmental Data Platforms and Decision Support Systems"
+  purpose: "Demonstrate evidence-quality, semantic integration, provenance, uncertainty, and decision-support readiness for environmental data platforms"
+  domains:
+    - water
+    - flood
+    - biodiversity
+    - air_quality
+    - regulatory
+    - climate
+    - land
+  decision_uses:
+    - operational_response
+    - planning
+    - regulatory_review
+    - public_communication
+    - environmental_justice_review
+    - scenario_analysis
+    - public_accountability
+  required_platform_capabilities:
+    - source_inventory
+    - metadata_catalog
+    - semantic_crosswalk
+    - lineage_tracking
+    - data_quality_validation
+    - model_registry
+    - scenario_registry
+    - decision_support_views
+    - governance_log

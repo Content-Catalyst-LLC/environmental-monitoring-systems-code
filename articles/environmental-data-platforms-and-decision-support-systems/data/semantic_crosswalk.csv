@@ -1,0 +1,8 @@
+crosswalk_id,source_field,target_concept,source_unit,target_unit,semantic_status,notes
+cw-001,river_stage_ft,river_stage,ft,ft,compatible,Direct water-level comparison supported
+cw-002,discharge_cfs,streamflow,m3_s,mapped_with_unit_conversion,Requires conversion and unit metadata
+cw-003,pm25_ugm3,pm25_exposure,ug_m3,ug_m3,compatible,Air-quality exposure metric
+cw-004,habitat_score,habitat_condition,index,index,review_required,Index construction differs across source layers
+cw-005,inspection_count,compliance_activity,count,count,compatible,Administrative activity metric not environmental condition
+cw-006,flood_extent_model,flood_inundation_area,polygon,polygon,review_required,Modeled extent requires uncertainty and scenario labels
+cw-007,land_cover_class,land_cover_category,class,class,mapped_with_vocabulary,Requires controlled vocabulary mapping

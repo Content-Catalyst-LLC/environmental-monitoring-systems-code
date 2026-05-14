@@ -1,0 +1,8 @@
+role,priority_question,required_evidence,decision_horizon,output_type,action_pathway
+responder,Where is risk emerging now?,fresh observations and alerts,minutes_to_hours,map_and_alert,operational_escalation
+planner,Which scenario reduces long-term exposure?,models scenarios baseline trends,months_to_decades,scenario_comparison,planning_review
+regulator,Which facilities or patterns require review?,administrative records geospatial context,months_to_years,compliance_dashboard,regulatory_review
+scientist,How was this output produced?,source metadata lineage workflow method,hours_to_months,evidence_drilldown,technical_review
+operator,Which assets are near thresholds?,sensor feeds status indicators,minutes_to_days,asset_status_view,operator_response
+community,What is happening locally and who is affected?,local indicators exposure maps plain language,hours_to_months,public_evidence_view,community_review
+public_communicator,How can conditions be explained responsibly?,verified summaries caveats uncertainty,hours_to_days,public_summary,public_communication

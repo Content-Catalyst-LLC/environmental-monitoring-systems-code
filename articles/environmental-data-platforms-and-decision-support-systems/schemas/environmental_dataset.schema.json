@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EnvironmentalDataset",
+  "type": "object",
+  "required": [
+    "asset_id",
+    "domain",
+    "asset_type",
+    "source_id",
+    "owner",
+    "unit",
+    "temporal_scope",
+    "spatial_reference",
+    "method",
+    "provenance",
+    "uncertainty"
+  ],
+  "properties": {
+    "asset_id": {"type": "string"},
+    "domain": {"type": "string"},
+    "asset_type": {"type": "string"},
+    "source_id": {"type": "string"},
+    "owner": {"type": "string"},
+    "unit": {"type": "string"},
+    "temporal_scope": {"type": "string"},
+    "spatial_reference": {"type": "string"},
+    "method": {"type": "string"},
+    "provenance": {"type": "string"},
+    "uncertainty": {"type": "string"},
+    "access_level": {"type": "string"},
+    "quality_flags": {"type": "array", "items": {"type": "string"}}
+  }
+}

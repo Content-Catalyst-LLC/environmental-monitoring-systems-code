@@ -1,0 +1,37 @@
+article:
+  title: "Environmental Data Platforms and Decision Support Systems"
+  slug: "environmental-data-platforms-and-decision-support-systems"
+  subtitle: "Integration, Evidence, and Environmental Decision-Making"
+  series: "Environmental Monitoring Systems"
+  site_url: "https://sustainablecatalyst.com/environmental-data-platforms-and-decision-support-systems/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/environmental-monitoring-systems-code/tree/main/articles/environmental-data-platforms-and-decision-support-systems"
+
+technical_level: "research-grade platform architecture, metadata governance, semantic integration, decision support, lineage, provenance, and uncertainty scaffold"
+
+workflows:
+  mathematical_lens: "Metadata completeness, semantic compatibility, lineage completeness, uncertainty visibility, decision fit, and platform evidence quality"
+  python:
+    - "Platform evidence-quality scoring"
+    - "Metadata, semantic, lineage, uncertainty, and decision-fit review"
+    - "High-stakes platform asset triage"
+  r:
+    - "Platform evidence readiness reporting"
+    - "Metadata and semantic-integration summaries"
+    - "Governance review tables"
+  sql:
+    - "Source inventory"
+    - "Semantic crosswalk"
+    - "Workflow registry"
+    - "Model and scenario registry"
+    - "Decision-support matrix"
+    - "Platform governance log"
+  typescript:
+    - "Dataset card and provenance panel types"
+    - "Decision-support view scaffolding"
+  systems:
+    - "Go platform API health service"
+    - "Rust metadata and semantic crosswalk validator"
+    - "C/C++ environmental source producer stubs"
+    - "MicroPython platform-ready field node"
+    - "TinyML evidence-output placeholder"
+    - "PYNQ/HDL streaming validation placeholders"

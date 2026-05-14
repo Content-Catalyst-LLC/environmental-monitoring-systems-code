@@ -1,0 +1,7 @@
+source_id,domain,source_type,owner,update_cadence,has_metadata,has_quality_flags,has_lineage,access_level,notes
+src-water-001,water,api_stream,water_data_team,15_minutes,true,true,true,internal_and_public,Real-time streamflow and water conditions
+src-flood-002,flood,model_output,hazard_modeling_team,event_based,true,true,false,internal,Flood model output with incomplete lineage
+src-habitat-003,biodiversity,geospatial_layer,ecology_team,quarterly,false,false,false,internal,Habitat condition layer needing metadata upgrade
+src-air-004,air_quality,sensor_network,public_health_team,5_minutes,true,true,true,internal_and_public,Air-quality exposure monitoring source
+src-reg-005,regulatory,administrative_record,regulatory_data_team,monthly,true,true,true,internal_and_public,Compliance and inspection records
+src-climate-006,climate,scenario_output,climate_services_team,annual,true,true,false,internal,Climate scenario product requiring model lineage

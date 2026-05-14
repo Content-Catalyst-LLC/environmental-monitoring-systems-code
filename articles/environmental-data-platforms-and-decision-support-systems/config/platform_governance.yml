@@ -1,0 +1,20 @@
+platform_governance:
+  version: "1.0.0"
+  required_reviews:
+    - source_stewardship_review
+    - metadata_completeness_review
+    - semantic_integration_review
+    - lineage_review
+    - model_and_scenario_review
+    - uncertainty_visibility_review
+    - decision_support_fit_review
+    - public_accountability_review
+  change_log_required_for:
+    - source_addition
+    - schema_change
+    - metadata_schema_change
+    - semantic_crosswalk_change
+    - workflow_change
+    - model_version_update
+    - scenario_definition_change
+    - public_dashboard_release

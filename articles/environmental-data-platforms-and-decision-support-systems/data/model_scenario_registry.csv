@@ -1,0 +1,5 @@
+model_id,domain,model_type,version,scenario_name,inputs_documented,assumptions_documented,validation_documented,uncertainty_documented,intended_use
+model-flood-001,flood,hydrologic_hydraulic,v1.2,extreme_rainfall_response,true,true,false,false,planning_and_response
+model-climate-001,climate,climate_scenario,v3.1,mid_century_heat_risk,true,true,true,true,long_range_planning
+model-habitat-001,biodiversity,habitat_condition_model,v0.9,restoration_priority,false,true,false,false,ecological_prioritization
+model-air-001,air_quality,exposure_estimation,v2.0,community_pm25_exposure,true,true,true,true,public_health_decision_support

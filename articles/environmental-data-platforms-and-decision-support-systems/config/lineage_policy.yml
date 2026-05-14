@@ -1,0 +1,14 @@
+lineage_policy:
+  version: "1.0.0"
+  required_for_platform_outputs:
+    - output_asset_id
+    - source_ids
+    - workflow_id
+    - workflow_version
+    - transformation_steps
+    - processing_timestamp
+    - model_id_if_applicable
+    - scenario_id_if_applicable
+    - quality_flags
+    - uncertainty_label
+  high_stakes_rule: "High-stakes operational, regulatory, public-health, or public-facing outputs require complete lineage before use."
