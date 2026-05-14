@@ -1,0 +1,15 @@
+interoperability_policy:
+  version: "1.0.0"
+  rule: "Cross-agency watershed monitoring requires shared station identifiers, metadata fields, units, timestamps, quality flags, variable definitions, and revision history."
+  required_fields:
+    - station_id
+    - node_id
+    - site_type
+    - basin_position
+    - monitored_variables
+    - latitude
+    - longitude
+    - upstream_area_km2
+    - agency
+    - continuity_status
+    - quality_flag

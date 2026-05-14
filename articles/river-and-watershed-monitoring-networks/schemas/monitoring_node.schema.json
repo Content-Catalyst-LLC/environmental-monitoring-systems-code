@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WatershedMonitoringNode",
+  "type": "object",
+  "required": [
+    "node_id",
+    "station_id",
+    "site_type",
+    "basin_position",
+    "monitored_variables",
+    "latitude",
+    "longitude",
+    "upstream_area_km2",
+    "agency"
+  ],
+  "properties": {
+    "node_id": {"type": "string"},
+    "station_id": {"type": "string"},
+    "station_name": {"type": "string"},
+    "site_type": {"type": "string"},
+    "basin_position": {"type": "string"},
+    "monitored_variables": {"type": "string"},
+    "latitude": {"type": "number"},
+    "longitude": {"type": "number"},
+    "upstream_area_km2": {"type": "number"},
+    "agency": {"type": "string"},
+    "continuity_status": {"type": "string"},
+    "telemetry_status": {"type": "string"}
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "name": "watershed_monitoring_sites",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "st-001",
+        "site_type": "streamgage_water_quality",
+        "basin_position": "headwater"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.4100, 38.8100]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "st-002",
+        "site_type": "streamgage_water_quality",
+        "basin_position": "tributary"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.3600, 38.7600]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "st-007",
+        "site_type": "streamgage_water_quality",
+        "basin_position": "outlet"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2100, 38.6000]}
+    }
+  ]
+}

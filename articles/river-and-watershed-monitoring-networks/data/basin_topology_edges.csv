@@ -1,0 +1,9 @@
+edge_id,from_node,to_node,relation,stream_order,upstream_area_km2,notes
+edge-001,headwater-a,tributary-a,flows_to,1,25,Headwater source area
+edge-002,headwater-b,tributary-b,flows_to,1,32,Forested headwater
+edge-003,tributary-a,mainstem-upper,confluence,2,120,Agricultural tributary contribution
+edge-004,tributary-b,mainstem-upper,confluence,2,95,Urbanizing tributary contribution
+edge-005,mainstem-upper,reservoir-a,flows_to,3,310,Managed storage reach
+edge-006,reservoir-a,mainstem-lower,regulated_release,3,340,Reservoir-regulated downstream reach
+edge-007,groundwater-zone-1,mainstem-lower,baseflow_exchange,NA,80,Groundwater-connected reach
+edge-008,mainstem-lower,basin-outlet,flows_to,4,620,Basin outlet export point

@@ -1,0 +1,6 @@
+record_id,station_id,timestamp,constituent,concentration_mg_L,discharge_m3_s,instantaneous_load_kg_day,event_flag,method,quality_flag
+load-001,st-002,2026-05-01T08:00:00Z,nitrate,4.2,8.5,3084.48,baseflow,sensor_flow_paired,pass
+load-002,st-002,2026-05-01T12:00:00Z,nitrate,5.8,22.0,11024.64,storm_event,sensor_flow_paired,pass
+load-003,st-003,2026-05-01T12:00:00Z,total_phosphorus,0.18,12.0,186.62,storm_event,grab_sample_interpolated,review_required
+load-004,st-006,2026-05-01T12:00:00Z,suspended_sediment,85.0,65.0,477360.00,storm_event,autosampler_flow_paired,pass
+load-005,st-007,2026-05-01T12:00:00Z,nitrate,3.4,88.0,25850.88,storm_event,sensor_flow_paired,pass

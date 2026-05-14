@@ -1,0 +1,6 @@
+assessment_id,station_id,assessment_date,protocol,indicator,value,unit,season,habitat_context,quality_flag
+eco-001,st-003,2026-04-20,macroinvertebrate_index,benthic_index,62,index,spring,urban_tributary,pass
+eco-002,st-003,2026-04-20,habitat_assessment,habitat_score,58,index,spring,urban_tributary,pass
+eco-003,st-001,2026-04-22,macroinvertebrate_index,benthic_index,82,index,spring,headwater_reference,pass
+eco-004,st-006,2026-04-25,thermal_habitat,coldwater_days,18,days,spring,mainstem_downstream,review_required
+eco-005,st-007,2026-04-28,fish_assemblage,biotic_integrity,71,index,spring,basin_outlet,pass

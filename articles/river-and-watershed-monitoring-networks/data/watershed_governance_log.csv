@@ -1,0 +1,6 @@
+governance_id,date,network_id,decision,owner,status,public_note_required
+gov-001,2026-05-01,mainstem-integrated-basin-network,Approved for basin export reporting with source-attribution caveat,watershed_team,closed,true
+gov-002,2026-05-02,headwater-source-area-network,Require representativeness caveat for ungauged headwater claims,watershed_team,open,true
+gov-003,2026-05-03,urban-tributary-load-network,Prioritize event-triggered sampling before storm-load claims,water_quality_team,open,true
+gov-004,2026-05-04,transboundary-data-sharing-network,Create shared metadata schema before public basin dashboard,data_governance_team,open,true
+gov-005,2026-05-05,groundwater-connected-reach-review,Pair stream and groundwater records before baseflow nitrate claims,groundwater_team,open,true

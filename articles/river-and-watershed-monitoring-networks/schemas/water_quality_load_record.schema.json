@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WaterQualityLoadRecord",
+  "type": "object",
+  "required": [
+    "record_id",
+    "station_id",
+    "timestamp",
+    "constituent",
+    "concentration_mg_L",
+    "discharge_m3_s",
+    "instantaneous_load_kg_day",
+    "method",
+    "quality_flag"
+  ],
+  "properties": {
+    "record_id": {"type": "string"},
+    "station_id": {"type": "string"},
+    "timestamp": {"type": "string"},
+    "constituent": {"type": "string"},
+    "concentration_mg_L": {"type": "number"},
+    "discharge_m3_s": {"type": "number"},
+    "instantaneous_load_kg_day": {"type": "number"},
+    "event_flag": {"type": "string"},
+    "method": {"type": "string"},
+    "quality_flag": {"type": "string"}
+  }
+}

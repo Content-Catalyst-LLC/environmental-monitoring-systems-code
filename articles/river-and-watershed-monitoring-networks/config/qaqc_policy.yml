@@ -1,0 +1,14 @@
+qaqc_policy:
+  version: "1.0.0"
+  required_checks:
+    - station_metadata_complete
+    - topology_link_valid
+    - unit_validation
+    - telemetry_completeness
+    - station_health
+    - rating_status
+    - sensor_calibration
+    - sample_method
+    - quality_flag
+    - event_flag
+  rule: "Basin-scale claims must not be made from observations lacking station metadata, topology linkage, quality flags, or valid-use caveats."

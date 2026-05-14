@@ -1,0 +1,6 @@
+audit_id,network_id,coverage_dimension,target_zone_or_process,coverage_score,evidence_gap,priority,notes
+audit-001,headwater-source-area-network,ungauged_headwaters,small_intermittent_streams,0.52,Limited coverage of intermittent headwaters and first-flush transport,high,Add rotating surveys and low-cost event sensors
+audit-002,urban-tributary-load-network,event_capture,urban_first_flush,0.64,Storm-event load sampling is incomplete,high,Add autosampler or event-triggered sampling
+audit-003,mainstem-integrated-basin-network,source_attribution,internal_subbasin_contributions,0.68,Outlet export stronger than internal attribution,medium,Strengthen tributary paired sites
+audit-004,transboundary-data-sharing-network,interoperability,cross_agency_metadata,0.58,Metadata standards and APIs differ across jurisdictions,high,Create shared schema and data-sharing agreement
+audit-005,groundwater-connected-reach-review,groundwater_surface_water_exchange,baseflow_nitrate_temperature,0.60,Groundwater exchange underrepresented,medium,Pair stream sites with groundwater wells

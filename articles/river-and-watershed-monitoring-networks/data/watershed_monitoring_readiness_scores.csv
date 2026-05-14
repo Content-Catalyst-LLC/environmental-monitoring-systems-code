@@ -1,0 +1,6 @@
+network_id,basin_context,geography,gauge_coverage,water_quality_coverage,ecological_coverage,network_representativeness,temporal_continuity,event_capture,uncertainty_communication,interoperability,governance_readiness,high_stakes_use
+mainstem-integrated-basin-network,large_river_basin,regional_watershed,0.84,0.78,0.72,0.80,0.86,0.76,0.78,0.82,0.84,true
+headwater-source-area-network,headwater_tributaries,upper_basin,0.68,0.72,0.70,0.66,0.74,0.64,0.72,0.70,0.72,true
+urban-tributary-load-network,urbanizing_subbasins,metro_watershed,0.72,0.80,0.62,0.70,0.78,0.82,0.76,0.74,0.76,true
+transboundary-data-sharing-network,cross_jurisdictional_basin,multi_agency_watershed,0.76,0.70,0.66,0.72,0.80,0.68,0.74,0.62,0.68,true
+groundwater-connected-reach-review,groundwater_surface_water_exchange,lower_basin,0.70,0.68,0.60,0.64,0.66,0.62,0.70,0.66,0.70,true

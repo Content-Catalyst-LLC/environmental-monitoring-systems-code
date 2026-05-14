@@ -1,0 +1,33 @@
+article:
+  title: "River and Watershed Monitoring Networks"
+  slug: "river-and-watershed-monitoring-networks"
+  subtitle: "Basin-Scale Monitoring, Hydrological Connectivity, and Watershed Accountability"
+  series: "Environmental Monitoring Systems"
+  site_url: "https://sustainablecatalyst.com/river-and-watershed-monitoring-networks/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/environmental-monitoring-systems-code/tree/main/articles/river-and-watershed-monitoring-networks"
+
+navigation_note:
+  top_gateway_rule: "Use the five-button navigation to point to article maps / pillar pages whenever possible; reserve individual article links for Related articles."
+  github_block_position: "Place the GitHub repository section after the code samples."
+
+technical_level: "research-grade watershed monitoring, basin topology, streamflow, water quality, ecological assessment, load estimation, representativeness, interoperability, and governance scaffold"
+
+workflows:
+  mathematical_lens: "Network graph, instantaneous load, event load, coverage ratio, network readiness, and watershed evidence quality"
+  python:
+    - "Watershed monitoring readiness scoring"
+    - "Basin evidence-quality triage"
+    - "Representativeness, event capture, interoperability, and governance review"
+  r:
+    - "Watershed network reporting"
+    - "Readiness, load, coverage, and governance summary tables"
+  sql:
+    - "Basin topology graph"
+    - "Monitoring node registry"
+    - "Hydrological driver matrix"
+    - "Telemetry and station-health records"
+    - "Water-quality and load records"
+    - "Ecological assessment registry"
+    - "Representativeness audit"
+    - "Watershed readiness scores"
+    - "Governance and data-sharing log"

@@ -1,0 +1,9 @@
+node_id,station_id,station_name,site_type,basin_position,monitored_variables,latitude,longitude,upstream_area_km2,agency,continuity_status,telemetry_status
+headwater-a,st-001,Headwater Reference Station,streamgage_water_quality,headwater,stage_discharge_temperature_conductivity,38.8100,-90.4100,25,hydrology_agency,long_term,active
+tributary-a,st-002,Agricultural Tributary Station,streamgage_water_quality,tributary,stage_discharge_nitrate_suspended_sediment,38.7600,-90.3600,120,water_quality_agency,long_term,active
+tributary-b,st-003,Urban Tributary Station,water_quality_ecology,tributary,nutrients_temperature_macroinvertebrates,38.7200,-90.3300,95,environment_agency,medium_term,active
+mainstem-upper,st-004,Upper Mainstem Gauge,streamgage,mainstem,stage_discharge,38.6900,-90.3000,250,hydrology_agency,long_term,active
+reservoir-a,st-005,Reservoir Operations Node,reservoir,regulated_reach,storage_release_temperature,38.6600,-90.2700,340,reservoir_operator,medium_term,active
+mainstem-lower,st-006,Lower Mainstem Integrated Station,streamgage_water_quality,mainstem,stage_discharge_nutrients_temperature_sediment,38.6300,-90.2400,520,hydrology_agency,long_term,active
+basin-outlet,st-007,Basin Outlet Export Station,streamgage_water_quality,outlet,stage_discharge_nutrients_sediment_export,38.6000,-90.2100,620,water_quality_agency,long_term,active
+groundwater-zone-1,gw-001,Groundwater Exchange Well,groundwater,baseflow_zone,groundwater_level_temperature_nitrate,38.6500,-90.2500,80,groundwater_agency,short_term,review_required

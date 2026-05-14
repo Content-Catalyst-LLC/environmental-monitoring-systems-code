@@ -1,0 +1,7 @@
+health_id,station_id,window_start,window_end,expected_records,received_records,median_latency_seconds,outage_minutes,rating_status,maintenance_status,status
+health-001,st-001,2026-05-01T00:00:00Z,2026-05-01T12:00:00Z,48,48,35,0,current,current,pass
+health-002,st-002,2026-05-01T00:00:00Z,2026-05-01T12:00:00Z,48,46,45,10,current,current,pass
+health-003,st-003,2026-05-01T00:00:00Z,2026-05-01T12:00:00Z,24,22,70,20,NA,current,review_required
+health-004,st-004,2026-05-01T00:00:00Z,2026-05-01T12:00:00Z,48,48,30,0,current,current,pass
+health-005,st-006,2026-05-01T00:00:00Z,2026-05-01T12:00:00Z,48,44,80,35,review_required,maintenance_due,review_required
+health-006,gw-001,2026-05-01T00:00:00Z,2026-05-01T12:00:00Z,12,9,120,120,NA,maintenance_due,review_required

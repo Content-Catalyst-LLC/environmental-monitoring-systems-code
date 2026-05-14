@@ -1,0 +1,20 @@
+watershed_objective:
+  version: "1.0.0"
+  title: "River and Watershed Monitoring Networks"
+  purpose: "Demonstrate basin-scale monitoring readiness, topology-aware station interpretation, load estimation, representativeness auditing, interoperability, and watershed governance."
+  basin_contexts:
+    - large_river_basin
+    - headwater_tributaries
+    - urbanizing_subbasins
+    - cross_jurisdictional_basin
+    - groundwater_surface_water_exchange
+  decision_uses:
+    - flood_forecasting
+    - drought_planning
+    - nutrient_load_reduction
+    - sediment_management
+    - restoration_targeting
+    - water_allocation
+    - source_water_protection
+    - ecological_assessment
+    - transboundary_governance
