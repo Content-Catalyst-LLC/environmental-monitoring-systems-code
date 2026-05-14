@@ -1,0 +1,31 @@
+threshold_registry:
+  version: "1.0.0"
+  thresholds:
+    - threshold_id: flood-warning
+      hazard_type: flood
+      variable: river_stage
+      warning_value: 17.0
+      critical_value: 20.0
+      unit: ft
+      required_action: flood_warning_and_evacuation_review
+    - threshold_id: heat-warning
+      hazard_type: heat
+      variable: heat_index
+      warning_value: 100
+      critical_value: 110
+      unit: degF
+      required_action: open_cooling_centers_and_direct_outreach
+    - threshold_id: tsunami-warning
+      hazard_type: tsunami
+      variable: sea_level_anomaly
+      warning_value: 0.5
+      critical_value: 1.0
+      unit: m
+      required_action: coastal_evacuation_warning
+    - threshold_id: smoke-warning
+      hazard_type: wildfire_smoke
+      variable: pm25
+      warning_value: 35
+      critical_value: 150
+      unit: ug_m3
+      required_action: public_health_smoke_advisory

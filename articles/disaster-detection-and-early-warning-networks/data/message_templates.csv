@@ -1,0 +1,6 @@
+template_id,hazard_type,severity,audience,message_goal,action_text
+msg-flood-warning,flood,warning,general_public,evacuate_or_avoid_flooded_roads,Move to higher ground. Do not drive through flooded roads. Follow local evacuation instructions.
+msg-heat-warning,heat,warning,older_adults_and_caregivers,reduce_heat_exposure,Move to a cool place. Check on older adults and people with health conditions. Use cooling centers if needed.
+msg-tsunami-warning,tsunami,warning,coastal_public,evacuate_coast,Move immediately to high ground or inland. Do not wait for additional instructions.
+msg-smoke-warning,wildfire_smoke,advisory,outdoor_workers_and_sensitive_groups,reduce_smoke_exposure,Limit outdoor exertion. Use filtered indoor air if available. Follow public health guidance.
+msg-drought-advisory,drought,advisory,water_users,reduce_water_demand,Reduce nonessential water use and follow local drought restrictions.

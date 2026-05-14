@@ -1,0 +1,16 @@
+last_mile_equity_policy:
+  version: "1.0.0"
+  required_checks:
+    - language_access
+    - disability_access
+    - mobility_constraints
+    - housing_status
+    - digital_access
+    - rural_or_remote_access
+    - trusted_messenger_coverage
+    - shelter_and_transport_access
+  required_outputs:
+    - disaggregated_reach_table
+    - last_mile_gap_summary
+    - accessibility_review
+    - community_feedback_record

@@ -1,0 +1,34 @@
+article:
+  title: "Disaster Detection and Early Warning Networks"
+  slug: "disaster-detection-and-early-warning-networks"
+  subtitle: "Hazard Sensing, Warning Chains, and Actionable Time"
+  series: "Environmental Monitoring Systems"
+  site_url: "https://sustainablecatalyst.com/disaster-detection-and-early-warning-networks/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/environmental-monitoring-systems-code/tree/main/articles/disaster-detection-and-early-warning-networks"
+
+technical_level: "research-grade disaster detection, warning-chain, actionable-time, last-mile communication, and warning-equity scaffold"
+
+workflows:
+  mathematical_lens: "Usable lead time, warning reach, protective action, false-alarm ratio, probability of detection, warning equity, and warning effectiveness"
+  python:
+    - "Warning-chain readiness scoring"
+    - "Lead-time and reach review"
+    - "Equity and last-mile warning-gap classification"
+  r:
+    - "Warning reach and response reporting"
+    - "Population-group disaggregation"
+    - "Last-mile gap summaries"
+  sql:
+    - "Hazard signal inventory"
+    - "Threshold registry"
+    - "Warning event log"
+    - "Message templates"
+    - "Communication channel matrix"
+    - "After-action review records"
+  systems:
+    - "Go warning API health check service"
+    - "Rust warning threshold and message-template validator"
+    - "C/C++ hazard-sensor and warning-event buffer stubs"
+    - "MicroPython local threshold alert node"
+    - "TinyML anomaly detection placeholder"
+    - "PYNQ/HDL streaming threshold placeholders"

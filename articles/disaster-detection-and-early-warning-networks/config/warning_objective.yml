@@ -1,0 +1,25 @@
+warning_objective:
+  version: "1.0.0"
+  title: "Disaster detection and early warning networks"
+  purpose: "Demonstrate an end-to-end warning-chain evidence architecture"
+  hazards:
+    - flood
+    - heat
+    - tsunami
+    - wildfire_smoke
+    - drought
+  decision_uses:
+    - public_warning
+    - evacuation_support
+    - infrastructure_protective_action
+    - public_health_response
+    - anticipatory_governance
+    - after_action_review
+  required_chain_components:
+    - observation
+    - assessment
+    - decision
+    - communication
+    - response
+    - equity
+    - learning

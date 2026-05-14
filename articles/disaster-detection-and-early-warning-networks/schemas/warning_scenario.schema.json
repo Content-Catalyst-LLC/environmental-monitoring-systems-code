@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WarningScenario",
+  "type": "object",
+  "required": [
+    "scenario_id",
+    "hazard_type",
+    "detection_confidence",
+    "usable_lead_time_score",
+    "reach_score",
+    "trust_score",
+    "response_capacity_score",
+    "protective_action_score",
+    "missed_event_penalty",
+    "equity_gap_score"
+  ],
+  "properties": {
+    "scenario_id": {"type": "string"},
+    "hazard_type": {"type": "string"},
+    "detection_confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "usable_lead_time_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "reach_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "trust_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "response_capacity_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "protective_action_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "missed_event_penalty": {"type": "number", "minimum": 0, "maximum": 1},
+    "equity_gap_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "notes": {"type": "string"}
+  }
+}

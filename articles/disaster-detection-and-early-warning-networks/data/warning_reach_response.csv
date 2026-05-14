@@ -1,0 +1,9 @@
+scenario_id,hazard_type,population_group,exposed,reached,acted
+flood-urban-001,flood,general_population,50000,39000,24500
+flood-urban-001,flood,limited_mobility,4200,2600,1100
+heat-city-002,heat,general_population,82000,68000,36000
+heat-city-002,heat,older_adults,9600,6100,2900
+wildfire-smoke-004,wildfire_smoke,general_population,30000,21000,13000
+wildfire-smoke-004,wildfire_smoke,outdoor_workers,3800,1900,760
+tsunami-coast-003,tsunami,general_population,18000,15500,11800
+tsunami-coast-003,tsunami,tourists,4200,2800,1600

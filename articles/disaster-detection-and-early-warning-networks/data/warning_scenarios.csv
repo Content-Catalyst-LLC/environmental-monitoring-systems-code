@@ -1,0 +1,6 @@
+scenario_id,hazard_type,detection_confidence,usable_lead_time_score,reach_score,trust_score,response_capacity_score,protective_action_score,missed_event_penalty,equity_gap_score,notes
+flood-urban-001,flood,0.84,0.72,0.68,0.61,0.57,0.52,0.12,0.28,Urban flood warning with moderate last-mile gaps
+heat-city-002,heat,0.88,0.80,0.74,0.66,0.48,0.46,0.10,0.36,Heat warning with capacity limitations for older adults and outdoor workers
+tsunami-coast-003,tsunami,0.91,0.62,0.82,0.76,0.70,0.64,0.08,0.18,Coastal tsunami warning with strong reach but limited lead time
+wildfire-smoke-004,wildfire_smoke,0.79,0.58,0.55,0.60,0.52,0.45,0.16,0.32,Wildfire smoke warning with reach and equity concerns
+drought-water-005,drought,0.76,0.70,0.63,0.58,0.54,0.42,0.14,0.27,Drought warning requiring institutional and household behavior change

@@ -1,0 +1,6 @@
+channel_id,channel_type,coverage_group,redundant,accessibility_notes,failure_mode
+ch-mobile-001,mobile_alert,general_public,true,Requires active mobile service and compatible device,cell_network_congestion_or_outage
+ch-siren-001,siren,outdoor_coastal_public,true,May not reach indoor or hearing-impaired residents,power_failure_or_low_audibility
+ch-radio-001,radio,broad_public,true,Useful during internet outage if radios available,broadcast_interruption
+ch-community-001,community_network,hard_to_reach_groups,true,Depends on trusted messengers and local organizations,network_not_activated
+ch-web-001,web_dashboard,agency_and_public,false,Requires internet and digital literacy,internet_outage_or_access_gap

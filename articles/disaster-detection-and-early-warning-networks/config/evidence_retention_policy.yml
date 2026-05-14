@@ -1,0 +1,14 @@
+evidence_retention_policy:
+  version: "1.0.0"
+  required_records:
+    - hazard_observation_stream
+    - telemetry_health
+    - forecast_product
+    - threshold_state
+    - warning_decision_log
+    - message_template_version
+    - channel_delivery_log
+    - last_mile_reach_audit
+    - response_capacity_record
+    - after_action_review
+  retention_goal: "Enable reconstruction of the full warning chain after exercises, false alarms, missed events, and real events."

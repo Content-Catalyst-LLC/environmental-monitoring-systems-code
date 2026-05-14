@@ -1,0 +1,6 @@
+signal_id,hazard_type,source_type,observed_property,unit,current_value,warning_threshold,critical_threshold,latency_minutes,source_name
+sig-flood-001,flood,stream_gauge,river_stage,ft,18.4,17.0,20.0,5,urban_stream_gauge_network
+sig-heat-001,heat,weather_station,heat_index,degF,106,100,110,10,urban_weather_network
+sig-tsunami-001,tsunami,seismic_ocean_buoy,sea_level_anomaly,m,0.8,0.5,1.0,2,tsunami_warning_network
+sig-wildfire-001,wildfire_smoke,air_quality_sensor,pm25,ug_m3,84,35,150,8,regional_air_quality_network
+sig-drought-001,drought,hydrologic_monitor,reservoir_storage_fraction,fraction,0.38,0.45,0.30,1440,water_resource_monitoring
