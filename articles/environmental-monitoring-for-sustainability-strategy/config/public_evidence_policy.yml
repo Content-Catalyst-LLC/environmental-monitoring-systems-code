@@ -1,0 +1,16 @@
+public_evidence_policy:
+  version: "1.0.0"
+  required_for_material_findings:
+    - indicator_definition
+    - source_data_description
+    - baseline_and_target
+    - threshold_or_boundary_context
+    - uncertainty_statement
+    - trend_summary
+    - tradeoff_review
+    - corrective_action_status
+    - review_owner
+  accessibility:
+    require_plain_language_summary: true
+    require_machine_readable_data_where_possible: true
+    require_limitations_text: true

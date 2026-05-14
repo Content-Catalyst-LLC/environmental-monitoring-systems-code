@@ -1,0 +1,6 @@
+finding_id,indicator_id,material_finding,decision_owner,corrective_action,status,publicly_reviewable,follow_up_date
+finding-001,ghg-absolute-001,true,sustainability_strategy_board,Accelerate absolute emissions reduction program,in_progress,true,2026-09-30
+finding-002,water-withdrawal-001,true,water_stewardship_team,Develop watershed-aligned withdrawal reduction plan,not_started,true,2026-08-15
+finding-003,biodiversity-habitat-001,true,ecology_program_lead,Improve habitat monitoring lineage and restoration pathway,not_started,false,2026-10-01
+finding-004,air-quality-exposure-001,true,environmental_justice_review_team,Disaggregate exposure reduction plan by neighborhood,not_started,true,2026-07-30
+finding-005,land-conversion-001,true,land_use_governance_team,Tighten land conversion review and mitigation rules,in_progress,true,2026-11-15

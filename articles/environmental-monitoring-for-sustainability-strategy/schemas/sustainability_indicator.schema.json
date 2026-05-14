@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SustainabilityIndicator",
+  "type": "object",
+  "required": [
+    "indicator_id",
+    "domain",
+    "indicator_type",
+    "current_value",
+    "baseline_value",
+    "target_value",
+    "unit",
+    "metadata_score",
+    "validation_score",
+    "lineage_score",
+    "uncertainty_score",
+    "conceptual_relevance_score"
+  ],
+  "properties": {
+    "indicator_id": {"type": "string"},
+    "domain": {"type": "string"},
+    "indicator_type": {
+      "type": "string",
+      "enum": ["state", "pressure", "response", "outcome", "resilience", "equity"]
+    },
+    "current_value": {"type": "number"},
+    "baseline_value": {"type": "number"},
+    "target_value": {"type": "number"},
+    "threshold_value": {"type": "number"},
+    "unit": {"type": "string"},
+    "metadata_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "validation_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "lineage_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "uncertainty_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "conceptual_relevance_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "material_finding": {"type": "boolean"},
+    "corrective_action_taken": {"type": "boolean"},
+    "publicly_reviewable": {"type": "boolean"},
+    "notes": {"type": "string"}
+  }
+}

@@ -1,0 +1,7 @@
+indicator_id,baseline_year,baseline_value,target_year,target_value,threshold_value,threshold_type,threshold_rationale
+ghg-absolute-001,2020,100,2035,40,50,climate_strategy_limit,Internal target should be compared with decarbonization pathway
+water-withdrawal-001,2020,100,2030,70,75,watershed_limit,Withdrawals above threshold indicate hydrological stress
+biodiversity-habitat-001,2020,0.72,2030,0.80,0.65,ecological_condition_limit,Habitat condition below threshold requires restoration review
+waste-diversion-001,2020,0.30,2030,0.75,0.90,circularity_benchmark,Diversion alone is not sufficient without absolute waste reduction
+air-quality-exposure-001,2020,52,2030,20,35,public_health_threshold,Exposure above threshold requires environmental justice review
+land-conversion-001,2020,20,2030,8,10,land_use_threshold,Conversion above threshold indicates ongoing habitat and land pressure

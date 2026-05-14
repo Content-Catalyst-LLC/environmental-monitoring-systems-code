@@ -1,0 +1,33 @@
+article:
+  title: "Environmental Monitoring for Sustainability Strategy"
+  slug: "environmental-monitoring-for-sustainability-strategy"
+  subtitle: "Indicators, Feedback, and Environmental Accountability"
+  series: "Environmental Monitoring Systems"
+  site_url: "https://sustainablecatalyst.com/environmental-monitoring-for-sustainability-strategy/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/environmental-monitoring-systems-code/tree/main/articles/environmental-monitoring-for-sustainability-strategy"
+
+technical_level: "research-grade sustainability monitoring, indicator integrity, feedback governance, threshold review, and accountability scaffold"
+
+workflows:
+  mathematical_lens: "Target gaps, threshold distance, indicator integrity, feedback strength, accountability, and rebound risk"
+  python:
+    - "Indicator integrity scoring"
+    - "Target-gap and threshold-distance analysis"
+    - "Feedback failure and accountability review classification"
+  r:
+    - "Sustainability indicator review reporting"
+    - "Progress, threshold, and feedback summaries"
+    - "Review-priority tables"
+  sql:
+    - "Indicator registry"
+    - "Baselines, targets, and thresholds"
+    - "Tradeoff register"
+    - "Accountability log"
+    - "Feedback-rule records"
+  systems:
+    - "Go indicator status API health check service"
+    - "Rust indicator metadata validator"
+    - "C/C++ field monitoring and event-buffer stubs"
+    - "MicroPython environmental monitoring node"
+    - "TinyML anomaly detection placeholder"
+    - "PYNQ/HDL streaming threshold placeholders"

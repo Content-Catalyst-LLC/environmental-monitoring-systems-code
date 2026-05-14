@@ -1,0 +1,34 @@
+sustainability_monitoring_manifest:
+  version: "1.0.0"
+  title: "Environmental Monitoring for Sustainability Strategy"
+  purpose: "Demonstrate indicator integrity, feedback governance, threshold review, and environmental accountability"
+  domains:
+    - climate
+    - water
+    - biodiversity
+    - waste
+    - air_quality
+    - land
+    - materials
+    - environmental_justice
+  decision_uses:
+    - sustainability_strategy_review
+    - public_reporting
+    - investment_prioritization
+    - policy_evaluation
+    - corrective_action
+    - public_accountability
+  required_dimensions:
+    - state
+    - pressure
+    - response
+    - outcome
+    - resilience
+    - equity
+  minimum_evidence_requirements:
+    indicator_metadata_required: true
+    baseline_required: true
+    target_required: true
+    threshold_required_where_relevant: true
+    feedback_rule_required_for_material_findings: true
+    public_review_required_for_material_findings: true

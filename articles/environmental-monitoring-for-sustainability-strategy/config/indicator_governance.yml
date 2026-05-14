@@ -1,0 +1,24 @@
+indicator_governance:
+  version: "1.0.0"
+  required_fields:
+    - indicator_id
+    - domain
+    - indicator_type
+    - current_value
+    - baseline_value
+    - target_value
+    - threshold_value
+    - unit
+    - source
+    - method
+    - uncertainty_statement
+    - owner
+    - review_cadence
+  review_cadence:
+    material_indicators: quarterly
+    public_reporting_indicators: annually
+    threshold_sensitive_indicators: monthly
+  review_roles:
+    data_owner: "Maintains source data and metadata."
+    strategy_owner: "Determines corrective action."
+    accountability_owner: "Ensures public review and evidence package."

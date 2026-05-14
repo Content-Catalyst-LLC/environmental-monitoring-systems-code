@@ -1,0 +1,7 @@
+indicator_id,domain,indicator_type,current_value,baseline_value,target_value,threshold_value,unit,metadata_score,validation_score,lineage_score,uncertainty_score,conceptual_relevance_score,material_finding,corrective_action_taken,publicly_reviewable,notes
+ghg-absolute-001,climate,pressure,72,100,40,50,ktCO2e,0.90,0.86,0.88,0.82,0.92,true,true,true,Absolute emissions remain above long-term target but corrective action exists
+water-withdrawal-001,water,pressure,88,100,70,75,ML,0.82,0.78,0.75,0.72,0.88,true,false,true,Water withdrawals exceed threshold and lack corrective action
+biodiversity-habitat-001,biodiversity,state,0.58,0.72,0.80,0.65,index,0.68,0.62,0.58,0.55,0.90,true,false,false,Habitat condition indicator has weak lineage and accountability gap
+waste-diversion-001,waste,response,0.61,0.30,0.75,0.90,fraction,0.86,0.80,0.84,0.76,0.70,false,false,true,Waste diversion is a response indicator and should not be treated as full circularity outcome
+air-quality-exposure-001,air_quality,equity,38,52,20,35,ug_m3,0.84,0.80,0.82,0.78,0.91,true,false,true,Exposure remains above public-health threshold in vulnerable areas
+land-conversion-001,land,pressure,14,20,8,10,ha_per_year,0.78,0.74,0.72,0.70,0.86,true,true,true,Land conversion declining but remains above strategy threshold

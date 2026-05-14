@@ -1,0 +1,6 @@
+tradeoff_id,primary_domain,affected_domain,description,severity,review_status
+tradeoff-001,climate,biodiversity,Renewable infrastructure siting may reduce emissions while affecting habitat connectivity,medium,open
+tradeoff-002,waste,environmental_justice,Expanded recycling operations may shift pollution burden to nearby communities,high,open
+tradeoff-003,water,agriculture,Water-efficiency gains may be offset by expanded irrigated acreage,high,open
+tradeoff-004,land,carbon,Tree-planting targets may favor carbon accounting over native ecosystem integrity,medium,monitoring
+tradeoff-005,materials,water,Low-carbon technology supply chains may increase water stress and mining impacts,high,open

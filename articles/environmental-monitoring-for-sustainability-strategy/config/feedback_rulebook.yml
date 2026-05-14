@@ -1,0 +1,21 @@
+feedback_rulebook:
+  version: "1.0.0"
+  rules:
+    - rule_id: threshold-proximity
+      condition: "threshold_distance <= 0.10"
+      required_action: "Escalate to strategic review and assign corrective action."
+    - rule_id: target-miss
+      condition: "target_gap > 0.25"
+      required_action: "Review intervention effectiveness and update strategy."
+    - rule_id: material-finding-no-action
+      condition: "material_finding == true and corrective_action_taken == false"
+      required_action: "Assign decision owner and corrective-action deadline."
+    - rule_id: material-finding-not-public
+      condition: "material_finding == true and publicly_reviewable == false"
+      required_action: "Prepare public evidence package or document disclosure limitation."
+    - rule_id: weak-indicator-integrity
+      condition: "indicator_integrity < 0.70"
+      required_action: "Review metadata, validation, lineage, uncertainty, and conceptual relevance."
+    - rule_id: rebound-risk
+      condition: "efficiency_improves == true and absolute_pressure_declines == false"
+      required_action: "Review scale effects, demand growth, and absolute pressure limits."
