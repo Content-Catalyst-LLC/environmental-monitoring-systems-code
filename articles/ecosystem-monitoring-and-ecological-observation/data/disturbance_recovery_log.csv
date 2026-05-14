@@ -1,0 +1,6 @@
+event_id,program_id,site_id,ecosystem_type,event_type,event_start,event_end,frequency_class,intensity_score,spatial_extent_ha,recovery_status,notes
+evt-001,wetland-integrity-monitoring,wetland-site-a,wetland,drought,2025-07-01,2025-09-15,chronic,0.70,420,partial_recovery,Hydrological stress with partial vegetation recovery
+evt-002,forest-condition-monitoring,forest-site-b,forest,fire,2024-08-10,2024-08-18,pulse,0.82,950,recovering,Canopy loss with early structural recovery
+evt-003,stream-ecological-condition,stream-site-c,river_stream,pollution_pulse,2025-04-20,2025-04-22,pulse,0.64,18,uncertain,Macroinvertebrate response under review
+evt-004,restoration-recovery-program,restoration-site-d,restoration_mosaic,restoration_action,2024-03-01,2024-11-01,management,0.45,35,recovering,Native planting and hydrological repair
+evt-005,coastal-marsh-monitoring,marsh-site-e,coastal_marsh,storm_surge,2025-09-05,2025-09-06,pulse,0.78,520,lagged_response,Marsh-edge erosion and delayed recovery

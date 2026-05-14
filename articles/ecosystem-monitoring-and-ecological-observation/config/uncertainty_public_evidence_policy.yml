@@ -1,0 +1,16 @@
+uncertainty_public_evidence_policy:
+  version: "1.0.0"
+  required_public_fields:
+    - ecosystem_type
+    - monitoring_period
+    - ecological_dimensions_represented
+    - observation_methods
+    - indicator_definitions
+    - proxy_limits
+    - baseline_or_reference
+    - disturbance_context
+    - confidence_or_uncertainty
+    - representativeness_limits
+    - governance_owner
+    - valid_use_statement
+  public_claim_rule: "Public ecological claims must be traceable to observations, indicators, baselines, uncertainty, and governance review."

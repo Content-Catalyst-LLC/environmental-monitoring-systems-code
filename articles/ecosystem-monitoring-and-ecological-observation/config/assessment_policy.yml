@@ -1,0 +1,13 @@
+assessment_policy:
+  version: "1.0.0"
+  assessment_dimensions:
+    - extent
+    - condition
+    - structure
+    - function
+    - integrity
+    - resilience
+    - disturbance
+    - recovery
+  reporting_rule: "Composite ecosystem status should expose component scores and uncertainty rather than only a single final rating."
+  restoration_rule: "Restoration claims require trajectory, function, integrity, and resilience evidence where applicable."

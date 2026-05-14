@@ -1,0 +1,9 @@
+dimension_id,dimension_name,definition,example_indicators,primary_risk
+extent,Ecosystem extent,Area distribution and mapped presence of an ecosystem type,ecosystem area habitat distribution land cover persistence,Mapped presence mistaken for ecological health
+condition,Ecosystem condition,Ecological state relative to reference or benchmark,biotic condition water quality habitat score vegetation health,Composite scores hide weak components
+structure,Ecosystem structure,Physical spatial and compositional organization,canopy layers patch structure connectivity habitat complexity,Structure assumed to imply function
+function,Ecosystem function,Ecological processes and throughput,productivity nutrient cycling hydrological function decomposition carbon flux,Processes inferred from weak proxies
+integrity,Ecosystem integrity,Synthetic coherence of biotic structural and functional character,native composition process continuity connectivity reference similarity,Integrity treated as directly measured
+resilience,Ecosystem resilience,Capacity to absorb recover adapt or reorganize after disturbance,recovery rate threshold distance disturbance memory adaptive capacity,Short-term persistence mistaken for resilience
+disturbance,Disturbance regime,Frequency intensity extent duration and type of ecological disturbance,fire flood drought pollution invasion fragmentation,Events recorded without recovery context
+recovery,Recovery trajectory,Observed pathway after disturbance or restoration,condition improvement reference gap closure function return composition recovery,Visible recovery mistaken for restored integrity

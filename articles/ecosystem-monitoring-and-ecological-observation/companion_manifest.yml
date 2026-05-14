@@ -1,0 +1,35 @@
+article:
+  title: "Ecosystem Monitoring and Ecological Observation"
+  slug: "ecosystem-monitoring-and-ecological-observation"
+  subtitle: "Condition, Function, and Ecological Accountability"
+  series: "Environmental Monitoring Systems"
+  site_url: "https://sustainablecatalyst.com/ecosystem-monitoring-and-ecological-observation/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/environmental-monitoring-systems-code/tree/main/articles/ecosystem-monitoring-and-ecological-observation"
+
+technical_level: "research-grade ecosystem monitoring, ecological indicator governance, condition/function/integrity/resilience evidence, disturbance-recovery tracking, uncertainty communication, representativeness auditing, and public accountability scaffold"
+
+workflows:
+  mathematical_lens: "Ecological condition, disturbance regime, recovery ratio, integrity synthesis, and ecosystem evidence quality"
+  python:
+    - "Ecosystem monitoring readiness scoring"
+    - "Extent, condition, structure, function, integrity, resilience, baseline, uncertainty, and governance triage"
+    - "High-stakes ecological claim review"
+  r:
+    - "Ecological condition, indicator, and reporting readiness summaries"
+    - "Review-priority tables"
+    - "Evidence-quality reporting"
+  sql:
+    - "Ecosystem dimension matrix"
+    - "Ecological observation registry"
+    - "Indicator registry"
+    - "Disturbance and recovery log"
+    - "Assessment scores"
+    - "Representativeness audit"
+    - "Governance log"
+  typescript:
+    - "Ecosystem program, indicator, disturbance, assessment, uncertainty, and governance display types"
+  systems:
+    - "C ecological assessment record scaffold"
+    - "C++ disturbance event queue"
+    - "Go monitoring program status endpoint"
+    - "Rust ecological assessment validator"

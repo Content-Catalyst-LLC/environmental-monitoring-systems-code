@@ -1,0 +1,6 @@
+assessment_id,program_id,site_id,ecosystem_type,assessment_date,condition_score,structure_score,function_score,integrity_score,resilience_score,confidence,review_status,notes
+assess-001,wetland-integrity-monitoring,wetland-site-a,wetland,2026-05-10,0.78,0.74,0.72,0.76,0.70,0.78,approved,Condition adequate but resilience needs longer time series
+assess-002,forest-condition-monitoring,forest-site-b,forest,2026-05-11,0.76,0.84,0.70,0.72,0.68,0.74,review_required,Strong structure evidence but resilience and integrity need review
+assess-003,stream-ecological-condition,stream-site-c,river_stream,2026-05-12,0.82,0.70,0.80,0.78,0.74,0.80,approved,Biological and water-quality indicators aligned
+assess-004,restoration-recovery-program,restoration-site-d,restoration_mosaic,2026-05-13,0.70,0.72,0.66,0.68,0.64,0.66,review_required,Recovery claim not yet supported by function and resilience evidence
+assess-005,coastal-marsh-monitoring,marsh-site-e,coastal_marsh,2026-05-14,0.72,0.76,0.68,0.70,0.66,0.72,review_required,Storm-surge disturbance and lagged response require caveat

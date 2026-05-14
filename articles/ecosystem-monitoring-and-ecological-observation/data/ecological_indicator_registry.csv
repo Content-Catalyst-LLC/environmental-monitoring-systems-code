@@ -1,0 +1,8 @@
+indicator_id,indicator_name,ecological_dimension,proxy_meaning,baseline_or_reference,threshold,valid_use,proxy_limit,review_status
+ind-condition-veg,Vegetation condition index,condition,Approximate plant community condition,reference_wetland_sites,0.70,condition screening,Does not fully represent function or integrity,approved
+ind-do-function,Dissolved oxygen stability,function,Aquatic habitat process support,site_reference_period,5.0,aquatic stress screening,Chemistry alone does not equal biological integrity,approved
+ind-canopy-structure,Canopy structure index,structure,Forest vertical and spatial structure,regional_reference_forest,0.75,structure monitoring,Structure does not guarantee native composition,approved
+ind-native-integrity,Native composition score,integrity,Native biotic assemblage similarity,least_disturbed_reference,0.70,integrity assessment,Sampling may miss rare taxa,review_required
+ind-macro-condition,Macroinvertebrate condition index,condition,Biological response in streams,regional_biological_reference,0.72,stream condition assessment,Season and detection affect interpretation,approved
+ind-recovery-ratio,Recovery ratio,recovery,Progress toward reference condition,restoration_target_reference,0.60,restoration review,Visible recovery may not equal restored function,review_required
+ind-resilience-trajectory,Disturbance recovery trajectory,resilience,Capacity to recover after disturbance,disturbance_baseline,0.65,resilience screening,Requires long time series and disturbance history,review_required

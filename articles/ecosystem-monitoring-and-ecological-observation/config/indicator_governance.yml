@@ -1,0 +1,13 @@
+indicator_governance:
+  version: "1.0.0"
+  required_fields:
+    - indicator_id
+    - indicator_name
+    - ecological_dimension
+    - proxy_meaning
+    - baseline_or_reference
+    - threshold
+    - valid_use
+    - proxy_limit
+    - review_status
+  rule: "No ecosystem indicator should be used for high-stakes ecological claims without a baseline, proxy-limit statement, validation status, and uncertainty note."

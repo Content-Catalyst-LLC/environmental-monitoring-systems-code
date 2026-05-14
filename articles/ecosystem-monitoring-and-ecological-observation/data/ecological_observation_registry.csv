@@ -1,0 +1,8 @@
+observation_id,program_id,site_id,ecosystem_type,geography,latitude,longitude,method,observed_variable,unit,ecological_dimension,observation_date,quality_flag,uncertainty_note
+obs-001,wetland-integrity-monitoring,wetland-site-a,wetland,regional_watershed,38.5700,-90.3000,field_transect,vegetation_condition,index,condition,2026-05-01,pass,Moderate observer uncertainty
+obs-002,wetland-integrity-monitoring,wetland-site-a,wetland,regional_watershed,38.5700,-90.3000,water_sensor,dissolved_oxygen,mg_l,function,2026-05-01,pass,High-frequency sensor checked
+obs-003,forest-condition-monitoring,forest-site-b,forest,regional_forest,39.1000,-90.7000,remote_sensing,canopy_structure,index,structure,2026-05-02,pass,Remote structural proxy
+obs-004,forest-condition-monitoring,forest-site-b,forest,regional_forest,39.1000,-90.7000,field_plot,native_composition,index,integrity,2026-05-02,review_required,Limited plot coverage
+obs-005,stream-ecological-condition,stream-site-c,river_stream,watershed_network,38.7390,-90.2380,biotic_survey,macroinvertebrate_index,index,condition,2026-05-03,pass,Standard survey protocol
+obs-006,restoration-recovery-program,restoration-site-d,restoration_mosaic,restoration_sites,38.5000,-90.3500,field_plot,recovery_condition,index,recovery,2026-05-04,review_required,Short time series
+obs-007,coastal-marsh-monitoring,marsh-site-e,coastal_marsh,coastal_region,29.7100,-95.2900,remote_sensing,marsh_extent,ha,extent,2026-05-05,pass,Extent strong condition weak

@@ -1,0 +1,31 @@
+monitoring_objective:
+  version: "1.0.0"
+  title: "Ecosystem Monitoring and Ecological Observation"
+  purpose: "Demonstrate ecosystem monitoring readiness, ecological indicator governance, condition/function/integrity/resilience evidence, disturbance-recovery tracking, uncertainty communication, and ecological accountability"
+  ecosystem_types:
+    - wetland
+    - forest
+    - river_stream
+    - restoration_mosaic
+    - coastal_marsh
+    - grassland
+  decision_uses:
+    - conservation_reporting
+    - restoration_accountability
+    - ecological_risk_assessment
+    - watershed_stewardship
+    - protected_area_evaluation
+    - climate_adaptation
+    - biodiversity_strategy
+    - public_ecological_accountability
+  required_evidence_dimensions:
+    - ecosystem_type
+    - geography
+    - baseline_or_reference
+    - ecological_dimension
+    - indicator_id
+    - observation_method
+    - quality_flag
+    - uncertainty_statement
+    - disturbance_context
+    - governance_owner

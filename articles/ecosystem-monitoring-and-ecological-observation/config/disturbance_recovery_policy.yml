@@ -1,0 +1,13 @@
+disturbance_recovery_policy:
+  version: "1.0.0"
+  disturbance_fields:
+    - event_type
+    - event_start
+    - event_end
+    - frequency_class
+    - intensity_score
+    - spatial_extent
+    - recovery_status
+    - ecological_lag
+    - hysteresis_risk
+  rule: "Recovery should not be interpreted as degradation in reverse; monitor lag, hysteresis, threshold behavior, and partial reorganization."

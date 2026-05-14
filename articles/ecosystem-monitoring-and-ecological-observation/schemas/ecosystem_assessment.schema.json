@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EcosystemAssessment",
+  "type": "object",
+  "required": [
+    "assessment_id",
+    "program_id",
+    "site_id",
+    "ecosystem_type",
+    "assessment_date",
+    "condition_score",
+    "structure_score",
+    "function_score",
+    "integrity_score",
+    "resilience_score",
+    "confidence",
+    "review_status"
+  ],
+  "properties": {
+    "assessment_id": {"type": "string"},
+    "program_id": {"type": "string"},
+    "site_id": {"type": "string"},
+    "ecosystem_type": {"type": "string"},
+    "assessment_date": {"type": "string", "format": "date"},
+    "condition_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "structure_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "function_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "integrity_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "resilience_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "review_status": {"type": "string"},
+    "uncertainty_note": {"type": "string"},
+    "governance_owner": {"type": "string"}
+  }
+}

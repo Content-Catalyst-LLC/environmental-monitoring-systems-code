@@ -1,0 +1,7 @@
+program_id,ecosystem_type,geography,extent_visibility,condition_evidence,structure_evidence,function_evidence,integrity_evidence,resilience_evidence,baseline_strength,uncertainty_communication,governance_readiness,high_stakes_use
+wetland-integrity-monitoring,wetland,regional_watershed,0.86,0.78,0.74,0.72,0.76,0.70,0.82,0.78,0.84,true
+forest-condition-monitoring,forest,regional_forest,0.90,0.76,0.84,0.70,0.72,0.68,0.80,0.76,0.82,true
+stream-ecological-condition,river_stream,watershed_network,0.78,0.82,0.70,0.80,0.78,0.74,0.84,0.80,0.86,true
+restoration-recovery-program,restoration_mosaic,restoration_sites,0.74,0.70,0.72,0.66,0.68,0.64,0.70,0.68,0.72,false
+coastal-marsh-monitoring,coastal_marsh,coastal_region,0.82,0.72,0.76,0.68,0.70,0.66,0.76,0.74,0.78,true
+grassland-integrity-review,grassland,rangeland_region,0.80,0.74,0.70,0.64,0.66,0.62,0.72,0.70,0.74,true

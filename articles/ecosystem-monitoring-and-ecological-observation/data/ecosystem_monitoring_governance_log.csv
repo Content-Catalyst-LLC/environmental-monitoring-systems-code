@@ -1,0 +1,6 @@
+governance_id,date,program_id,decision,owner,status,public_note_required
+gov-001,2026-05-01,wetland-integrity-monitoring,Approved for condition reporting with resilience caveat,wetland_team,closed,true
+gov-002,2026-05-02,forest-condition-monitoring,Require stronger integrity and resilience evidence before high-confidence restoration claims,forest_team,open,true
+gov-003,2026-05-03,stream-ecological-condition,Approved for watershed biological condition reporting,watershed_team,closed,true
+gov-004,2026-05-04,restoration-recovery-program,Use as screening evidence only until longer trajectory data are available,restoration_team,open,true
+gov-005,2026-05-05,coastal-marsh-monitoring,Require disturbance and recovery caveat in public reporting,coastal_team,open,true

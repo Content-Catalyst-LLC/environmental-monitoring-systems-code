@@ -1,0 +1,6 @@
+audit_id,program_id,coverage_dimension,target_group_or_zone,coverage_score,evidence_gap,priority,notes
+audit-001,wetland-integrity-monitoring,hydrological_gradient,seasonally_flooded_wetlands,0.62,Seasonally flooded areas underrepresented,high,Add temporary water and field plots
+audit-002,forest-condition-monitoring,forest_structure,old_growth_and_complex_canopy_sites,0.58,Old-growth structural references weak,high,Expand reference condition plots
+audit-003,stream-ecological-condition,watershed_gradient,headwater_streams,0.60,Headwater streams under-sampled,high,Add headwater biological surveys
+audit-004,restoration-recovery-program,restoration_stage,late_recovery_sites,0.52,Late-stage recovery poorly represented,medium,Extend monitoring duration
+audit-005,coastal-marsh-monitoring,coastal_exposure,high_erosion_marsh_edges,0.55,Marsh-edge change weakly monitored,high,Add remote-sensing and field validation
