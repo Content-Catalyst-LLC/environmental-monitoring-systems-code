@@ -1,0 +1,8 @@
+role,primary_need,decision_horizon,priority_task,evidence_depth_required,public_facing
+responder,rapid situational awareness,minutes_to_hours,identify active hazards and affected areas,medium,false
+regulator,compliance and enforcement review,weeks_to_years,compare facility or state performance,high,false
+planner,scenario and trend context,months_to_decades,compare baselines trends and future risks,high,false
+analyst,method and evidence inspection,hours_to_months,drill down into source methods and uncertainty,very_high,false
+operator,asset and system status,minutes_to_days,monitor thresholds outages and sensor health,medium,false
+community,local environmental condition and exposure,hours_to_months,understand local risk and evidence,medium,true
+public_communicator,clear public explanation,hours_to_days,summarize conditions and caveats responsibly,medium,true

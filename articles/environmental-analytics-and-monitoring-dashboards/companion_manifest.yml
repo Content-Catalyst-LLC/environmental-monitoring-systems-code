@@ -1,0 +1,36 @@
+article:
+  title: "Environmental Analytics and Monitoring Dashboards"
+  slug: "environmental-analytics-and-monitoring-dashboards"
+  subtitle: "Indicators, Alerts, Decision Quality, and Environmental Attention"
+  series: "Environmental Monitoring Systems"
+  site_url: "https://sustainablecatalyst.com/environmental-analytics-and-monitoring-dashboards/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/environmental-monitoring-systems-code/tree/main/articles/environmental-analytics-and-monitoring-dashboards"
+
+technical_level: "research-grade dashboard analytics, alert logic, provenance, uncertainty visibility, user-role fit, and environmental decision-support scaffold"
+
+workflows:
+  mathematical_lens: "Freshness ratio, provenance completeness, alert burden, uncertainty visibility, role fit, and decision-support quality"
+  python:
+    - "Dashboard signal-quality scoring"
+    - "Alert-burden review"
+    - "Provenance and uncertainty visibility classification"
+  r:
+    - "Dashboard indicator review reporting"
+    - "User-role summaries"
+    - "Decision-support quality tables"
+  sql:
+    - "Dashboard source inventory"
+    - "Indicator registry"
+    - "User-role matrix"
+    - "Alert log"
+    - "Dashboard change log"
+  typescript:
+    - "Indicator card component scaffold"
+    - "Alert panel and provenance drawer types"
+  systems:
+    - "Go dashboard API health service"
+    - "Rust metadata validator scaffold"
+    - "C/C++ monitoring node and dashboard event buffer stubs"
+    - "MicroPython field sensor feed example"
+    - "TinyML anomaly detection placeholder"
+    - "PYNQ/HDL streaming indicator placeholders"

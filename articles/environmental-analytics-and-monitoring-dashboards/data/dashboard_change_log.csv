@@ -1,0 +1,5 @@
+change_id,change_date,component,change_type,description,review_owner,public_note_required
+change-001,2026-05-01,river-stage-current,threshold_update,Updated warning threshold based on hydrological review,water_data_team,true
+change-002,2026-05-02,compliance-summary,view_update,Changed default ranking from total alerts to high-priority alerts,regulatory_data_team,true
+change-003,2026-05-03,habitat-condition-map,layer_status,Marked layer as stale pending model lineage update,ecology_modeling_team,false
+change-004,2026-05-04,air-quality-exposure,uncertainty_label,Added modeled exposure uncertainty labels,public_health_team,true

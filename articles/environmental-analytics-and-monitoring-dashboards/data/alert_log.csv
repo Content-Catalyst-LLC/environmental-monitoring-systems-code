@@ -1,0 +1,6 @@
+alert_id,indicator_id,severity,alert_time,actionable,action_owner,status,notes
+alert-001,river-stage-current,warning,2026-05-01T10:15:00Z,true,response_team,closed,River stage crossed warning threshold
+alert-002,flood-inundation-model,watch,2026-05-01T11:00:00Z,true,planning_team,open,Modeled flood extent requires uncertainty note
+alert-003,compliance-summary,review,2026-05-02T09:00:00Z,false,regulatory_team,open,Alert generated from low-priority administrative variance
+alert-004,habitat-condition-map,quality,2026-05-03T14:30:00Z,true,ecology_team,open,Stale layer and missing provenance
+alert-005,air-quality-exposure,advisory,2026-05-04T16:00:00Z,true,public_health_team,closed,Community exposure advisory issued

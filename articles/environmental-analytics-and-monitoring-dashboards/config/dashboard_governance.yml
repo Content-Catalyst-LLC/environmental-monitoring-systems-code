@@ -1,0 +1,19 @@
+dashboard_governance:
+  version: "1.0.0"
+  required_reviews:
+    - indicator_definition_review
+    - threshold_review
+    - visualization_review
+    - accessibility_review
+    - provenance_review
+    - uncertainty_review
+    - user_role_fit_review
+    - public_communication_review
+  change_log_required_for:
+    - threshold_update
+    - indicator_definition_change
+    - map_layer_addition
+    - ranking_logic_change
+    - color_scale_change
+    - public_dashboard_copy_change
+    - model_version_update

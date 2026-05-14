@@ -1,0 +1,7 @@
+source_id,domain,source_type,update_cadence,owner,has_quality_flags,has_provenance,notes
+usgs-water-current,water,api_stream,15_minutes,water_data_team,true,true,Real-time water conditions source
+noaa-erma-layer,response,geospatial_layer,event_based,response_mapping_team,true,true,Environmental response spatial layer
+epa-echo-compliance,regulatory,administrative_dashboard,monthly,regulatory_data_team,true,true,Compliance and enforcement summary source
+wmo-climate-indicators,climate,indicator_dashboard,monthly_to_annual,climate_services_team,true,true,Climate indicators and services source
+local-air-sensors,air_quality,sensor_network,5_minutes,field_monitoring_team,true,true,Community air quality sensor feed
+habitat-model-v1,biodiversity,model_output,quarterly,ecology_modeling_team,false,false,Habitat model layer needing stronger lineage

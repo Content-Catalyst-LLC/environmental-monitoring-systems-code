@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DashboardIndicator",
+  "type": "object",
+  "required": [
+    "indicator_id",
+    "domain",
+    "user_role",
+    "is_fresh",
+    "has_provenance",
+    "is_modeled_or_estimated",
+    "uncertainty_labeled",
+    "supports_priority_task",
+    "alert_count",
+    "actionable_alert_count"
+  ],
+  "properties": {
+    "indicator_id": {"type": "string"},
+    "domain": {"type": "string"},
+    "user_role": {"type": "string"},
+    "is_fresh": {"type": "boolean"},
+    "has_provenance": {"type": "boolean"},
+    "is_modeled_or_estimated": {"type": "boolean"},
+    "uncertainty_labeled": {"type": "boolean"},
+    "supports_priority_task": {"type": "boolean"},
+    "alert_count": {"type": "integer", "minimum": 0},
+    "actionable_alert_count": {"type": "integer", "minimum": 0},
+    "notes": {"type": "string"}
+  }
+}

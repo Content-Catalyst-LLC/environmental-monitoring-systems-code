@@ -1,0 +1,23 @@
+alert_rule_registry:
+  version: "1.0.0"
+  rules:
+    - rule_id: provenance-missing
+      condition: "has_provenance == false"
+      severity: "quality"
+      required_action: "Block high-stakes use until provenance is added."
+    - rule_id: modeled-uncertainty-hidden
+      condition: "is_modeled_or_estimated == true and uncertainty_labeled == false"
+      severity: "review"
+      required_action: "Add uncertainty label or suppress public-facing display."
+    - rule_id: high-alert-burden
+      condition: "alert_count / actionable_alert_count > 5"
+      severity: "review"
+      required_action: "Review thresholds and alert grouping."
+    - rule_id: stale-indicator
+      condition: "is_fresh == false"
+      severity: "quality"
+      required_action: "Mark as stale and investigate source feed."
+    - rule_id: user-role-mismatch
+      condition: "supports_priority_task == false"
+      severity: "design"
+      required_action: "Review dashboard task fit for intended user."

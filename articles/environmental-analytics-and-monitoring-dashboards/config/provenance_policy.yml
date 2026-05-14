@@ -1,0 +1,19 @@
+provenance_policy:
+  version: "1.0.0"
+  required_for_displayed_objects:
+    - source_id
+    - source_type
+    - owner
+    - timestamp
+    - update_cadence
+    - transformation_method
+    - processing_version
+    - quality_flag
+    - uncertainty_label
+  display_categories:
+    measured: "Direct observation from validated sensor or field record."
+    modeled: "Output produced by model or simulation."
+    estimated: "Derived estimate using incomplete or proxy information."
+    interpolated: "Spatial or temporal estimate between observations."
+    administrative: "Record produced through reporting or regulatory process."
+  high_stakes_rule: "High-stakes operational, regulatory, or public-health decisions require provenance and uncertainty visibility."

@@ -1,0 +1,28 @@
+dashboard_objective:
+  version: "1.0.0"
+  title: "Environmental Analytics and Monitoring Dashboards"
+  purpose: "Demonstrate dashboard signal quality, provenance, uncertainty visibility, alert burden, and user-role fit"
+  domains:
+    - water
+    - flood
+    - regulatory
+    - biodiversity
+    - air_quality
+    - climate
+    - operations
+  user_roles:
+    - responder
+    - regulator
+    - planner
+    - analyst
+    - operator
+    - community
+    - public_communicator
+  decision_uses:
+    - situational_awareness
+    - regulatory_review
+    - public_communication
+    - planning
+    - dashboard_governance
+    - alert_review
+    - evidence_reconstruction

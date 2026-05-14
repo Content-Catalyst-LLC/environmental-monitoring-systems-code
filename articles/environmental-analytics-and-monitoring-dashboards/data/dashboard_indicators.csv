@@ -1,0 +1,8 @@
+indicator_id,domain,user_role,is_fresh,has_provenance,is_modeled_or_estimated,uncertainty_labeled,supports_priority_task,alert_count,actionable_alert_count,notes
+river-stage-current,water,responder,true,true,false,true,true,4,3,Real-time river-stage status for response
+flood-inundation-model,flood,planner,true,true,true,false,true,3,2,Modeled inundation layer needs uncertainty labeling
+compliance-summary,regulatory,regulator,true,true,false,true,true,8,2,High alert burden in comparative compliance view
+habitat-condition-map,biodiversity,analyst,false,false,true,false,false,1,1,Stale modeled habitat layer lacks provenance
+air-quality-exposure,air_quality,community,true,true,true,true,true,5,4,Community-facing exposure view with uncertainty labels
+heat-risk-index,urban_heat,public_communicator,true,true,true,true,true,6,3,Modeled heat-risk indicator for public communication
+sensor-network-health,operations,operator,true,true,false,true,true,10,8,Operational sensor health dashboard card
