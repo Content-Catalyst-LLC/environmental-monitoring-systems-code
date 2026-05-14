@@ -1,0 +1,14 @@
+governance_review:
+  version: "1.0.0"
+  required_reviews:
+    - scientific_validation
+    - data_stewardship
+    - model_governance
+    - public_communication
+    - equity_and_coverage
+    - privacy_and_sensitive_locations
+  high_stakes_use_requires:
+    - human_review
+    - uncertainty_explanation
+    - provenance_traceability
+    - decision_context_documentation

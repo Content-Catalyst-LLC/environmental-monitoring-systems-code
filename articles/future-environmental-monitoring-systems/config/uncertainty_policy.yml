@@ -1,0 +1,14 @@
+uncertainty_policy:
+  version: "1.0.0"
+  required_uncertainty_types:
+    - measurement_uncertainty
+    - model_uncertainty
+    - fusion_uncertainty
+    - spatial_uncertainty
+    - temporal_uncertainty
+    - contextual_uncertainty
+  reporting:
+    require_uncertainty_flag: true
+    require_confidence_or_quality_score: true
+    distinguish_observed_from_inferred: true
+    require_limitations_text: true

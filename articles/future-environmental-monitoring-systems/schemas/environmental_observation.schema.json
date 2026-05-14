@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EnvironmentalObservation",
+  "type": "object",
+  "required": [
+    "observation_id",
+    "source_id",
+    "domain",
+    "observed_property",
+    "value",
+    "unit",
+    "timestamp",
+    "location",
+    "quality_flag",
+    "provenance"
+  ],
+  "properties": {
+    "observation_id": {"type": "string"},
+    "source_id": {"type": "string"},
+    "domain": {"type": "string"},
+    "observed_property": {"type": "string"},
+    "value": {"type": "number"},
+    "unit": {"type": "string"},
+    "timestamp": {"type": "string", "format": "date-time"},
+    "location": {
+      "type": "object",
+      "required": ["lat", "lon"],
+      "properties": {
+        "lat": {"type": "number"},
+        "lon": {"type": "number"}
+      }
+    },
+    "quality_flag": {
+      "type": "string",
+      "enum": ["valid", "estimated", "suspect", "missing", "invalid"]
+    },
+    "uncertainty": {"type": "number"},
+    "provenance": {
+      "type": "object",
+      "required": ["method", "processing_version"],
+      "properties": {
+        "method": {"type": "string"},
+        "processing_version": {"type": "string"},
+        "lineage": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  }
+}

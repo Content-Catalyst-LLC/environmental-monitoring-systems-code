@@ -1,0 +1,23 @@
+monitoring_objective:
+  title: "Future environmental monitoring systems"
+  purpose: "Demonstrate an accountable environmental intelligence architecture"
+  domains:
+    - land
+    - water
+    - air_quality
+    - urban_heat
+    - biodiversity
+    - flood_risk
+  decision_uses:
+    - early_warning
+    - environmental_assessment
+    - sustainability_strategy
+    - risk_and_resilience_planning
+    - public_accountability
+  minimum_evidence_requirements:
+    coverage_score: 0.70
+    quality_score: 0.70
+    interoperability_score: 0.70
+    provenance_score: 0.80
+    governance_score: 0.70
+    maximum_uncertainty_score: 0.35

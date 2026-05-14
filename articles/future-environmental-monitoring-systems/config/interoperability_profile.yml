@@ -1,0 +1,12 @@
+interoperability_profile:
+  version: "1.0.0"
+  expected_capabilities:
+    geospatial_catalog: "STAC-compatible catalog concept"
+    sensor_observations: "OGC SensorThings-style observation model"
+    api_style: "OGC API / REST-compatible access patterns"
+    metadata: "machine-actionable metadata"
+    identifiers: "persistent source and product identifiers"
+    units: "explicit units for all observations"
+    time: "ISO 8601 timestamps"
+    spatial_reference: "documented CRS or grid definition"
+    provenance: "source and transformation lineage required"

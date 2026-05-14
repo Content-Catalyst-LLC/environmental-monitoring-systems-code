@@ -1,0 +1,7 @@
+metric_id,metric_name,definition,target_threshold
+coverage,Monitoring coverage,Share of target area or population meaningfully observed,0.80
+freshness,Observation freshness,Share of observations within the acceptable time window,0.85
+interoperability,Interoperability readiness,Share of sources with standard schemas metadata and APIs,0.75
+provenance,Provenance completeness,Share of outputs traceable to source and transformation lineage,0.90
+governance,Governance readiness,Share of sources with access review and stewardship policies,0.80
+uncertainty,Uncertainty exposure,Share of outputs with explicit uncertainty representation,0.85
