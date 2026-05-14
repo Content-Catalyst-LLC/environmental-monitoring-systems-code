@@ -1,0 +1,7 @@
+alert_rule_id,network_id,domain,observed_property,threshold_type,threshold_value,severity,owner,suppression_window_minutes,action_pathway,review_status
+alert-river-stage-high,river-watershed-network,water,water_level,greater_than,3.2,high,hydrology_team,30,field_response_and_public_notice,approved
+alert-turbidity-spike,river-watershed-network,water,turbidity,rate_of_change,8.0,medium,hydrology_team,60,scientist_review,approved
+alert-pm25-high,urban-air-community-network,air_quality,pm25,greater_than,35.0,high,air_quality_team,30,public_health_review,review_required
+alert-salinity-intrusion,coastal-buoy-network,coastal,salinity,greater_than,28.0,medium,coastal_team,120,coastal_operations_review,review_required
+alert-soil-moisture-low,soil-moisture-network,soil,soil_moisture,less_than,18.0,medium,agroecology_team,120,irrigation_review,approved
+alert-stormwater-overflow,stormwater-overflow-network,infrastructure,flow_rate,greater_than,750.0,high,stormwater_team,15,maintenance_dispatch,review_required

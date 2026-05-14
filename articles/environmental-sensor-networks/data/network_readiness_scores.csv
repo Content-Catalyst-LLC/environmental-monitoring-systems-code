@@ -1,0 +1,7 @@
+network_id,domain,network_type,monitored_area_km2,target_area_km2,valid_time_steps,expected_time_steps,active_nodes,deployed_nodes,representativeness,valid_data_share,metadata_maturity,observed_latency_minutes,target_latency_minutes,action_fit,high_stakes_use
+river-watershed-network,water,hydrological_sensor_network,820,1000,2740,2880,18,20,0.82,0.88,0.84,8,15,0.88,true
+urban-air-community-network,air_quality,community_air_sensor_network,120,200,2540,2880,42,50,0.72,0.78,0.76,22,30,0.84,true
+coastal-buoy-network,coastal,marine_observing_network,3100,5000,2200,2880,11,15,0.68,0.82,0.80,45,60,0.80,true
+restoration-ecology-network,biodiversity,ecological_monitoring_network,45,60,1280,1440,24,30,0.74,0.76,0.70,240,360,0.72,false
+soil-moisture-network,soil,agroecological_sensor_network,75,90,1340,1440,16,18,0.80,0.84,0.78,90,120,0.76,false
+stormwater-overflow-network,infrastructure,stormwater_sensor_network,60,100,2600,2880,15,22,0.64,0.74,0.72,6,10,0.86,true

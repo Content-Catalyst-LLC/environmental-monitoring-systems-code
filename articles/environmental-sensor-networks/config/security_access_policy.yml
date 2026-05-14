@@ -1,0 +1,11 @@
+security_access_policy:
+  version: "1.0.0"
+  controls:
+    - node_identity_required
+    - authenticated_ingestion_required_for_high_stakes_data
+    - encrypted_transport_for_sensitive_or_high_stakes_streams
+    - API_access_policy
+    - public_data_caveat_policy
+    - device_retirement_record
+    - tamper_or_unexpected_reboot_review
+  public_evidence_rule: "Public-facing outputs should expose methods, quality status, known gaps, and evidence limits without exposing sensitive credentials or infrastructure vulnerabilities."

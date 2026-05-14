@@ -1,0 +1,6 @@
+delivery_id,node_id,network_id,window_start,window_end,expected_records,delivered_records,delayed_records,dropped_records,median_latency_minutes,delivery_status
+del-001,node-river-001,river-watershed-network,2026-05-14T00:00:00Z,2026-05-15T00:00:00Z,288,286,2,0,0.25,healthy
+del-002,node-air-001,urban-air-community-network,2026-05-14T00:00:00Z,2026-05-15T00:00:00Z,288,244,18,26,0.85,review_required
+del-003,node-coastal-002,coastal-buoy-network,2026-05-14T00:00:00Z,2026-05-15T00:00:00Z,144,109,28,7,42.0,delayed
+del-004,node-eco-001,restoration-ecology-network,2026-05-14T00:00:00Z,2026-05-15T00:00:00Z,24,12,12,0,1440.0,local_storage_only
+del-005,node-soil-001,soil-moisture-network,2026-05-14T00:00:00Z,2026-05-15T00:00:00Z,48,46,2,0,11.0,healthy

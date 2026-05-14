@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "name": "environmental_sensor_network_topology",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "node-river-001",
+        "network_id": "river-watershed-network",
+        "domain": "water",
+        "observed_property": "water_level",
+        "coverage_role": "mainstem_reference"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.1994, 38.6270]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "node-air-001",
+        "network_id": "urban-air-community-network",
+        "domain": "air_quality",
+        "observed_property": "pm25",
+        "coverage_role": "community_exposure"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2200, 38.6350]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "node-coastal-001",
+        "network_id": "coastal-buoy-network",
+        "domain": "coastal",
+        "observed_property": "water_temperature",
+        "coverage_role": "coastal_reference"
+      },
+      "geometry": {"type": "Point", "coordinates": [-95.3698, 29.7604]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "node-eco-001",
+        "network_id": "restoration-ecology-network",
+        "domain": "biodiversity",
+        "observed_property": "habitat_activity",
+        "coverage_role": "restoration_site"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.3000, 38.5700]}
+    }
+  ]
+}

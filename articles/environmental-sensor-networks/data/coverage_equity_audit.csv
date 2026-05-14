@@ -1,0 +1,6 @@
+audit_id,network_id,coverage_dimension,target_group_or_zone,coverage_score,evidence_gap,priority,notes
+audit-001,river-watershed-network,hydrological_gradient,ungauged_headwaters,0.62,Headwater tributaries underrepresented,high,Add reference nodes or mobile survey support
+audit-002,urban-air-community-network,environmental_justice,near-road_low-income_corridors,0.58,Street-level exposure gradients underrepresented,high,Expand community co-location and calibration support
+audit-003,coastal-buoy-network,estuarine_transition,shallow_estuary_zones,0.55,Estuary transition zones weakly covered,medium,Add shallow-zone nodes
+audit-004,restoration-ecology-network,biodiversity,taxonomically_less_visible_species,0.50,Camera and acoustic network misses many taxa,medium,Add complementary field surveys
+audit-005,stormwater-overflow-network,infrastructure,underserved_neighborhoods,0.46,Overflow and drainage monitoring uneven,high,Prioritize additional monitoring in underserved catchments

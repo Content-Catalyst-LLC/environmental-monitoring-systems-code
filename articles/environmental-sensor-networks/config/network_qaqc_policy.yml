@@ -1,0 +1,18 @@
+network_qaqc_policy:
+  version: "1.0.0"
+  node_level_checks:
+    - range_check
+    - spike_check
+    - flatline_check
+    - missing_record_check
+    - stale_calibration_check
+    - clock_drift_check
+    - sensor_health_check
+  network_level_checks:
+    - cross_node_consistency
+    - reference_site_comparison
+    - gradient_plausibility_check
+    - telemetry_gap_analysis
+    - metadata_completeness_check
+    - delayed_record_check
+  public_data_rule: "Public-facing network outputs should expose quality flags, calibration status, latency status, and known blind spots."

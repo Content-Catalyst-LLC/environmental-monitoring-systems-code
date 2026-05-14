@@ -1,0 +1,35 @@
+network_objective:
+  version: "1.0.0"
+  title: "Environmental Sensor Networks"
+  purpose: "Demonstrate environmental sensor-network topology, coverage, telemetry, metadata, QA/QC, interoperability, alerts, and governance"
+  domains:
+    - water
+    - air_quality
+    - coastal
+    - biodiversity
+    - soil
+    - infrastructure
+  decision_uses:
+    - early_warning
+    - field_observation
+    - environmental_reporting
+    - public_health_review
+    - ecological_monitoring
+    - infrastructure_maintenance
+    - compliance_support
+    - public_accountability
+  required_evidence_dimensions:
+    - network_identity
+    - node_identity
+    - site_location
+    - observed_property
+    - unit
+    - phenomenon_time
+    - result_time
+    - ingestion_time
+    - calibration_status
+    - quality_flag
+    - telemetry_status
+    - metadata_completeness
+    - topology_role
+    - blind_spot_notes

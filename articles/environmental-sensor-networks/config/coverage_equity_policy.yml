@@ -1,0 +1,13 @@
+coverage_equity_policy:
+  version: "1.0.0"
+  review_dimensions:
+    - geographic_coverage
+    - watershed_coverage
+    - vertical_or_depth_coverage
+    - hotspot_coverage
+    - reference_site_coverage
+    - vulnerable_community_coverage
+    - habitat_coverage
+    - jurisdictional_coverage
+    - maintenance_capacity
+  rule: "Coverage audits should identify what the network makes visible and what remains under-observed."

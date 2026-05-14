@@ -1,0 +1,6 @@
+governance_id,date,network_id,decision,owner,status,public_note_required
+gov-001,2026-05-01,river-watershed-network,Approved operational use with headwater coverage caveat,hydrology_team,closed,true
+gov-002,2026-05-02,urban-air-community-network,Require calibration and coverage expansion before public exposure claims,air_quality_team,open,true
+gov-003,2026-05-03,coastal-buoy-network,Require estuary coverage and telemetry review before high-confidence operational alerts,coastal_team,open,true
+gov-004,2026-05-04,restoration-ecology-network,Use as ecological screening network with detection-bias caveats,ecology_team,open,false
+gov-005,2026-05-05,stormwater-overflow-network,Prioritize underserved catchments and alert-rule review,stormwater_team,open,true

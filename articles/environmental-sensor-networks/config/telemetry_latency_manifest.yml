@@ -1,0 +1,37 @@
+telemetry_latency_manifest:
+  version: "1.0.0"
+  transport_modes:
+    - cellular
+    - wifi
+    - lpwan
+    - satellite
+    - mesh_to_cellular
+    - wired
+    - local_storage
+  latency_classes:
+    urgent:
+      target_minutes: 5
+      examples:
+        - flood_stage_alert
+        - stormwater_overflow
+    near_real_time:
+      target_minutes: 30
+      examples:
+        - pm25_public_health_review
+        - water_quality_alert
+    delayed_operational:
+      target_minutes: 360
+      examples:
+        - ecological_detection
+        - soil_moisture_review
+    archival:
+      target_minutes: 1440
+      examples:
+        - long_term_trend_analysis
+  requirements:
+    - delivery_completeness
+    - delayed_record_flag
+    - retry_policy
+    - acknowledgement_policy
+    - dropped_record_count
+    - stale_data_detection

@@ -1,0 +1,22 @@
+metadata_interoperability:
+  version: "1.0.0"
+  required_fields:
+    - network_id
+    - node_id
+    - site_id
+    - latitude
+    - longitude
+    - observed_property
+    - unit
+    - phenomenon_time
+    - result_time
+    - ingested_at
+    - measurement_method
+    - calibration_status
+    - quality_flag
+    - provenance
+  interoperability_targets:
+    - OGC SensorThings-style observations
+    - time-series API readiness
+    - geospatial metadata compatibility
+    - public data catalog readiness

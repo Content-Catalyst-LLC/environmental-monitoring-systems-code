@@ -1,0 +1,38 @@
+article:
+  title: "Environmental Sensor Networks"
+  slug: "environmental-sensor-networks"
+  subtitle: "Distributed Sensing, Telemetry, and Environmental Accountability"
+  series: "Environmental Monitoring Systems"
+  site_url: "https://sustainablecatalyst.com/environmental-sensor-networks/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/environmental-monitoring-systems-code/tree/main/articles/environmental-sensor-networks"
+
+technical_level: "research-grade sensor-network topology, telemetry, metadata, QA/QC, coverage, representativeness, alert governance, and public evidence scaffold"
+
+workflows:
+  mathematical_lens: "Spatial coverage, temporal completeness, network availability, representativeness, valid-data share, metadata maturity, latency readiness, and network evidence quality"
+  python:
+    - "Sensor network readiness scoring"
+    - "Coverage, temporal completeness, node availability, representativeness, metadata, latency, and action-fit review"
+    - "High-stakes network triage"
+  r:
+    - "Coverage, QA/QC, and governance reporting"
+    - "Network review-priority summaries"
+    - "Evidence-quality tables"
+  sql:
+    - "Node and site registry"
+    - "Network readiness scores"
+    - "Observation records"
+    - "Telemetry delivery records"
+    - "Alert-rule registry"
+    - "Coverage and equity audit"
+    - "Governance log"
+  typescript:
+    - "Network, node, observation, alert, coverage, and quality display types"
+  systems:
+    - "C sensor-node observation record scaffold"
+    - "C++ telemetry buffer and replay queue"
+    - "MicroPython low-power network node"
+    - "Go network status endpoint"
+    - "Rust network observation validator"
+    - "TinyML node-anomaly placeholder"
+    - "PYNQ/HDL streaming quality-filter placeholders"

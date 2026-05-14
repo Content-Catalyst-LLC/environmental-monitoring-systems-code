@@ -1,0 +1,7 @@
+observation_id,node_id,network_id,observed_property,value,unit,phenomenon_time,result_time,ingested_at,quality_flag,calibration_status
+obs-001,node-river-001,river-watershed-network,water_level,2.74,m,2026-05-14T12:00:00Z,2026-05-14T12:00:05Z,2026-05-14T12:00:17Z,pass,valid
+obs-002,node-river-002,river-watershed-network,turbidity,18.2,ntu,2026-05-14T12:00:00Z,2026-05-14T12:00:04Z,2026-05-14T12:00:19Z,pass,valid
+obs-003,node-air-001,urban-air-community-network,pm25,31.5,ug_m3,2026-05-14T12:00:00Z,2026-05-14T12:00:04Z,2026-05-14T12:00:52Z,review_required,review_required
+obs-004,node-coastal-002,coastal-buoy-network,salinity,23.8,psu,2026-05-14T12:00:00Z,2026-05-14T12:00:08Z,2026-05-14T12:45:00Z,delayed,review_required
+obs-005,node-eco-001,restoration-ecology-network,habitat_activity,1,count,2026-05-14T04:32:00Z,2026-05-14T04:32:06Z,2026-05-15T12:00:00Z,delayed_local_storage,valid
+obs-006,node-soil-001,soil-moisture-network,soil_moisture,17.4,percent,2026-05-14T12:00:00Z,2026-05-14T12:00:03Z,2026-05-14T12:12:00Z,pass,valid

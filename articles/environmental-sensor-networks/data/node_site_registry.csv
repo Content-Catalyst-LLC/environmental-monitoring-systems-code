@@ -1,0 +1,10 @@
+node_id,network_id,domain,site_id,latitude,longitude,node_type,observed_property,unit,calibration_status,telemetry_mode,owner,high_stakes_use,notes
+node-river-001,river-watershed-network,water,river-mainstem-a,38.6270,-90.1994,stage_sensor,water_level,m,valid,cellular,hydrology_team,true,Mainstem river stage node
+node-river-002,river-watershed-network,water,tributary-b,38.7390,-90.2380,turbidity_sensor,turbidity,ntu,valid,cellular,hydrology_team,true,Tributary turbidity node
+node-air-001,urban-air-community-network,air_quality,urban-core-a,38.6350,-90.2200,pm_sensor,pm25,ug_m3,review_required,wifi_cellular,air_quality_team,true,Community PM sensor requiring calibration review
+node-air-002,urban-air-community-network,air_quality,industrial-edge-b,38.6600,-90.1800,pm_sensor,pm25,ug_m3,valid,cellular,air_quality_team,true,Industrial-edge exposure node
+node-coastal-001,coastal-buoy-network,coastal,coastal-bay-a,29.7604,-95.3698,buoy,water_temperature,celsius,valid,satellite,coastal_team,true,Coastal buoy with satellite telemetry
+node-coastal-002,coastal-buoy-network,coastal,estuary-transition-b,29.7100,-95.2900,buoy,salinity,psu,review_required,satellite,coastal_team,true,Estuary transition node
+node-eco-001,restoration-ecology-network,biodiversity,wetland-restoration-a,38.5700,-90.3000,camera_trap,habitat_activity,count,valid,local_storage,ecology_team,false,Wetland camera trap node
+node-eco-002,restoration-ecology-network,biodiversity,prairie-restoration-b,38.5000,-90.3500,acoustic_recorder,bird_call_detection,count,valid,mesh_to_cellular,ecology_team,false,Acoustic biodiversity node
+node-soil-001,soil-moisture-network,soil,ag-field-a,39.1000,-90.7000,soil_probe,soil_moisture,percent,valid,lpwan,agroecology_team,false,Root-zone soil sensor
