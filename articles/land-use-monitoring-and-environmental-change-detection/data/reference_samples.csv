@@ -1,0 +1,8 @@
+sample_id,geography,latitude,longitude,reference_class,reference_source,reference_date,confidence,role,notes
+ref-001,national,38.6270,-90.1994,forest,field_plot,2022-06-22,0.95,validation,Mature forest reference
+ref-002,national,38.7390,-90.2380,cropland,field_visit,2022-06-23,0.90,validation,Active cropland
+ref-003,regional_watershed,38.5700,-90.3000,wetland,aerial_interpretation,2022-07-10,0.85,validation,Dynamic wetland margin
+ref-004,metro_region,38.6350,-90.2200,urban_developed,high_resolution_imagery,2022-07-12,0.92,validation,Impervious expansion
+ref-005,restoration_sites,38.5000,-90.3500,restoration,drone_imagery,2022-07-12,0.88,validation,Restoration vegetation recovery
+ref-006,national,39.1000,-90.7000,grassland,field_plot,2022-06-30,0.86,training,Grassland reference
+ref-007,regional_watershed,38.6100,-90.3300,barren,field_visit,2022-07-15,0.80,validation,Construction disturbance and exposed soil

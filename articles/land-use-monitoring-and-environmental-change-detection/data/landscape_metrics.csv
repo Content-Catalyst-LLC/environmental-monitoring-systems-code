@@ -1,0 +1,6 @@
+metric_id,product_id,geography,class_name,year,patch_count,mean_patch_size_ha,edge_density_m_per_ha,connectivity_score,condition_index,notes
+lm-001,annual-land-cover-change,national,forest,2022,4200,58.3,22.4,0.78,0.82,National forest fragmentation summary
+lm-002,urban-impervious-expansion,metro_region,urban_developed,2022,1850,12.1,65.8,0.64,0.76,Impervious expansion and edge density
+lm-003,wetland-condition-change,regional_watershed,wetland,2022,620,8.4,71.2,0.58,0.66,Wetland fragmentation and drying risk
+lm-004,restoration-trajectory-monitoring,restoration_sites,restoration,2022,95,3.2,48.0,0.52,0.71,Restoration patches remain small and disconnected
+lm-005,land-degradation-watch,rangeland_region,grassland,2022,2100,26.5,39.9,0.69,0.62,Grassland condition decline

@@ -1,0 +1,7 @@
+assessment_id,product_id,class_name,reference_samples,correct_samples,users_accuracy,producers_accuracy,mapped_area_ha,adjusted_area_ha,area_uncertainty_ha
+acc-001,annual-land-cover-change,forest,120,105,0.88,0.86,250000,242500,8200
+acc-002,annual-land-cover-change,cropland,110,96,0.87,0.84,310000,318400,9100
+acc-003,wetland-condition-change,wetland,80,62,0.78,0.75,42000,38500,5200
+acc-004,urban-impervious-expansion,urban_developed,95,88,0.93,0.90,98000,101200,4100
+acc-005,restoration-trajectory-monitoring,restoration,55,39,0.71,0.68,12500,10900,2700
+acc-006,land-degradation-watch,barren,70,54,0.77,0.73,33000,35800,3900

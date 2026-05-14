@@ -1,0 +1,15 @@
+classification_manifest:
+  version: "1.0.0"
+  model_family: "hybrid remote sensing classification and change-detection scaffold"
+  required_fields:
+    - class_legend_version
+    - feature_set
+    - sensor_inputs
+    - training_sample_source
+    - validation_sample_source
+    - model_version
+    - class_imbalance_strategy
+    - intended_geography
+    - intended_reporting_use
+    - known_limitations
+  valid_use_rule: "Classification outputs should not be used for high-stakes reporting without validation, class-specific accuracy, and uncertainty documentation."

@@ -1,0 +1,13 @@
+accuracy_assessment_policy:
+  version: "1.0.0"
+  required_outputs:
+    - reference_sample_count
+    - overall_accuracy
+    - class_specific_accuracy
+    - confusion_matrix
+    - change_confidence
+    - mapped_area
+    - adjusted_area
+    - area_uncertainty
+    - uncertainty_statement
+  rule: "Raw pixel counts should not be used for high-stakes area reporting without accuracy assessment and area-estimation caveats."

@@ -1,0 +1,20 @@
+change_detection_policy:
+  version: "1.0.0"
+  change_types:
+    - conversion
+    - degradation
+    - recovery
+    - disturbance
+    - within_class_condition_change
+    - fragmentation
+    - intensification
+  requirements:
+    - change_rule_id
+    - from_class
+    - to_class
+    - change_year
+    - confidence
+    - persistence_score
+    - validation_status
+    - reporting_relevance
+  persistence_rule: "Detected change should be tested for persistence before being treated as durable landscape transformation."

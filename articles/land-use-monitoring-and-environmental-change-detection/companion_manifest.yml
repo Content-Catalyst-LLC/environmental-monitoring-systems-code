@@ -1,0 +1,36 @@
+article:
+  title: "Land Use Monitoring and Environmental Change Detection"
+  slug: "land-use-monitoring-and-environmental-change-detection"
+  subtitle: "Landscape Change, Classification, and Environmental Accountability"
+  series: "Environmental Monitoring Systems"
+  site_url: "https://sustainablecatalyst.com/land-use-monitoring-and-environmental-change-detection/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/environmental-monitoring-systems-code/tree/main/articles/land-use-monitoring-and-environmental-change-detection"
+
+technical_level: "research-grade land-use monitoring, classification accountability, change detection, validation, uncertainty reporting, fragmentation metrics, and public evidence governance scaffold"
+
+workflows:
+  mathematical_lens: "Classification accuracy, temporal consistency, change confidence, reference-data strength, condition sensitivity, fragmentation visibility, uncertainty communication, and land evidence quality"
+  python:
+    - "Land-monitoring readiness scoring"
+    - "Classification, change-validation, reference-data, condition, uncertainty, and reporting triage"
+    - "High-stakes product review"
+  r:
+    - "Land-cover change, validation, and reporting readiness summaries"
+    - "Review-priority tables"
+    - "Accuracy and confidence reporting"
+  sql:
+    - "Land class legend"
+    - "Imagery inventory"
+    - "Reference samples"
+    - "Change-rule registry"
+    - "Land-change records"
+    - "Accuracy assessment"
+    - "Landscape metrics"
+    - "Governance log"
+  typescript:
+    - "Land class, product, change record, validation, and uncertainty display types"
+  systems:
+    - "C transition-record scaffold"
+    - "C++ tile change queue"
+    - "Go monitoring product status endpoint"
+    - "Rust land-change record validator"

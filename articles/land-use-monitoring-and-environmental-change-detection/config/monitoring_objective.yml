@@ -1,0 +1,33 @@
+monitoring_objective:
+  version: "1.0.0"
+  title: "Land Use Monitoring and Environmental Change Detection"
+  purpose: "Demonstrate time-series land-monitoring evidence quality, classification accountability, validation, uncertainty communication, and landscape-governance readiness"
+  geographies:
+    - national
+    - regional_watershed
+    - metro_region
+    - restoration_sites
+    - regional_forest
+    - rangeland_region
+  decision_uses:
+    - land_cover_change_reporting
+    - carbon_accounting
+    - biodiversity_assessment
+    - wetland_condition_review
+    - urban_planning
+    - watershed_risk_review
+    - restoration_accountability
+    - land_degradation_assessment
+  required_evidence_dimensions:
+    - product_id
+    - class_legend
+    - imagery_source
+    - acquisition_date
+    - preprocessing_method
+    - classification_method
+    - change_rule
+    - reference_sample
+    - validation_status
+    - uncertainty_statement
+    - reporting_use
+    - governance_owner

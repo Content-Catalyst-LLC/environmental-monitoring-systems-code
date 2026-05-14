@@ -1,0 +1,13 @@
+preprocessing_manifest:
+  version: "1.0.0"
+  required_steps:
+    - imagery_inventory
+    - sensor_lineage_record
+    - cloud_and_shadow_masking
+    - atmospheric_or_surface_reflectance_correction
+    - spatial_alignment
+    - seasonal_window_definition
+    - compositing_method
+    - temporal_harmonization
+    - excluded_scene_record
+  temporal_consistency_rule: "Preprocessing changes that affect cross-year comparability must be versioned and flagged in product metadata."

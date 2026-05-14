@@ -1,0 +1,7 @@
+product_id,geography,monitoring_purpose,classification_accuracy,temporal_consistency,detected_change_samples,validated_change_samples,reference_data_strength,condition_sensitivity,fragmentation_visibility,uncertainty_communication,reporting_readiness,high_stakes_use
+annual-land-cover-change,national,land_cover_and_change_reporting,0.86,0.88,420,365,0.84,0.76,0.72,0.82,0.88,true
+wetland-condition-change,regional_watershed,wetland_loss_and_condition,0.78,0.80,160,112,0.74,0.82,0.70,0.76,0.80,true
+urban-impervious-expansion,metro_region,urban_growth_and_watershed_risk,0.90,0.84,210,188,0.82,0.78,0.86,0.84,0.86,true
+restoration-trajectory-monitoring,restoration_sites,recovery_and_accountability,0.76,0.72,95,61,0.68,0.74,0.66,0.70,0.72,false
+forest-condition-monitoring,regional_forest,forest_degradation_and_recovery,0.80,0.78,180,130,0.76,0.84,0.78,0.74,0.79,true
+land-degradation-watch,rangeland_region,land_degradation_assessment,0.77,0.81,140,108,0.72,0.80,0.76,0.73,0.78,true

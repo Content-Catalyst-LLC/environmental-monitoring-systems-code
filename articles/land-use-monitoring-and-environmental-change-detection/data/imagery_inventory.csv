@@ -1,0 +1,7 @@
+scene_id,source,sensor,acquisition_date,geography,cloud_cover_percent,processing_level,seasonal_window,used_for,notes
+landsat-2020-a,Landsat,OLI,2020-06-15,national_sample,8,surface_reflectance,growing_season,classification_baseline,Clear growing-season observation
+landsat-2021-a,Landsat,OLI,2021-06-20,national_sample,12,surface_reflectance,growing_season,annual_update,Comparable seasonal window
+landsat-2022-a,Landsat,OLI,2022-06-18,national_sample,18,surface_reflectance,growing_season,annual_update,Cloud mask required
+sentinel-2022-b,Sentinel-2,MSI,2022-07-02,metro_region,5,L2A,growing_season,urban_impervious_review,Higher spatial detail for urban validation
+drone-2022-c,Drone RGB,RGB,2022-07-12,restoration_sites,0,orthomosaic,field_campaign,reference_validation,High-resolution restoration reference
+aerial-2022-d,Aerial,NAIP-like,2022-08-01,wetland_watershed,2,orthophoto,growing_season,wetland_condition_review,Supports validation of wetland edge change

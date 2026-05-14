@@ -1,0 +1,16 @@
+public_evidence_policy:
+  version: "1.0.0"
+  required_public_fields:
+    - monitored_geography
+    - monitoring_period
+    - imagery_sources
+    - class_legend
+    - classification_method
+    - change_detection_method
+    - validation_summary
+    - uncertainty_statement
+    - known_blind_spots
+    - product_version
+    - revision_history
+    - governance_owner
+  public_claim_rule: "Public land-change claims must be traceable to imagery, class definitions, change logic, reference data, validation, and uncertainty notes."

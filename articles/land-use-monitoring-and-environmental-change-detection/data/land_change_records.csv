@@ -1,0 +1,7 @@
+change_id,product_id,geography,site_id,from_class,to_class,change_type,change_year,confidence,persistence_score,validated,reporting_relevance,notes
+chg-001,annual-land-cover-change,national,site-a,forest,cropland,conversion,2021,0.88,0.92,true,land_use_change_reporting,Validated forest to cropland conversion
+chg-002,wetland-condition-change,regional_watershed,site-b,wetland,wetland,within_class_condition_change,2022,0.76,0.70,true,wetland_condition_review,Wetness decline without full class transition
+chg-003,urban-impervious-expansion,metro_region,site-c,grassland,urban_developed,conversion,2022,0.91,0.89,true,urban_planning_and_watershed_risk,Urban edge expansion
+chg-004,restoration-trajectory-monitoring,restoration_sites,site-d,barren,restoration,recovery,2022,0.72,0.68,false,restoration_accountability,Recovery signal needs more validation
+chg-005,forest-condition-monitoring,regional_forest,site-e,forest,forest,within_class_condition_change,2021,0.74,0.66,false,forest_condition_review,Possible degradation below class-transition threshold
+chg-006,land-degradation-watch,rangeland_region,site-f,grassland,barren,degradation,2020,0.79,0.81,true,land_degradation_assessment,Grassland to exposed soil transition

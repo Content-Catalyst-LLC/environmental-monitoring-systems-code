@@ -1,0 +1,10 @@
+class_id,class_name,class_group,definition,monitoring_note
+forest,Forest,land_cover,Tree-dominated land cover including natural and managed forest,Class may hide degradation canopy thinning harvest cycles or recovery stage
+cropland,Cropland,land_cover_land_use,Land used or visibly managed for crop production,Broad class may hide intensification irrigation crop rotation or soil exposure
+wetland,Wetland,land_cover_condition,Hydrologically influenced land with wetland vegetation or wet soil indicators,Condition change may occur before mapped wetland loss
+urban_developed,Urban or Developed,land_cover_land_use,Built-up impervious or settlement-associated land cover,Incremental impervious expansion may require fractional or high-resolution methods
+grassland,Grassland,land_cover,Herbaceous land cover including natural or managed grassland,Condition and grazing pressure may not appear as class change
+rangeland,Rangeland,land_use_condition,Grazed or semi-natural land systems with variable vegetation cover,Degradation may appear as productivity decline or soil exposure rather than class conversion
+water,Open Water,land_cover,Open surface water,Seasonality drought flooding and reservoir management affect interpretation
+barren,Barren or Exposed Soil,land_cover_condition,Low vegetation cover or exposed substrate,Can indicate natural substrate construction disturbance mining drought or degradation
+restoration,Restoration Area,land_use_condition,Area under ecological restoration or recovery management,Recovery requires trajectory validation not only class assignment
