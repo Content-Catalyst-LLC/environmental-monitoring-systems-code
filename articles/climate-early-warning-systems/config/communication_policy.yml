@@ -1,0 +1,11 @@
+communication_policy:
+  version: "1.0.0"
+  rule: "Warnings must be clear, authoritative, accessible, action-oriented, and delivered through redundant channels when possible."
+  required_fields:
+    - channel_type
+    - channel_name
+    - coverage_estimate
+    - language_access
+    - accessibility_support
+    - fallback_available
+    - status

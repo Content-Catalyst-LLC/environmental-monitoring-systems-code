@@ -1,0 +1,7 @@
+source_id,hazard_type,source_name,monitoring_type,geography,update_frequency_minutes,lead_indicator,quality_status,owner,notes
+haz-001,flood,Urban Rainfall Radar-Gauge Composite,radar_gauge,metro_basin,5,rainfall_intensity,pass,meteorology_team,Supports flash-flood warning
+haz-002,flood,River Forecast Point,streamgage_model,river_basin,15,stage_and_discharge,pass,hydrology_team,Supports river flood warning
+haz-003,heat,Urban Heat Index Forecast,forecast_model,metropolitan_region,60,heat_index,pass,public_health_team,Supports heat-health warning
+haz-004,drought,Seasonal Rainfall and Soil Moisture Outlook,seasonal_forecast,agricultural_zone,1440,rainfall_failure_and_soil_moisture,review_required,climate_team,Supports anticipatory drought action
+haz-005,wildfire,Fire Weather and Fuel Dryness Index,fire_weather_model,forest_interface,60,wind_humidity_fuel_dryness,pass,fire_weather_team,Supports wildfire readiness
+haz-006,compound_coastal,Coastal Surge and Rainfall Compound Risk,coastal_model,coastal_communities,30,surge_rainfall_tide,review_required,coastal_resilience_team,Supports compound coastal warning

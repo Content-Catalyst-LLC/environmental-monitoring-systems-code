@@ -1,0 +1,33 @@
+article:
+  title: "Climate Early Warning Systems"
+  slug: "climate-early-warning-systems"
+  subtitle: "Forecasts, Risk, Protective Lead Time, and Anticipatory Governance"
+  series: "Environmental Monitoring Systems"
+  site_url: "https://sustainablecatalyst.com/climate-early-warning-systems/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/environmental-monitoring-systems-code/tree/main/articles/climate-early-warning-systems"
+
+navigation_note:
+  top_gateway_rule: "Use the five-button navigation to point to article maps / pillar pages whenever possible; reserve individual article links for Related articles."
+  github_block_position: "Place the GitHub repository section after the code samples."
+
+technical_level: "research-grade climate early warning, hazard forecasting, risk knowledge, protective lead time, communication reach, inclusion, preparedness, response capacity, and governance scaffold"
+
+workflows:
+  mathematical_lens: "Risk, protective lead time, warning coverage, false-alarm ratio, and early-warning evidence quality"
+  python:
+    - "Early-warning readiness scoring"
+    - "Protective lead-time and warning-chain quality triage"
+    - "Forecast, communication, action, inclusion, and governance review"
+  r:
+    - "Early-warning readiness reporting"
+    - "Coverage, lead-time, false-alarm, missed-event, and governance summary tables"
+  sql:
+    - "Hazard monitoring registry"
+    - "Forecast record table"
+    - "Exposure and vulnerability matrix"
+    - "Impact-threshold registry"
+    - "Warning decision log"
+    - "Communication-channel registry"
+    - "Preparedness and action log"
+    - "Coverage and inclusion audit"
+    - "Early-warning governance log"

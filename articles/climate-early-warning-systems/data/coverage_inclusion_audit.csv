@@ -1,0 +1,6 @@
+audit_id,program_id,coverage_dimension,target_group_or_zone,coverage_score,evidence_gap,priority,notes
+audit-001,flash-flood-early-warning,digital_access,low_income_flood_corridors,0.66,Mobile alert reach incomplete and road-closure routes not universally accessible,high,Add door-to-door and transit hub messaging
+audit-002,heat-health-warning-system,action_capacity,elderly_no_ac_households,0.58,Cooling access and transport support insufficient,high,Coordinate rides and welfare checks
+audit-003,drought-anticipatory-action,last_mile_reach,smallholder_farmers_remote_villages,0.54,Extension SMS coverage limited and local-language support incomplete,high,Strengthen field-agent and community radio channels
+audit-004,coastal-compound-risk-warning,disability_access,hearing_impaired_coastal_residents,0.46,Siren network lacks accessible redundancy,high,Add visual alerts and trusted messenger support
+audit-005,coastal-compound-risk-warning,evacuation_capacity,mobile_home_parks_low_elevation,0.62,Shelter and transport capacity constraints,high,Pre-arrange evacuation support

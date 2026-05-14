@@ -1,0 +1,6 @@
+action_id,program_id,warning_id,action_time,action_type,owner,target_population,status,notes
+act-001,flash-flood-early-warning,warn-001,2026-05-01T08:30:00Z,road_closure_review,transportation_team,urban_underpass_corridors,open,Crews staged near known flood-prone routes
+act-002,flash-flood-early-warning,warn-001,2026-05-01T08:35:00Z,public_alert,emergency_management,at_risk_neighborhoods,open,Public alert issued through mobile and broadcast
+act-003,heat-health-warning-system,warn-002,2026-05-02T09:30:00Z,cooling_center_activation,public_health_department,heat_vulnerable_residents,open,Cooling centers extended hours
+act-004,drought-anticipatory-action,warn-003,2026-05-05T12:00:00Z,anticipatory_finance_review,climate_risk_committee,smallholder_farmers,open,Review trigger thresholds and support package
+act-005,coastal-compound-risk-warning,warn-004,2026-05-04T13:00:00Z,shelter_prepositioning,coastal_emergency_team,low_elevation_neighborhoods,open,Shelter supplies and evacuation route review started

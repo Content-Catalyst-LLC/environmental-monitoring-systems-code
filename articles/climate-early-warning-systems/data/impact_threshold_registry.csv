@@ -1,0 +1,6 @@
+threshold_id,program_id,hazard_type,indicator,threshold_value,unit,warning_level,impact_statement,response_action,review_status
+thr-001,flash-flood-early-warning,flood,rainfall_intensity,2.0,in_hr,warning,Urban flash flooding possible near low-water crossings and underpasses,road_closure_and_public_alert,approved
+thr-002,flash-flood-early-warning,flood,river_stage,20.0,ft,warning,Minor river flooding near riverfront roads,riverfront_closure_plan,approved
+thr-003,heat-health-warning-system,heat,heat_index,105,F,warning,High heat-health risk for elderly outdoor workers and people without cooling access,open_cooling_centers_and_health_outreach,approved
+thr-004,drought-anticipatory-action,drought,soil_moisture_percentile,20,percentile,early_action,Crop and water-stress risk increasing across agricultural livelihood zone,trigger_anticipatory_finance_and_water_support,review_required
+thr-005,coastal-compound-risk-warning,compound_coastal,compound_flood_index,0.75,index,warning,Coastal surge and rainfall may isolate evacuation routes,evacuation_and_shelter_prepositioning,review_required

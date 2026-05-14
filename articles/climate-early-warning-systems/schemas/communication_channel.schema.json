@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CommunicationChannel",
+  "type": "object",
+  "required": [
+    "channel_id",
+    "program_id",
+    "channel_type",
+    "channel_name",
+    "coverage_estimate",
+    "language_access",
+    "accessibility_support",
+    "fallback_available",
+    "status"
+  ],
+  "properties": {
+    "channel_id": {"type": "string"},
+    "program_id": {"type": "string"},
+    "channel_type": {"type": "string"},
+    "channel_name": {"type": "string"},
+    "coverage_estimate": {"type": "number"},
+    "language_access": {"type": "string"},
+    "accessibility_support": {"type": "string"},
+    "fallback_available": {"type": "boolean"},
+    "status": {"type": "string"},
+    "notes": {"type": "string"}
+  }
+}

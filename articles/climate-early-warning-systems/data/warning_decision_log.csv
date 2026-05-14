@@ -1,0 +1,5 @@
+decision_id,program_id,hazard_type,forecast_id,decision_time,expected_impact_time,warning_level,authority,protective_lead_time_hours,uncertainty_statement,issued,status
+warn-001,flash-flood-early-warning,flood,fcst-001,2026-05-01T08:20:00Z,2026-05-01T10:00:00Z,warning,emergency_management,1.67,Placement uncertainty but high consequence near underpasses,true,open
+warn-002,heat-health-warning-system,heat,fcst-002,2026-05-02T09:00:00Z,2026-05-02T18:00:00Z,warning,public_health_department,9.0,Neighborhood exposure and cooling access vary,true,open
+warn-003,drought-anticipatory-action,drought,fcst-003,2026-05-05T00:00:00Z,2026-06-01T00:00:00Z,early_action,climate_risk_committee,648.0,Slow-onset risk with seasonal forecast uncertainty,true,open
+warn-004,coastal-compound-risk-warning,compound_coastal,fcst-004,2026-05-04T12:00:00Z,2026-05-04T22:00:00Z,watch,coastal_emergency_team,10.0,Compound timing uncertainty remains,true,open

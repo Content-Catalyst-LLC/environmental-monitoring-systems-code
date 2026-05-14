@@ -1,0 +1,6 @@
+program_id,hazard_type,geography,forecast_confidence,risk_knowledge,protective_lead_time,communication_reach,action_capacity,trust_readiness,inclusion_capacity,governance_readiness,high_stakes_use
+flash-flood-early-warning,flood,urban_and_riverine_basins,0.80,0.76,0.72,0.82,0.78,0.76,0.74,0.78,true
+heat-health-warning-system,heat,metropolitan_region,0.84,0.78,0.86,0.80,0.70,0.72,0.68,0.76,true
+drought-anticipatory-action,drought,agricultural_livelihood_zone,0.74,0.72,0.82,0.68,0.66,0.70,0.72,0.70,true
+coastal-compound-risk-warning,compound_coastal,coastal_communities,0.76,0.68,0.70,0.74,0.72,0.70,0.66,0.72,true
+wildfire-readiness-warning,wildfire,forest_interface,0.78,0.74,0.76,0.76,0.70,0.72,0.70,0.74,true

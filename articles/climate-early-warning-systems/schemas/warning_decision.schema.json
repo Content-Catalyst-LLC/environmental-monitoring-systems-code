@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WarningDecision",
+  "type": "object",
+  "required": [
+    "decision_id",
+    "program_id",
+    "hazard_type",
+    "forecast_id",
+    "decision_time",
+    "expected_impact_time",
+    "warning_level",
+    "authority",
+    "protective_lead_time_hours",
+    "issued"
+  ],
+  "properties": {
+    "decision_id": {"type": "string"},
+    "program_id": {"type": "string"},
+    "hazard_type": {"type": "string"},
+    "forecast_id": {"type": "string"},
+    "decision_time": {"type": "string"},
+    "expected_impact_time": {"type": "string"},
+    "warning_level": {"type": "string"},
+    "authority": {"type": "string"},
+    "protective_lead_time_hours": {"type": "number"},
+    "uncertainty_statement": {"type": "string"},
+    "issued": {"type": "boolean"},
+    "status": {"type": "string"}
+  }
+}

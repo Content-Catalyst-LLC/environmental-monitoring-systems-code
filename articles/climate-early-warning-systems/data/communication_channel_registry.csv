@@ -1,0 +1,7 @@
+channel_id,program_id,channel_type,channel_name,coverage_estimate,language_access,accessibility_support,fallback_available,status,notes
+chan-001,flash-flood-early-warning,mobile,wireless_emergency_alerts,0.78,english_spanish,basic_text,true,active,Fast public alert channel
+chan-002,flash-flood-early-warning,broadcast,local_radio_and_tv,0.72,english_spanish,audio_captioning,true,active,Broadcast redundancy
+chan-003,heat-health-warning-system,community,public_health_outreach_network,0.64,multilingual,phone_and_door_to_door,true,active,Supports older adults and isolated residents
+chan-004,drought-anticipatory-action,institutional,agricultural_extension_sms,0.60,local_languages,text_and_field_agent,true,review_required,Needs stronger registration coverage
+chan-005,coastal-compound-risk-warning,siren,coastal_siren_network,0.58,not_language_specific,audible_only,true,review_required,Accessibility limitations for hearing impaired residents
+chan-006,coastal-compound-risk-warning,community,local_messenger_network,0.66,multilingual,local_support,true,active,Trusted local communication path

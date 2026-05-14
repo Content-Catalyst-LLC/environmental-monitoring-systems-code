@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "name": "early_warning_zones",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "program_id": "flash-flood-early-warning",
+        "hazard_type": "flood",
+        "warning_role": "urban flash-flood risk zone"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-90.2600, 38.6000], [-90.1800, 38.6000], [-90.1800, 38.6800], [-90.2600, 38.6800], [-90.2600, 38.6000]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "program_id": "heat-health-warning-system",
+        "hazard_type": "heat",
+        "warning_role": "urban heat-health outreach zone"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-90.3000, 38.6200], [-90.2100, 38.6200], [-90.2100, 38.7100], [-90.3000, 38.7100], [-90.3000, 38.6200]]]
+      }
+    }
+  ]
+}

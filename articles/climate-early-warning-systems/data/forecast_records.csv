@@ -1,0 +1,5 @@
+forecast_id,hazard_type,program_id,forecast_issue_time,valid_start,valid_end,forecast_horizon_hours,forecast_confidence,expected_impact_time,uncertainty_note,status
+fcst-001,flood,flash-flood-early-warning,2026-05-01T08:00:00Z,2026-05-01T08:00:00Z,2026-05-01T12:00:00Z,4,0.80,2026-05-01T10:00:00Z,Convective rainfall placement uncertainty,active
+fcst-002,heat,heat-health-warning-system,2026-05-02T06:00:00Z,2026-05-02T12:00:00Z,2026-05-04T00:00:00Z,42,0.84,2026-05-02T18:00:00Z,Urban heat exposure varies by neighborhood,active
+fcst-003,drought,drought-anticipatory-action,2026-05-03T00:00:00Z,2026-05-03T00:00:00Z,2026-06-15T00:00:00Z,1032,0.74,2026-06-01T00:00:00Z,Seasonal forecast and livelihood uncertainty,active
+fcst-004,compound_coastal,coastal-compound-risk-warning,2026-05-04T06:00:00Z,2026-05-04T12:00:00Z,2026-05-05T06:00:00Z,24,0.76,2026-05-04T22:00:00Z,Surge-rainfall timing uncertainty,active

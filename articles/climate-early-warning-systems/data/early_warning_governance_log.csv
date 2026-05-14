@@ -1,0 +1,6 @@
+governance_id,date,program_id,decision,owner,status,public_note_required
+gov-001,2026-05-01,flash-flood-early-warning,Approved warning issuance with road-closure and underpass caveat,emergency_management,closed,true
+gov-002,2026-05-02,heat-health-warning-system,Require stronger cooling-access support before next heat event,public_health_department,open,true
+gov-003,2026-05-03,drought-anticipatory-action,Review anticipatory finance threshold and local-language outreach,climate_risk_committee,open,true
+gov-004,2026-05-04,coastal-compound-risk-warning,Improve accessible warning redundancy beyond siren coverage,coastal_emergency_team,open,true
+gov-005,2026-05-05,wildfire-readiness-warning,Strengthen evacuation route and smoke-health guidance,fire_weather_team,open,true

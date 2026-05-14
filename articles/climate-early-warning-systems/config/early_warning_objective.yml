@@ -1,0 +1,24 @@
+early_warning_objective:
+  version: "1.0.0"
+  title: "Climate Early Warning Systems"
+  purpose: "Demonstrate warning-chain readiness, forecast confidence, risk knowledge, protective lead time, communication reach, action capacity, trust readiness, inclusion capacity, and governance."
+  hazard_types:
+    - flood
+    - heat
+    - drought
+    - wildfire
+    - compound_coastal
+    - severe_weather
+    - cyclone
+    - storm_surge
+    - landslide
+  decision_uses:
+    - public_alert
+    - evacuation_guidance
+    - heat_health_action
+    - flood_response
+    - drought_anticipatory_action
+    - wildfire_readiness
+    - infrastructure_operations
+    - humanitarian_trigger
+    - adaptation_planning

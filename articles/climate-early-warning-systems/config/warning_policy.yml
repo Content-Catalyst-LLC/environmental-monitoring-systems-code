@@ -1,0 +1,13 @@
+warning_policy:
+  version: "1.0.0"
+  rule: "High-stakes warnings require documented hazard evidence, forecast confidence, risk knowledge, threshold logic, warning authority, communication channels, and action pathway."
+  required_fields:
+    - hazard_type
+    - forecast_id
+    - decision_time
+    - expected_impact_time
+    - warning_level
+    - authority
+    - protective_lead_time_hours
+    - uncertainty_statement
+    - issued
