@@ -1,0 +1,5 @@
+audit_id,program_id,coverage_dimension,target_group_or_zone,coverage_score,evidence_gap,priority,notes
+audit-001,urban-flash-flood-warning,ungauged_urban_catchments,underpasses_and_low_income_neighborhoods,0.54,Limited local sensors and drainage blockage data,high,Add local rainfall and level sensors
+audit-002,rural-ungauged-basin-screening,tributary_coverage,rural_low_water_crossings,0.42,Many tributaries lack gauges and public warning points,high,Use flash guidance and local observers
+audit-003,mainstem-river-forecast-system,inundation_mapping,downstream_mobile_home_parks,0.66,Exposure layer needs update,high,Refresh exposed-population and evacuation-route data
+audit-004,reservoir-regulated-river-monitoring,operations_integration,downstream_release_communication,0.70,Release updates not fully integrated with public messaging,medium,Improve cross-agency workflow

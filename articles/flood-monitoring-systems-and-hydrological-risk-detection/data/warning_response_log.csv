@@ -1,0 +1,4 @@
+response_id,event_id,warning_time,expected_impact_time,warning_type,channel,response_action,owner,status,notes
+resp-001,event-urban-flash,2026-05-01T08:20:00Z,2026-05-01T09:00:00Z,flash_flood_alert,public_alert_and_emergency_manager,road_closure_review,emergency_management,open,Lead time limited but actionable
+resp-002,event-mainstem,2026-05-01T10:00:00Z,2026-05-02T04:00:00Z,river_flood_warning,public_dashboard_and_briefing,riverfront_closure_plan,emergency_management,open,Longer lead time allows staged response
+resp-003,event-reservoir,2026-05-01T11:00:00Z,2026-05-01T16:00:00Z,operations_advisory,agency_coordination,reservoir_release_review,reservoir_ops,closed,Downstream coordination completed

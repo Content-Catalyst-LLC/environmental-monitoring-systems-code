@@ -1,0 +1,11 @@
+forecast_warning_policy:
+  version: "1.0.0"
+  rule: "High-stakes warnings require documented forecast source, forecast horizon, uncertainty statement, threshold linkage, and response owner."
+  required_fields:
+    - forecast_source
+    - forecast_horizon
+    - uncertainty_statement
+    - threshold_id
+    - inundation_map_id
+    - warning_channel
+    - response_owner

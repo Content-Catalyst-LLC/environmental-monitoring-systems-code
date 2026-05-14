@@ -1,0 +1,6 @@
+governance_id,date,program_id,decision,owner,status,public_note_required
+gov-001,2026-05-01,mainstem-river-forecast-system,Approved for public river forecast and inundation guidance with map caveat,hydrology_team,closed,true
+gov-002,2026-05-02,urban-flash-flood-warning,Require lead-time and map-readiness caveat before public dashboard expansion,emergency_management,open,true
+gov-003,2026-05-03,reservoir-regulated-river-monitoring,Improve release coordination before next wet-weather season,reservoir_ops,open,true
+gov-004,2026-05-04,rural-ungauged-basin-screening,Prioritize low-water crossing coverage and local alert partnerships,county_emergency_team,open,true
+gov-005,2026-05-05,compound-coastal-river-monitoring,Need stronger compound flood modeling and coastal backwater caveats,coastal_resilience_team,open,true

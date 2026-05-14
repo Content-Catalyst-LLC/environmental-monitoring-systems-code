@@ -1,0 +1,7 @@
+station_id,station_name,station_type,water_body_or_basin,geography,latitude,longitude,observed_variable,unit,telemetry_interval_minutes,rating_status,owner
+gage-001,Mainstem River Forecast Point,streamgage,large_river_basin,downstream_city,38.6300,-90.2100,stage_ft,ft,15,current,hydrology_team
+gage-002,Upstream Tributary Gauge,streamgage,tributary_basin,upstream_county,38.8100,-90.4100,stage_ft,ft,15,current,hydrology_team
+rain-001,Urban Radar-Gauge Composite,rainfall,urban_catchment,metro_region,38.6400,-90.2200,rainfall_intensity,in_hr,5,current,meteorology_team
+rain-002,Rural Gauge Network,rainfall,rural_tributaries,rural_region,38.9200,-90.5100,rainfall_accumulation,in,15,review_required,meteorology_team
+soil-001,Basin Soil Wetness Index,soil_moisture,large_river_basin,regional_basin,38.7000,-90.3000,soil_wetness_index,index,60,current,hydrology_team
+res-001,Reservoir Storage Sensor,reservoir,reservoir_downstream_reach,reservoir_a,38.7600,-90.3600,reservoir_level,ft,15,current,reservoir_ops

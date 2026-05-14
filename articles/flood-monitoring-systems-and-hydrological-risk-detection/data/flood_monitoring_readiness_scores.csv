@@ -1,0 +1,6 @@
+program_id,flood_type,geography,gauge_coverage,rainfall_coverage,telemetry_completeness,forecast_confidence,inundation_map_readiness,protective_lead_time,communication_readiness,response_capacity,governance_readiness,high_stakes_use
+mainstem-river-forecast-system,riverine,large_river_basin,0.86,0.80,0.91,0.82,0.78,0.84,0.80,0.82,0.84,true
+urban-flash-flood-warning,flash_flood,urban_catchments,0.64,0.78,0.82,0.68,0.62,0.58,0.76,0.70,0.74,true
+reservoir-regulated-river-monitoring,regulated_river,reservoir_downstream_reach,0.80,0.76,0.88,0.78,0.74,0.80,0.78,0.76,0.80,true
+rural-ungauged-basin-screening,flash_flood,rural_tributaries,0.52,0.66,0.70,0.62,0.50,0.54,0.68,0.62,0.66,true
+compound-coastal-river-monitoring,compound_flood,coastal_river_zone,0.70,0.74,0.82,0.70,0.68,0.66,0.72,0.70,0.74,true

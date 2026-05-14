@@ -1,0 +1,8 @@
+record_id,station_id,timestamp,observed_variable,value,unit,quality_flag,event_context
+obs-001,gage-001,2026-05-01T08:00:00Z,stage_ft,19.4,ft,pass,mainstem_rise
+obs-002,gage-001,2026-05-01T08:15:00Z,stage_ft,19.8,ft,pass,mainstem_rise
+obs-003,gage-002,2026-05-01T08:00:00Z,stage_ft,8.6,ft,review_required,tributary_fast_response
+obs-004,rain-001,2026-05-01T08:00:00Z,rainfall_intensity,2.1,in_hr,pass,urban_flash_flood
+obs-005,rain-002,2026-05-01T08:00:00Z,rainfall_accumulation,1.8,in,review_required,rural_tributary
+obs-006,soil-001,2026-05-01T08:00:00Z,soil_wetness_index,0.78,index,pass,saturated_basin
+obs-007,res-001,2026-05-01T08:00:00Z,reservoir_level,642.5,ft,pass,regulated_river

@@ -1,0 +1,33 @@
+article:
+  title: "Flood Monitoring Systems and Hydrological Risk Detection"
+  slug: "flood-monitoring-systems-and-hydrological-risk-detection"
+  subtitle: "Hydrological Risk, Lead Time, Inundation Intelligence, and Flood Accountability"
+  series: "Environmental Monitoring Systems"
+  site_url: "https://sustainablecatalyst.com/flood-monitoring-systems-and-hydrological-risk-detection/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/environmental-monitoring-systems-code/tree/main/articles/flood-monitoring-systems-and-hydrological-risk-detection"
+
+navigation_note:
+  top_gateway_rule: "Use the five-button navigation to point to article maps / pillar pages whenever possible; reserve individual article links for Related articles."
+  github_block_position: "Place the GitHub repository section after the code samples."
+
+technical_level: "research-grade flood monitoring, hydrological risk detection, telemetry completeness, forecast confidence, inundation-map readiness, protective lead time, emergency response, and governance scaffold"
+
+workflows:
+  mathematical_lens: "Rate of rise, telemetry completeness, protective lead time, flood risk, and flood-warning evidence quality"
+  python:
+    - "Flood monitoring readiness scoring"
+    - "Hydrological warning evidence-quality triage"
+    - "Gauge, rainfall, forecast, inundation, communication, response, and governance review"
+  r:
+    - "Flood-warning readiness reporting"
+    - "Lead-time, response, and governance summaries"
+  sql:
+    - "Gauge and sensor registry"
+    - "Hydrometeorological driver matrix"
+    - "Telemetry status records"
+    - "Flood observation records"
+    - "Threshold and impact registry"
+    - "Inundation-map linkage"
+    - "Warning and response log"
+    - "Coverage and equity audit"
+    - "Flood governance log"

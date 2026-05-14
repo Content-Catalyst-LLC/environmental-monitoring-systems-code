@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "name": "flood_monitoring_sites",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "gage-001",
+        "station_type": "streamgage",
+        "role": "mainstem river forecast point"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2100, 38.6300]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "rain-001",
+        "station_type": "rainfall",
+        "role": "urban flash-flood rainfall input"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2200, 38.6400]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "res-001",
+        "station_type": "reservoir",
+        "role": "regulated river operations input"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.3600, 38.7600]}
+    }
+  ]
+}

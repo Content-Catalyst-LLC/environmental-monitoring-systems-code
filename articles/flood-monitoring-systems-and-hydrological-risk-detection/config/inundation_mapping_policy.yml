@@ -1,0 +1,3 @@
+inundation_mapping_policy:
+  version: "1.0.0"
+  rule: "Inundation products must include stage linkage, map source, exposed assets, known caveats, and validation or post-event review status."

@@ -1,0 +1,6 @@
+telemetry_id,station_id,window_start,window_end,expected_observations,received_observations,median_latency_seconds,max_latency_seconds,outage_minutes,status
+tel-001,gage-001,2026-05-01T00:00:00Z,2026-05-01T12:00:00Z,48,48,40,75,0,pass
+tel-002,gage-002,2026-05-01T00:00:00Z,2026-05-01T12:00:00Z,48,45,55,210,15,review_required
+tel-003,rain-001,2026-05-01T00:00:00Z,2026-05-01T12:00:00Z,144,140,25,95,0,pass
+tel-004,rain-002,2026-05-01T00:00:00Z,2026-05-01T12:00:00Z,48,40,80,600,60,review_required
+tel-005,res-001,2026-05-01T00:00:00Z,2026-05-01T12:00:00Z,48,48,35,70,0,pass

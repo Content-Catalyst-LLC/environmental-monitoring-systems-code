@@ -1,0 +1,5 @@
+map_id,station_id,stage_ft,map_product,exposed_assets,known_caveat,readiness_score
+map-001,gage-001,20.0,stage_linked_inundation_map,riverfront_roads_parks,Does not account for temporary drainage blockage,0.78
+map-002,gage-001,25.0,stage_linked_inundation_map,residential_blocks_critical_facilities,Requires latest levee and road-elevation updates,0.72
+map-003,gage-002,9.0,tributary_flash_map,low_water_crossings,Map is screening-level for fast tributary response,0.58
+map-004,rain-001,2.0,urban_pluvial_screening_map,underpasses_local_roads,Drainage blockage and debris not fully represented,0.62

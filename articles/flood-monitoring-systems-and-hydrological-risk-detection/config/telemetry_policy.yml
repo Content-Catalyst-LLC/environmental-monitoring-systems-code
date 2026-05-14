@@ -1,0 +1,5 @@
+telemetry_policy:
+  version: "1.0.0"
+  minimum_completeness: 0.80
+  stale_data_rule: "Operational flood dashboards must clearly flag stale gauge, rainfall, and reservoir observations."
+  latency_rule: "Latency thresholds must match flood type; flash-flood contexts require shorter update windows."

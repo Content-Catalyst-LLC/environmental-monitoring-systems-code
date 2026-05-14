@@ -1,0 +1,6 @@
+threshold_id,station_id,threshold_name,stage_ft,impact_description,response_action,severity,review_status
+thr-001,gage-001,action_stage,18.0,Low-lying roads begin monitoring status,activate_monitoring,medium,approved
+thr-002,gage-001,flood_stage,20.0,Minor flooding near riverfront roads,issue_public_warning,high,approved
+thr-003,gage-001,major_flood_stage,25.0,Residential evacuation zones at risk,evacuation_support,extreme,approved
+thr-004,gage-002,tributary_flash_threshold,9.0,Rapid tributary flooding possible near low-water crossings,road_closure_review,high,review_required
+thr-005,rain-001,urban_flash_rainfall_trigger,2.0,Urban drainage flooding possible in short-duration storm,flash_flood_alert,high,approved

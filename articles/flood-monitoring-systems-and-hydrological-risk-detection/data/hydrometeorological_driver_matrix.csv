@@ -1,0 +1,9 @@
+driver_id,driver_name,flood_mechanism,measurement_sources,decision_relevance,primary_uncertainty
+rainfall_intensity,High rainfall intensity,flash_flood_generation,rain_gauge radar satellite,short_fuse_warning,Radar and gauge mismatch at small scale
+antecedent_wetness,Antecedent soil wetness,runoff_efficiency,soil_sensor modeled_soil_moisture satellite,basin_runoff_response,Coarse soil moisture may not represent local basins
+river_stage,River stage,channel_capacity_exceedance,streamgage,forecast_point_warning,Gauge failure or local backwater effects
+discharge,Stream discharge,flow_volume_and_timing,streamgage rating_curve model,river_forecast_and_crest_estimation,Rating curve uncertainty during extremes
+rate_of_rise,Rate of rise,rapid_hazard_escalation,high_frequency_stage,warning_urgency,Data latency or missing short intervals
+reservoir_operations,Reservoir storage and release,regulated_downstream_flow,reservoir_sensor operations_record,downstream_warning_and_operations,Release schedule or gate changes not integrated
+inundation_extent,Flood extent,place_based_hazard,inundation_model remote_sensing field_reports,road_closure_evacuation_exposure,Map assumptions or infrastructure changes
+exposure,Exposed people and assets,consequence_translation,population roads facilities social_vulnerability,risk_prioritization,Outdated exposure or vulnerability layers

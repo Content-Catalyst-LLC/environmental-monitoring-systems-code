@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FloodObservationRecord",
+  "type": "object",
+  "required": ["record_id", "station_id", "timestamp", "observed_variable", "value", "unit", "quality_flag"],
+  "properties": {
+    "record_id": {"type": "string"},
+    "station_id": {"type": "string"},
+    "timestamp": {"type": "string"},
+    "observed_variable": {"type": "string"},
+    "value": {"type": "number"},
+    "unit": {"type": "string"},
+    "quality_flag": {"type": "string"},
+    "event_context": {"type": "string"}
+  }
+}

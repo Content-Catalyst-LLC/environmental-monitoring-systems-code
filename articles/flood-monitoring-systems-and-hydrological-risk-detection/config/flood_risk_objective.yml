@@ -1,0 +1,20 @@
+flood_risk_objective:
+  version: "1.0.0"
+  title: "Flood Monitoring Systems and Hydrological Risk Detection"
+  purpose: "Demonstrate flood-warning readiness, hydrological risk evidence quality, gauge and rainfall coverage, telemetry completeness, forecast confidence, inundation-map readiness, protective lead time, communication readiness, response capacity, and governance."
+  flood_types:
+    - riverine
+    - flash_flood
+    - regulated_river
+    - urban_pluvial
+    - compound_flood
+    - coastal_river
+  decision_uses:
+    - public_warning
+    - evacuation_support
+    - road_closure
+    - reservoir_operations
+    - emergency_management
+    - floodplain_planning
+    - infrastructure_protection
+    - resilience_assessment
