@@ -1,0 +1,5 @@
+telemetry_policy:
+  version: "1.0.0"
+  minimum_completeness: 0.80
+  stale_data_rule: "Operational systems must clearly flag stale or missing telemetry."
+  latency_rule: "Latency thresholds must match the operational dynamics of the process being monitored."

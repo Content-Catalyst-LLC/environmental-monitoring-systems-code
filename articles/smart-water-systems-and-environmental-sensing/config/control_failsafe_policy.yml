@@ -1,0 +1,10 @@
+control_failsafe_policy:
+  version: "1.0.0"
+  rule: "Semi-automated and automated control require validated input data, defined bounds, human override, fail-safe states, and audit logs."
+  required_fields:
+    - control_action
+    - automation_level
+    - allowed_conditions
+    - override_required
+    - fail_safe_state
+    - review_status

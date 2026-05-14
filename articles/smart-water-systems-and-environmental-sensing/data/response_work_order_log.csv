@@ -1,0 +1,5 @@
+response_id,alert_id,detection_time,action_time,response_type,owner,outcome,status,notes
+resp-001,alert-001,2026-05-01T08:05:00Z,2026-05-01T08:25:00Z,field_investigation,water_quality_team,confirmed_normal_after_flush,closed,Residual recovered after operational check
+resp-002,alert-002,2026-05-01T09:00:00Z,2026-05-01T09:20:00Z,treatment_adjustment,source_water_team,dosing_reviewed,closed,Turbidity below treatment action after confirmation
+resp-003,alert-003,2026-05-01T10:00:00Z,2026-05-01T14:30:00Z,customer_notification,customer_support_team,notification_sent,open,Customer follow-up pending
+resp-004,alert-004,2026-05-01T11:00:00Z,2026-05-01T11:45:00Z,wet_weather_dispatch,wet_weather_team,crew_dispatched,open,Telemetry outage complicates review

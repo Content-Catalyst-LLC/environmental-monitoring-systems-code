@@ -1,0 +1,3 @@
+public_evidence_policy:
+  version: "1.0.0"
+  rule: "Public smart-water claims must include monitoring limits, validation approach, response capacity, privacy, cybersecurity, equity, uncertainty, and valid-use caveats."

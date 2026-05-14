@@ -1,0 +1,11 @@
+qaqc_validation_policy:
+  version: "1.0.0"
+  required_checks:
+    - range_check
+    - drift_check
+    - flatline_check
+    - stale_data_check
+    - cross_sensor_consistency
+    - calibration_status
+    - confirmation_workflow
+  rule: "High-stakes alerts and control actions must not be triggered from unvalidated or stale data."

@@ -1,0 +1,4 @@
+control_id,program_id,control_action,automation_level,allowed_conditions,override_required,fail_safe_state,review_status
+ctrl-001,treatment-digital-twin,dosing_recommendation,decision_support,validated_sensor_and_operator_review,true,manual_operation,approved
+ctrl-002,wet-weather-smart-sewer,gate_adjustment,semi_automated,level_threshold_and_weather_forecast,true,open_safe_position,review_required
+ctrl-003,distribution-online-quality,flush_recommendation,decision_support,confirmed_quality_anomaly,true,no_auto_flush,approved

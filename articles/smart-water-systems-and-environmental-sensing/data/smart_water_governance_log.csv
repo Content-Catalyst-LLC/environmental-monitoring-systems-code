@@ -1,0 +1,5 @@
+governance_id,date,program_id,decision,owner,status,public_note_required
+gov-001,2026-05-01,distribution-online-quality,Approved for surveillance with confirmation sampling caveat,water_quality_team,closed,true
+gov-002,2026-05-02,ami-leak-detection,Require privacy and customer-support note before public reporting,ami_team,open,true
+gov-003,2026-05-03,wet-weather-smart-sewer,Require response-capacity review before stronger automation,wet_weather_team,open,true
+gov-004,2026-05-04,treatment-digital-twin,Approved for decision support not autonomous control,treatment_team,closed,true

@@ -1,0 +1,6 @@
+telemetry_id,sensor_id,window_start,window_end,expected_readings,received_readings,median_latency_seconds,max_latency_seconds,outage_minutes,status
+tel-001,wq-001,2026-05-01T00:00:00Z,2026-05-01T12:00:00Z,144,142,35,95,0,pass
+tel-002,wq-002,2026-05-01T00:00:00Z,2026-05-01T12:00:00Z,144,138,40,180,12,review_required
+tel-003,pr-001,2026-05-01T00:00:00Z,2026-05-01T12:00:00Z,144,144,20,60,0,pass
+tel-004,flow-001,2026-05-01T00:00:00Z,2026-05-01T12:00:00Z,48,47,120,240,0,pass
+tel-005,lvl-001,2026-05-01T00:00:00Z,2026-05-01T12:00:00Z,144,120,55,900,45,review_required

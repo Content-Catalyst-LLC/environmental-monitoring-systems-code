@@ -1,0 +1,6 @@
+alert_id,program_id,water_domain,parameter,threshold_type,threshold_value,unit,severity,response_owner,valid_use,review_status
+alert-001,distribution-online-quality,distribution_system,chlorine_residual,below,0.5,mg_L,high,water_quality_team,investigate_distribution_quality,approved
+alert-002,source-water-surveillance,source_water,turbidity,above,10,NTU,medium,source_water_team,prepare_treatment_adjustment,approved
+alert-003,ami-leak-detection,customer_metering,continuous_flow,above,24,hours,medium,customer_support_team,customer_leak_notification,approved
+alert-004,wet-weather-smart-sewer,sewer_stormwater,level,above,8,ft,high,wet_weather_team,overflow_risk_response,review_required
+alert-005,treatment-digital-twin,treatment_process,pump_status,equals,0,state,high,treatment_team,pump_failure_investigation,approved

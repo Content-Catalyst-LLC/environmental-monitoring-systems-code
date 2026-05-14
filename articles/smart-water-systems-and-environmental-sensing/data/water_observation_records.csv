@@ -1,0 +1,7 @@
+record_id,sensor_id,timestamp,parameter,value,unit,quality_flag,operational_context
+obs-001,wq-001,2026-05-01T08:00:00Z,turbidity,6.8,NTU,pass,source_water_quality
+obs-002,wq-002,2026-05-01T08:00:00Z,chlorine_residual,0.82,mg_L,pass,distribution_quality
+obs-003,pr-001,2026-05-01T08:00:00Z,pressure,54,psi,pass,pressure_zone_monitoring
+obs-004,flow-001,2026-05-01T08:00:00Z,flow,420,gpm,pass,district_meter_area
+obs-005,lvl-001,2026-05-01T08:00:00Z,level,7.2,ft,review_required,wet_weather_storage
+obs-006,pump-001,2026-05-01T08:00:00Z,pump_status,1,state,pass,treatment_operations

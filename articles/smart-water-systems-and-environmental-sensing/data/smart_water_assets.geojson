@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "name": "smart_water_assets",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"asset_id": "intake-a", "water_domain": "source_water", "role": "online_quality_monitoring"},
+      "geometry": {"type": "Point", "coordinates": [-90.2100, 38.6300]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"asset_id": "dist-zone-1", "water_domain": "distribution_system", "role": "pressure_and_quality"},
+      "geometry": {"type": "Point", "coordinates": [-90.2200, 38.6400]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"asset_id": "sewer-basin-2", "water_domain": "sewer_stormwater", "role": "wet_weather_level"},
+      "geometry": {"type": "Point", "coordinates": [-90.2400, 38.6600]}
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+sensor_id,asset_id,water_domain,location,parameter,unit,latitude,longitude,installation_date,calibration_status,owner
+wq-001,intake-a,source_water,river_intake,turbidity,NTU,38.6300,-90.2100,2026-04-01,validated,water_quality_team
+wq-002,dist-zone-1,distribution_system,pressure_zone_1,chlorine_residual,mg_L,38.6400,-90.2200,2026-04-03,validated,distribution_team
+pr-001,dist-zone-1,distribution_system,pressure_zone_1,pressure,psi,38.6410,-90.2210,2026-04-03,validated,distribution_team
+flow-001,dma-1,customer_metering,district_meter_area,flow,gpm,38.6500,-90.2300,2026-04-05,validated,ami_team
+lvl-001,sewer-basin-2,sewer_stormwater,wet_weather_basin,level,ft,38.6600,-90.2400,2026-04-07,review_required,wet_weather_team
+pump-001,treatment-plant,treatment_process,pump_station,pump_status,state,38.6700,-90.2500,2026-04-08,validated,treatment_team

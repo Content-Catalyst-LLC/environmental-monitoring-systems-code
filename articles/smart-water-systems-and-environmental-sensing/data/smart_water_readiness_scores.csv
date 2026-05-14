@@ -1,0 +1,6 @@
+program_id,water_domain,service_goal,sensing_coverage,data_quality_validity,telemetry_completeness,latency_readiness,anomaly_confidence,response_capacity,model_readiness,control_safety,governance_readiness,high_stakes_use
+distribution-online-quality,distribution_system,water_quality_surveillance,0.78,0.82,0.91,0.86,0.78,0.80,0.72,0.76,0.84,true
+ami-leak-detection,customer_metering,demand_visibility_and_leak_detection,0.84,0.80,0.88,0.82,0.76,0.70,0.68,0.74,0.78,true
+wet-weather-smart-sewer,sewer_stormwater,overflow_risk_reduction,0.72,0.76,0.82,0.78,0.74,0.68,0.76,0.70,0.74,true
+treatment-digital-twin,treatment_process,process_optimization,0.80,0.84,0.90,0.88,0.82,0.82,0.86,0.80,0.86,true
+source-water-surveillance,source_water,early_quality_detection,0.76,0.78,0.86,0.82,0.74,0.76,0.70,0.72,0.80,true
