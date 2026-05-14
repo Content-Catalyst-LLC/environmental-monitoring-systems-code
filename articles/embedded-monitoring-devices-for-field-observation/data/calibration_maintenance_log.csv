@@ -1,0 +1,8 @@
+record_id,device_id,date,event_type,technician,calibration_status,drift_observed,maintenance_action,notes
+cal-001,river-stage-logger-001,2026-04-01,predeployment_calibration,field_team_a,valid,0.02,calibrated,Pressure transducer checked against reference level
+cal-002,community-air-node-002,2026-04-05,field_check,field_team_b,review_required,0.18,co_location_review,PM sensor requires additional co-location review
+cal-003,soil-moisture-node-003,2026-04-08,installation_check,field_team_c,valid,0.04,installed,Probe contact verified after installation
+cal-004,wetland-camera-trap-004,2026-04-10,service_check,field_team_d,valid,0.00,lens_cleaned,Lens cleaned and battery replaced
+cal-005,water-quality-sonde-005,2026-04-12,field_check,field_team_e,valid,0.06,wiper_checked,Turbidity sensor wiper checked
+cal-006,stormwater-flow-node-006,2026-04-14,service_check,field_team_f,expired,0.24,calibration_required,Device should be excluded from public alerting until recalibrated
+cal-007,weather-station-007,2026-04-15,field_check,field_team_g,valid,0.03,shield_cleaned,Radiation shield cleaned and checked

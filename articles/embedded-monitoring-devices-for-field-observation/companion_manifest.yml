@@ -1,0 +1,37 @@
+article:
+  title: "Embedded Monitoring Devices for Field Observation"
+  slug: "embedded-monitoring-devices-for-field-observation"
+  subtitle: "Edge Sensing, Reliability, and Field Data Integrity"
+  series: "Environmental Monitoring Systems"
+  site_url: "https://sustainablecatalyst.com/embedded-monitoring-devices-for-field-observation/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/environmental-monitoring-systems-code/tree/main/articles/embedded-monitoring-devices-for-field-observation"
+
+technical_level: "research-grade embedded environmental field-device readiness, power budgeting, calibration lifecycle, field QA/QC, device-health telemetry, quiet-failure detection, and data-integrity governance scaffold"
+
+workflows:
+  mathematical_lens: "Device availability, record completeness, power margin, calibration validity, timing consistency, QA/QC readiness, health visibility, and field evidence quality"
+  python:
+    - "Embedded device readiness scoring"
+    - "Field data-integrity review"
+    - "Power, calibration, timing, health, and QA/QC triage"
+  r:
+    - "Device reliability and field operations reporting"
+    - "Calibration and maintenance summaries"
+    - "Review-priority tables"
+  sql:
+    - "Device and sensor registry"
+    - "Calibration and maintenance log"
+    - "Device-health records"
+    - "Field observation records"
+    - "Readiness scores"
+    - "Governance log"
+  typescript:
+    - "Device, health, calibration, and observation display types"
+  systems:
+    - "C embedded observation record scaffold"
+    - "C++ local logger and buffer queue"
+    - "MicroPython low-power field node"
+    - "Go device-health endpoint"
+    - "Rust field observation validator"
+    - "TinyML device-fault placeholder"
+    - "PYNQ/HDL threshold and health-filter placeholders"

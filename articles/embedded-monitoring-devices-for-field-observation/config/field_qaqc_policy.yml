@@ -1,0 +1,15 @@
+field_qaqc_policy:
+  version: "1.0.0"
+  checks:
+    - range_check
+    - spike_check
+    - flatline_check
+    - missing_record_check
+    - stale_calibration_check
+    - clock_drift_check
+    - battery_state_check
+    - storage_health_check
+    - internal_humidity_check
+    - sensor_drift_check
+    - telemetry_delay_check
+  coordination_rule: "Automated QA/QC flags should be reviewed alongside calibration records, device health, firmware version, deployment notes, and field-service history."

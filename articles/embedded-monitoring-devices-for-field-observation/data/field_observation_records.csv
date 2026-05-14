@@ -1,0 +1,7 @@
+observation_id,device_id,observed_property,value,unit,phenomenon_time,result_time,ingested_at,quality_flag,calibration_status,firmware_version
+obs-001,river-stage-logger-001,water_level,2.74,m,2026-05-14T12:00:00Z,2026-05-14T12:00:05Z,2026-05-14T12:00:17Z,pass,valid,v1.4.2
+obs-002,community-air-node-002,pm25,31.5,ug_m3,2026-05-14T12:00:00Z,2026-05-14T12:00:04Z,2026-05-14T12:00:52Z,review_required,review_required,v2.3.1
+obs-003,soil-moisture-node-003,soil_moisture,17.4,percent,2026-05-14T12:00:00Z,2026-05-14T12:00:04Z,2026-05-14T12:10:00Z,pass,valid,v0.9.7
+obs-004,wetland-camera-trap-004,habitat_activity,1,count,2026-05-14T04:32:00Z,2026-05-14T04:32:05Z,2026-05-15T12:00:00Z,delayed_local_storage,valid,v1.1.0
+obs-005,water-quality-sonde-005,turbidity,12.8,ntu,2026-05-14T12:00:00Z,2026-05-14T12:00:03Z,2026-05-14T12:00:21Z,pass,valid,v2.2.0
+obs-006,stormwater-flow-node-006,flow_rate,810,l_s,2026-05-14T12:00:00Z,2026-05-14T12:00:02Z,2026-05-14T12:00:09Z,calibration_expired,expired,v1.2.0

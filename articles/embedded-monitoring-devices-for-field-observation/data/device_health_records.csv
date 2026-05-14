@@ -1,0 +1,8 @@
+health_id,device_id,timestamp,battery_voltage,storage_percent_used,internal_humidity_percent,internal_temperature_c,reboot_count,clock_drift_seconds,telemetry_latency_seconds,health_status
+health-001,river-stage-logger-001,2026-05-14T12:00:00Z,12.4,42,18,21.1,0,3,12,healthy
+health-002,community-air-node-002,2026-05-14T12:00:00Z,5.0,61,33,26.4,1,12,48,review_required
+health-003,soil-moisture-node-003,2026-05-14T12:00:00Z,3.7,28,22,18.3,0,5,600,healthy
+health-004,wetland-camera-trap-004,2026-05-14T12:00:00Z,7.1,82,41,19.7,2,20,86400,local_storage_only
+health-005,water-quality-sonde-005,2026-05-14T12:00:00Z,12.1,55,24,20.2,0,4,18,healthy
+health-006,stormwater-flow-node-006,2026-05-14T12:00:00Z,24.0,46,29,22.7,1,8,9,calibration_expired
+health-007,weather-station-007,2026-05-14T12:00:00Z,12.6,36,17,19.1,0,2,15,healthy

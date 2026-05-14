@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FieldObservation",
+  "type": "object",
+  "required": [
+    "observation_id",
+    "device_id",
+    "observed_property",
+    "value",
+    "unit",
+    "phenomenon_time",
+    "result_time",
+    "ingested_at",
+    "quality_flag",
+    "calibration_status",
+    "firmware_version"
+  ],
+  "properties": {
+    "observation_id": {"type": "string"},
+    "device_id": {"type": "string"},
+    "sensor_id": {"type": "string"},
+    "observed_property": {"type": "string"},
+    "value": {"type": ["number", "string", "boolean"]},
+    "unit": {"type": "string"},
+    "phenomenon_time": {"type": "string", "format": "date-time"},
+    "result_time": {"type": "string", "format": "date-time"},
+    "ingested_at": {"type": "string", "format": "date-time"},
+    "quality_flag": {"type": "string"},
+    "calibration_status": {"type": "string"},
+    "firmware_version": {"type": "string"},
+    "battery_voltage": {"type": "number"},
+    "storage_percent_used": {"type": "number"},
+    "clock_drift_seconds": {"type": "number"},
+    "device_health_status": {"type": "string"}
+  }
+}

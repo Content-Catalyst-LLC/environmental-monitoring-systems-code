@@ -1,0 +1,21 @@
+enclosure_deployment_manifest:
+  version: "1.0.0"
+  exposure_dimensions:
+    - water_ingress
+    - dust
+    - thermal_stress
+    - uv_exposure
+    - corrosion
+    - biofouling
+    - sediment_or_debris
+    - animals_or_vandalism
+    - vibration
+    - mounting_shift
+  documentation_required:
+    - enclosure_type
+    - ingress_strategy
+    - mounting_method
+    - sensor_exposure_path
+    - deployment_photo
+    - service_interval
+    - inspection_notes

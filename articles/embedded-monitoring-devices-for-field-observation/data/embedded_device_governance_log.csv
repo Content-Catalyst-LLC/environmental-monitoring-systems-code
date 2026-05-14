@@ -1,0 +1,6 @@
+governance_id,date,device_id,decision,owner,status,public_note_required
+gov-001,2026-05-01,river-stage-logger-001,Approved for operational stage monitoring with routine QA/QC review,hydrology_team,closed,true
+gov-002,2026-05-02,community-air-node-002,Require co-location and calibration review before public exposure claims,air_quality_team,open,true
+gov-003,2026-05-03,soil-moisture-node-003,Approved for field research with health-visibility improvement request,agroecology_team,open,false
+gov-004,2026-05-04,wetland-camera-trap-004,Use for ecological screening only until record completeness improves,ecology_team,open,false
+gov-005,2026-05-05,stormwater-flow-node-006,Block public alert use until calibration is restored,stormwater_team,open,true

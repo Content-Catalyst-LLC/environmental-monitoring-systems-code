@@ -1,0 +1,35 @@
+device_objective:
+  version: "1.0.0"
+  title: "Embedded Monitoring Devices for Field Observation"
+  purpose: "Demonstrate field-device readiness, reliability, calibration, power budgeting, device health, telemetry, and environmental data integrity"
+  domains:
+    - water
+    - water_quality
+    - air_quality
+    - soil
+    - biodiversity
+    - infrastructure
+    - weather
+  decision_uses:
+    - field_observation
+    - operational_response
+    - environmental_reporting
+    - public_health_review
+    - ecological_monitoring
+    - infrastructure_maintenance
+    - long_term_trend_analysis
+    - public_accountability
+  required_evidence_dimensions:
+    - device_identity
+    - sensor_identity
+    - observed_property
+    - unit
+    - phenomenon_time
+    - result_time
+    - ingestion_time
+    - calibration_status
+    - firmware_version
+    - quality_flag
+    - device_health
+    - maintenance_status
+    - field_deployment_context

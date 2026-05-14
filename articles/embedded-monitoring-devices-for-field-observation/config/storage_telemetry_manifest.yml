@@ -1,0 +1,13 @@
+storage_telemetry_manifest:
+  version: "1.0.0"
+  requirements:
+    - local_storage_capacity
+    - expected_record_volume
+    - buffer_capacity
+    - overwrite_policy
+    - transmission_schedule
+    - retry_policy
+    - acknowledgement_policy
+    - delayed_record_flag
+    - retrieval_schedule
+  delayed_record_rule: "Records retrieved or transmitted after field delay must preserve phenomenon time, result time, ingestion time, and delayed-record status."

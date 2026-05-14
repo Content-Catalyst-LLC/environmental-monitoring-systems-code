@@ -1,0 +1,11 @@
+security_access_policy:
+  version: "1.0.0"
+  controls:
+    - device_identity_required
+    - authenticated_telemetry_required_for_public_or_high_stakes_data
+    - firmware_update_record_required
+    - physical_access_procedure
+    - credential_rotation_policy
+    - retired_device_blocklist
+    - tamper_or_unexpected_reboot_review
+  public_evidence_rule: "Public-facing field-device outputs should expose method, calibration status, quality, caveats, and evidence status without exposing sensitive credentials or infrastructure details."

@@ -1,0 +1,8 @@
+device_id,domain,site_id,device_type,sensor_type,observed_property,unit,firmware_version,calibration_status,power_mode,telemetry_mode,owner,high_stakes_use,notes
+river-stage-logger-001,water,river-station-a,pressure_stage_logger,pressure_transducer,water_level,m,v1.4.2,valid,solar_battery,cellular,hydrology_team,true,River stage logger with local storage and telemetry
+community-air-node-002,air_quality,urban-site-b,pm_sensor_pod,optical_particle_sensor,pm25,ug_m3,v2.3.1,review_required,mains_backup,wifi_cellular,air_quality_team,true,Community air monitoring node requiring calibration review
+soil-moisture-node-003,soil,ag-field-c,low_power_soil_node,capacitance_probe,soil_moisture,percent,v0.9.7,valid,battery_lpwan,lpwan,agroecology_team,false,Low-power soil monitoring node
+wetland-camera-trap-004,biodiversity,wetland-site-d,camera_trap,image_sensor,habitat_activity,count,v1.1.0,valid,battery_solar,local_storage,ecology_team,false,Camera trap with local storage and delayed retrieval
+water-quality-sonde-005,water_quality,reservoir-site-e,multiparameter_sonde,optical_and_electrochemical,turbidity,ntu,v2.2.0,valid,solar_battery,cellular,water_quality_team,true,Water-quality sonde with local QC
+stormwater-flow-node-006,infrastructure,stormwater-site-f,flow_monitor,ultrasonic_flow,flow_rate,l_s,v1.2.0,expired,mains,wired,stormwater_team,true,Stormwater node with expired calibration
+weather-station-007,weather,field-site-g,microclimate_station,multi_sensor,air_temperature,celsius,v2.0.4,valid,solar_battery,cellular,weather_team,true,Microclimate station with telemetry

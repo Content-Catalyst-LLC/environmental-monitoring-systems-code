@@ -1,0 +1,15 @@
+power_budget:
+  version: "1.0.0"
+  required_components:
+    - sensing_energy
+    - warmup_energy
+    - processing_energy
+    - storage_energy
+    - telemetry_energy
+    - diagnostics_energy
+    - sleep_current
+    - battery_capacity
+    - solar_or_charging_assumptions
+    - worst_case_temperature_assumptions
+  readiness_rule: "High-stakes or remote devices should maintain positive power margin under worst-case seasonal deployment assumptions."
+  brownout_rule: "Brownout or repeated reboot events must trigger data-quality review."

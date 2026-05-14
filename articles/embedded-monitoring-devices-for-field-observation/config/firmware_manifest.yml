@@ -1,0 +1,14 @@
+firmware_manifest:
+  version: "1.0.0"
+  required_fields:
+    - device_id
+    - firmware_version
+    - sampling_policy
+    - local_qc_rules
+    - threshold_rules
+    - sleep_wake_policy
+    - watchdog_policy
+    - storage_policy
+    - telemetry_policy
+    - update_history
+  change_rule: "Firmware changes that affect sampling, filtering, thresholds, timing, storage, or telemetry must be logged and included in data lineage."
