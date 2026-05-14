@@ -1,0 +1,7 @@
+site_id,station_name,waterbody_type,waterbody_name,watershed_position,latitude,longitude,depth_m,designated_use,agency,telemetry_status,notes
+wq-001,Mainstem Ambient River Station,river,Meridian River,mainstem,38.6300,-90.2100,0.5,aquatic_life_recreation,water_quality_agency,active,Long-term ambient trend station
+wq-002,Urban Tributary Storm Station,stream,Mill Creek,urban_tributary,38.6400,-90.2200,0.3,stormwater_assessment,municipal_water_team,active,Event-driven nutrient and turbidity monitoring
+wq-003,Reservoir Bloom Station,lake_reservoir,Lake Sentinel,open_water,38.6500,-90.2300,1.0,recreation_source_water,parks_water_team,active,Algal and chlorophyll monitoring
+wq-004,Source Water Intake Station,source_water,North Intake,intake_zone,38.6600,-90.2400,2.0,drinking_water_source,utility_team,active,Operational source-water awareness
+wq-005,Recreational Beach Station,recreational_water,South Beach,nearshore,38.6700,-90.2500,0.2,recreation,public_health_team,manual,Microbial advisory monitoring
+wq-006,Groundwater Well Network Site,groundwater,Well Field A,groundwater_connection,38.6800,-90.2600,12.0,drinking_water_source,groundwater_team,review_required,Nitrate and conductivity screening

@@ -1,0 +1,11 @@
+parameter_id,parameter_name,unit,method_type,method_or_instrument,detection_limit,valid_use,proxy_status,confirmation_required
+temp,temperature,degC,field_sensor,multiparameter_sonde,NA,thermal_condition_and_sensor_context,direct,false
+ph,pH,pH_units,field_sensor,multiparameter_sonde,NA,acid_base_condition,direct,false
+do,dissolved_oxygen,mg_L,field_sensor,optical_DO_sensor,NA,aquatic_habitat_and_operational_context,direct,false
+cond,specific_conductance,uS_cm,field_sensor,conductivity_sensor,NA,dissolved_ions_or_salinity_pressure,proxy,true
+turb,turbidity,NTU,field_sensor,optical_turbidity_sensor,NA,suspended_material_or_runoff_signal,proxy,true
+no3,nitrate,mg_L,lab_or_sensor,ion_chromatography_or_nitrate_sensor,0.05,nutrient_condition_and_source_tracking,direct,false
+tp,total_phosphorus,mg_L,laboratory,colorimetric_lab_method,0.01,eutrophication_and_load_assessment,direct,false
+chl,chlorophyll_a,ug_L,field_or_lab,fluorometer_or_lab_extract,0.5,algal_productivity_screening,proxy,true
+ecoli,E_coli,CFU_100mL,laboratory,membrane_filtration_or_defined_substrate,1,recreational_or_public_health_advisory,direct,false
+pfas,pfas_screening,ng_L,laboratory,LC_MS_MS,2,emerging_contaminant_screening,direct,false

@@ -1,0 +1,6 @@
+program_id,waterbody_type,decision_use,sampling_representativeness,analytical_validity,hydrological_context,qaqc_completeness,load_readiness,threshold_alignment,uncertainty_communication,data_interoperability,governance_readiness,high_stakes_use
+ambient-river-quality-network,river,ambient_condition_and_trends,0.78,0.84,0.82,0.88,0.76,0.80,0.78,0.82,0.80,true
+storm-event-nutrient-program,watershed,event_load_estimation,0.72,0.82,0.86,0.80,0.68,0.76,0.74,0.72,0.76,true
+recreational-microbial-advisory,recreational_water,public_health_advisory,0.70,0.78,0.66,0.82,0.52,0.84,0.76,0.74,0.78,true
+continuous-source-water-sensors,source_water,treatment_operations,0.76,0.74,0.80,0.70,0.62,0.72,0.70,0.78,0.76,true
+groundwater-emerging-contaminant-screening,groundwater,source_water_and_public_health_screening,0.68,0.76,0.60,0.74,0.50,0.70,0.68,0.70,0.72,true

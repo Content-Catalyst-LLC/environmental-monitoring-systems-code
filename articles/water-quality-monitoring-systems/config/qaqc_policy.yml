@@ -1,0 +1,14 @@
+qaqc_policy:
+  version: "1.0.0"
+  required_checks:
+    - site_metadata_complete
+    - parameter_unit_valid
+    - method_code_present
+    - detection_limit_present_when_applicable
+    - calibration_status
+    - fouling_or_drift_review
+    - blank_duplicate_control_review
+    - sample_preservation_and_chain_of_custody
+    - quality_flag
+    - hydrological_context
+  rule: "Public water-quality claims must not be made from observations lacking method, QA/QC, hydrological context, or valid-use caveats."

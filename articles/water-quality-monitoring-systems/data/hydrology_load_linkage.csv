@@ -1,0 +1,6 @@
+link_id,site_id,sample_id,timestamp,flow_m3_s,stage_m,event_flag,concentration_parameter,concentration_value,concentration_unit,instantaneous_load_kg_day,load_method,quality_flag
+load-001,wq-001,samp-001,2026-05-01T09:00:00Z,42.0,3.2,baseflow,no3,2.4,mg_L,8709.12,paired_sample_flow,pass
+load-002,wq-001,samp-001,2026-05-01T09:00:00Z,42.0,3.2,baseflow,tp,0.06,mg_L,217.73,paired_sample_flow,pass
+load-003,wq-002,samp-002,2026-05-01T13:00:00Z,18.0,1.4,storm_event,no3,5.8,mg_L,9020.16,autosampler_flow_paired,pass
+load-004,wq-002,samp-002,2026-05-01T13:00:00Z,18.0,1.4,storm_event,tp,0.22,mg_L,342.14,autosampler_flow_paired,review_required
+load-005,wq-006,samp-005,2026-05-04T11:00:00Z,NA,NA,groundwater_screening,no3,8.7,mg_L,NA,not_applicable_groundwater,review_required

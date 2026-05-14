@@ -1,0 +1,9 @@
+lab_result_id,sample_id,site_id,parameter_id,result_value,unit,method_code,detection_limit,qualifier,lab_qaqc_flag,result_status
+lab-001,samp-001,wq-001,no3,2.4,mg_L,IC_NO3_300,0.05,,pass,final
+lab-002,samp-001,wq-001,tp,0.06,mg_L,TP_COLOR_365,0.01,,pass,final
+lab-003,samp-002,wq-002,no3,5.8,mg_L,IC_NO3_300,0.05,,pass,final
+lab-004,samp-002,wq-002,tp,0.22,mg_L,TP_COLOR_365,0.01,,review_required,provisional
+lab-005,samp-003,wq-003,chl,38.0,ug_L,CHL_EXTRACT,0.5,,pass,final
+lab-006,samp-004,wq-005,ecoli,420,CFU_100mL,ECOLI_METHOD,1,,pass,final
+lab-007,samp-005,wq-006,no3,8.7,mg_L,IC_NO3_300,0.05,,review_required,provisional
+lab-008,samp-005,wq-006,pfas,12.0,ng_L,LCMS_PFAS,2,estimated,review_required,provisional

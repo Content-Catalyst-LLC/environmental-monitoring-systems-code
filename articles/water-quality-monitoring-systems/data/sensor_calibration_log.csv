@@ -1,0 +1,7 @@
+calibration_id,site_id,parameter_id,event_date,event_type,standard_or_method,result,technician,notes
+cal-001,wq-001,do,2026-05-01,pre_deployment_calibration,air_saturation_check,pass,tech_a,Optical DO sensor within tolerance
+cal-002,wq-001,ph,2026-05-01,pre_deployment_calibration,pH_7_and_10_buffers,pass,tech_a,Two-point calibration
+cal-003,wq-002,turb,2026-05-02,field_check,turbidity_standard,review_required,tech_b,Possible fouling after storm deployment
+cal-004,wq-003,chl,2026-05-02,field_check,fluorometer_standard,pass,tech_c,Within screening tolerance
+cal-005,wq-004,cond,2026-05-03,pre_deployment_calibration,conductivity_standard,pass,tech_d,Operational intake monitor ready
+cal-006,wq-006,cond,2026-05-04,maintenance_check,conductivity_standard,review_required,tech_e,Groundwater probe needs recalibration

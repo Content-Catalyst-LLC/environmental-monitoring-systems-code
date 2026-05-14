@@ -1,0 +1,6 @@
+governance_id,date,program_id,decision,owner,status,public_note_required
+gov-001,2026-05-01,ambient-river-quality-network,Approved for public trend reporting with hydrological caveat,water_quality_team,closed,true
+gov-002,2026-05-02,storm-event-nutrient-program,Improve load-readiness documentation before storm-load claims,watershed_team,open,true
+gov-003,2026-05-03,recreational-microbial-advisory,Require rainfall and resampling caveat for advisory interpretation,public_health_team,open,true
+gov-004,2026-05-04,continuous-source-water-sensors,Require laboratory confirmation for proxy-based source-water alerts,utility_team,open,true
+gov-005,2026-05-05,groundwater-emerging-contaminant-screening,Require confirmatory sampling and public caveat before PFAS claim,groundwater_team,open,true

@@ -1,0 +1,33 @@
+article:
+  title: "Water Quality Monitoring Systems"
+  slug: "water-quality-monitoring-systems"
+  subtitle: "Sensors, Sampling, Aquatic Evidence, and Water Governance"
+  series: "Environmental Monitoring Systems"
+  site_url: "https://sustainablecatalyst.com/water-quality-monitoring-systems/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/environmental-monitoring-systems-code/tree/main/articles/water-quality-monitoring-systems"
+
+navigation_note:
+  top_gateway_rule: "Use the five-button navigation to point to article maps / pillar pages whenever possible; reserve individual article links for Related articles."
+  github_block_position: "Place the GitHub repository section after the code samples."
+
+technical_level: "research-grade water quality monitoring, aquatic evidence, field sensing, laboratory analysis, QA/QC, hydrological context, load estimation, threshold alignment, and governance scaffold"
+
+workflows:
+  mathematical_lens: "Concentration, discharge, instantaneous load, event load, exceedance ratio, exposure, and water-quality evidence quality"
+  python:
+    - "Water-quality monitoring readiness scoring"
+    - "Aquatic evidence-quality triage"
+    - "QA/QC, hydrological context, load readiness, threshold alignment, and governance review"
+  r:
+    - "Monitoring readiness reporting"
+    - "Load, exceedance, QA/QC, and governance summary tables"
+  sql:
+    - "Site and station registry"
+    - "Parameter and method registry"
+    - "Sensor calibration and maintenance log"
+    - "Sampling event log"
+    - "Laboratory results"
+    - "Hydrology and load linkage"
+    - "Assessment threshold registry"
+    - "Water-quality readiness scores"
+    - "Governance and public evidence log"

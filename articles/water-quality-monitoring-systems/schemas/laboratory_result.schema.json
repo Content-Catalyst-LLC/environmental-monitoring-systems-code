@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LaboratoryResult",
+  "type": "object",
+  "required": [
+    "lab_result_id",
+    "sample_id",
+    "site_id",
+    "parameter_id",
+    "result_value",
+    "unit",
+    "method_code",
+    "detection_limit",
+    "lab_qaqc_flag",
+    "result_status"
+  ],
+  "properties": {
+    "lab_result_id": {"type": "string"},
+    "sample_id": {"type": "string"},
+    "site_id": {"type": "string"},
+    "parameter_id": {"type": "string"},
+    "result_value": {"type": "number"},
+    "unit": {"type": "string"},
+    "method_code": {"type": "string"},
+    "detection_limit": {"type": "number"},
+    "qualifier": {"type": "string"},
+    "lab_qaqc_flag": {"type": "string"},
+    "result_status": {"type": "string"}
+  }
+}

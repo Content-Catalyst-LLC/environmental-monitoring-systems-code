@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "name": "water_quality_monitoring_sites",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "wq-001",
+        "waterbody_type": "river",
+        "decision_use": "ambient_condition_and_trends"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2100, 38.6300]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "wq-002",
+        "waterbody_type": "stream",
+        "decision_use": "stormwater_assessment"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2200, 38.6400]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "wq-005",
+        "waterbody_type": "recreational_water",
+        "decision_use": "public_health_advisory"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2500, 38.6700]}
+    }
+  ]
+}

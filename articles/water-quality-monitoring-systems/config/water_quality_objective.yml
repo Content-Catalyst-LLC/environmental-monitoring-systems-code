@@ -1,0 +1,24 @@
+water_quality_objective:
+  version: "1.0.0"
+  title: "Water Quality Monitoring Systems"
+  purpose: "Demonstrate aquatic monitoring readiness, sampling representativeness, analytical validity, hydrological context, QA/QC completeness, load readiness, threshold alignment, interoperability, and governance."
+  waterbody_types:
+    - river
+    - stream
+    - lake_reservoir
+    - groundwater
+    - source_water
+    - recreational_water
+    - wastewater
+    - stormwater
+  decision_uses:
+    - public_health_protection
+    - aquatic_life_assessment
+    - ambient_condition_and_trends
+    - event_load_estimation
+    - recreational_advisory
+    - source_water_protection
+    - treatment_operations
+    - restoration_evaluation
+    - regulatory_assessment
+    - sustainability_reporting

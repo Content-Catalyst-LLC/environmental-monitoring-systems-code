@@ -1,0 +1,13 @@
+assessment_policy:
+  version: "1.0.0"
+  rule: "Assessment requires a valid threshold source, designated use or decision use, magnitude, duration or frequency context where applicable, and uncertainty caveat."
+  required_fields:
+    - threshold_id
+    - parameter_id
+    - waterbody_type
+    - decision_use
+    - threshold_value
+    - unit
+    - threshold_type
+    - source_or_basis
+    - response_action

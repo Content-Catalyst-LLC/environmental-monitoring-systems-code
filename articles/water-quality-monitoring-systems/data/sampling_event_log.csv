@@ -1,0 +1,6 @@
+sample_id,site_id,sample_datetime,sample_type,event_context,depth_m,preservation,chain_of_custody,collector,quality_flag
+samp-001,wq-001,2026-05-01T09:00:00Z,grab,baseflow,0.5,cooled,true,field_team_a,pass
+samp-002,wq-002,2026-05-01T13:00:00Z,autosampler,storm_event,0.3,cooled,true,field_team_b,pass
+samp-003,wq-003,2026-05-02T10:00:00Z,grab,bloom_screening,1.0,cooled_dark,true,field_team_c,pass
+samp-004,wq-005,2026-05-03T08:00:00Z,grab,recreational_advisory,0.2,cooled,true,public_health_team,pass
+samp-005,wq-006,2026-05-04T11:00:00Z,grab,groundwater_screening,12.0,filtered_cooled,true,groundwater_team,review_required

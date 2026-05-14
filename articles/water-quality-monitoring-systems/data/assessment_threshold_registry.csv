@@ -1,0 +1,7 @@
+threshold_id,parameter_id,waterbody_type,decision_use,threshold_value,unit,threshold_type,source_or_basis,response_action,review_status
+thr-001,do,river,aquatic_life,5.0,mg_L,below,illustrative_aquatic_life_screen,review_habitat_stress,approved
+thr-002,turb,stream,stormwater_assessment,100,NTU,above,local_screening_threshold,trigger_storm_event_review,review_required
+thr-003,no3,groundwater,drinking_water_source,10.0,mg_L,above,drinking_water_screening_value,source_water_review,approved
+thr-004,ecoli,recreational_water,public_health_advisory,235,CFU_100mL,above,recreational_single_sample_screen,issue_or_review_advisory,approved
+thr-005,chl,lake_reservoir,bloom_screening,30,ug_L,above,local_bloom_screening_threshold,confirm_bloom_conditions,review_required
+thr-006,pfas,groundwater,emerging_contaminant_screening,4,ng_L,above,illustrative_screening_level,confirmatory_sampling_required,review_required

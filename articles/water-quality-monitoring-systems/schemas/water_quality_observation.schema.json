@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WaterQualityObservation",
+  "type": "object",
+  "required": [
+    "site_id",
+    "timestamp",
+    "parameter_id",
+    "value",
+    "unit",
+    "method_type",
+    "quality_flag"
+  ],
+  "properties": {
+    "site_id": {"type": "string"},
+    "timestamp": {"type": "string"},
+    "parameter_id": {"type": "string"},
+    "value": {"type": "number"},
+    "unit": {"type": "string"},
+    "method_type": {"type": "string"},
+    "quality_flag": {"type": "string"},
+    "hydrological_context": {"type": "string"},
+    "event_context": {"type": "string"}
+  }
+}
