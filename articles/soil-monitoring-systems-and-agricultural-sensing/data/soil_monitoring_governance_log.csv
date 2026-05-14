@@ -1,0 +1,5 @@
+governance_id,date,program_id,decision,owner,status,public_note_required
+gov-001,2026-05-01,irrigated-maize-profile-monitoring,Approved for irrigation decision support with calibration caveat,irrigation_team,closed,true
+gov-002,2026-05-02,orchard-salinity-moisture-monitoring,Require remote-product caveat for salinity interpretation,salinity_team,open,true
+gov-003,2026-05-03,regional-drought-soil-moisture-network,Use remote products for regional context not field-scale recommendations,drought_team,open,true
+gov-004,2026-05-04,soil-health-stewardship-program,Need stronger depth representation before stewardship claim,soil_health_team,open,true

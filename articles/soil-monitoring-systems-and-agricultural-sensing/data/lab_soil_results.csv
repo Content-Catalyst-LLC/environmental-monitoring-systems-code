@@ -1,0 +1,5 @@
+sample_id,field_id,management_zone,sample_date,depth_cm,ph,nitrate_mg_kg,phosphorus_mg_kg,organic_carbon_percent,bulk_density_g_cm3,texture_class,notes
+lab-2026-001,field-a,north_block,2026-04-10,0_30,6.7,18,24,1.9,1.25,silt_loam,Baseline nutrient panel
+lab-2026-002,field-a,south_block,2026-04-10,0_30,6.4,12,18,1.4,1.38,sandy_loam,Lower water holding capacity
+lab-2026-003,orchard-b,salinity_zone,2026-04-12,0_45,7.4,10,20,1.6,1.42,clay_loam,Salinity risk context
+lab-2026-004,conservation-c,soil_health_zone,2026-04-15,0_30,6.8,14,22,2.5,1.18,loam,Soil stewardship baseline

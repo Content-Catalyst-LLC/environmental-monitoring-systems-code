@@ -1,0 +1,4 @@
+link_id,field_id,remote_product,product_date,remote_surface_moisture,remote_rootzone_moisture,in_situ_reference_sensor,agreement_score,scale_caveat
+rsm-001,field-a,NASA_USDA_global_soil_moisture,2026-05-01,0.22,0.27,sm-001,0.72,Regional product should not be used as field-scale decision alone
+rsm-002,regional-network,SMAP_soil_moisture,2026-05-01,0.19,0.23,regional_sensor_mean,0.82,Useful for drought anomaly context
+rsm-003,orchard-b,NASA_USDA_global_soil_moisture,2026-05-01,0.21,0.25,ec-001,0.61,Moisture product does not directly measure salinity

@@ -1,0 +1,6 @@
+event_id,sensor_id,event_date,event_type,method,result,technician,notes
+cal-001,sm-001,2026-04-01,installation_check,field_installation_review,pass,tech_a,Good sensor-soil contact
+cal-002,sm-002,2026-04-01,installation_check,field_installation_review,pass,tech_a,Good sensor-soil contact
+cal-003,sm-003,2026-04-03,calibration_review,gravimetric_comparison,review_required,tech_b,Deviation from reference sample
+cal-004,ec-001,2026-04-08,calibration_check,standard_solution_check,pass,tech_c,Within tolerance
+maint-001,sm-001,2026-05-01,battery_check,field_visit,pass,tech_a,Battery normal

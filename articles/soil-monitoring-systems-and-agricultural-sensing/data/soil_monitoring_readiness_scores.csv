@@ -1,0 +1,5 @@
+program_id,crop_or_system,geography,spatial_representativeness,depth_representation,calibration_quality,telemetry_completeness,laboratory_support,remote_product_agreement,uncertainty_communication,decision_readiness,high_stakes_use
+irrigated-maize-profile-monitoring,maize,irrigated_field_block,0.76,0.86,0.82,0.92,0.70,0.72,0.78,0.86,true
+orchard-salinity-moisture-monitoring,orchard,salinity_risk_zone,0.72,0.80,0.76,0.88,0.78,0.68,0.76,0.82,true
+regional-drought-soil-moisture-network,mixed_agriculture,regional_network,0.68,0.72,0.78,0.84,0.66,0.82,0.78,0.76,true
+soil-health-stewardship-program,soil_health,conservation_fields,0.70,0.64,0.74,0.76,0.86,0.62,0.70,0.72,false

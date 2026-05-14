@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SoilObservationRecord",
+  "type": "object",
+  "required": ["record_id", "sensor_id", "timestamp", "parameter", "value", "unit", "quality_flag"],
+  "properties": {
+    "record_id": {"type": "string"},
+    "sensor_id": {"type": "string"},
+    "timestamp": {"type": "string"},
+    "parameter": {"type": "string"},
+    "value": {"type": "number"},
+    "unit": {"type": "string"},
+    "quality_flag": {"type": "string"},
+    "telemetry_status": {"type": "string"}
+  }
+}

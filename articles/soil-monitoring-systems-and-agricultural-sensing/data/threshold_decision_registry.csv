@@ -1,0 +1,5 @@
+threshold_id,program_id,decision_use,parameter,threshold_value,unit,soil_context,crop_or_system,response_action,review_status
+thr-001,irrigated-maize-profile-monitoring,irrigation_scheduling,depletion_ratio,0.55,ratio,silt_loam,maize,consider_irrigation,approved
+thr-002,orchard-salinity-moisture-monitoring,salinity_review,electrical_conductivity,3.0,dS_m,clay_loam,orchard,review_leaching_and_drainage,approved
+thr-003,regional-drought-soil-moisture-network,drought_assessment,rootzone_moisture_anomaly,-1.0,z_score,mixed,mixed_agriculture,flag_drought_stress,approved
+thr-004,soil-health-stewardship-program,soil_stewardship,organic_carbon_change,0.2,percent,loam,conservation_fields,repeat_sampling_review,review_required

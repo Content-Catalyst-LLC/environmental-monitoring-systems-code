@@ -1,0 +1,11 @@
+calibration_policy:
+  version: "1.0.0"
+  rule: "High-stakes soil decisions require local calibration, installation review, maintenance history, and quality flags."
+  required_fields:
+    - sensor_id
+    - installation_date
+    - depth_cm
+    - calibration_status
+    - reference_method
+    - maintenance_owner
+    - quality_flag

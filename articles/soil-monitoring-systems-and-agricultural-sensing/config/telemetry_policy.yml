@@ -1,0 +1,10 @@
+telemetry_policy:
+  version: "1.0.0"
+  minimum_completeness: 0.80
+  stale_data_rule: "Operational dashboards must flag stale soil sensor records."
+  required_fields:
+    - expected_records
+    - received_records
+    - latency_minutes
+    - outage_status
+    - stale_data_flag

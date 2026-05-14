@@ -1,0 +1,16 @@
+{
+  "type": "FeatureCollection",
+  "name": "soil_monitoring_field_zones",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"field_id": "field-a", "management_zone": "north_block", "crop_or_system": "maize"},
+      "geometry": {"type": "Point", "coordinates": [-90.1994, 38.6270]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"field_id": "orchard-b", "management_zone": "salinity_zone", "crop_or_system": "orchard"},
+      "geometry": {"type": "Point", "coordinates": [-90.3300, 38.7100]}
+    }
+  ]
+}

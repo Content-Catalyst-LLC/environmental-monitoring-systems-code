@@ -1,0 +1,12 @@
+monitoring_objective:
+  version: "1.0.0"
+  title: "Soil Monitoring Systems and Agricultural Sensing"
+  purpose: "Demonstrate root-zone evidence quality, field data integrity, calibration, telemetry, lab support, remote soil-moisture linkage, and decision readiness."
+  decision_uses:
+    - irrigation_scheduling
+    - drought_assessment
+    - nutrient_management
+    - salinity_control
+    - runoff_risk_interpretation
+    - soil_health_reporting
+    - soil_stewardship

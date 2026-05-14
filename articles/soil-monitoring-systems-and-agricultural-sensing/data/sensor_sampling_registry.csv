@@ -1,0 +1,6 @@
+sensor_id,field_id,management_zone,parameter,unit,depth_cm,latitude,longitude,installation_date,calibration_status,owner
+sm-001,field-a,north_block,volumetric_water_content,m3_m3,30,38.6270,-90.1994,2026-04-01,validated,irrigation_team
+sm-002,field-a,north_block,volumetric_water_content,m3_m3,60,38.6270,-90.1994,2026-04-01,validated,irrigation_team
+sm-003,field-a,south_block,volumetric_water_content,m3_m3,30,38.6280,-90.2010,2026-04-02,review_required,irrigation_team
+ec-001,orchard-b,salinity_zone,electrical_conductivity,dS_m,45,38.7100,-90.3300,2026-04-04,validated,salinity_team
+lab-001,conservation-c,soil_health_zone,lab_soil_panel,multiple,0_30,38.5000,-90.3500,2026-04-10,validated,soil_health_team

@@ -1,0 +1,6 @@
+field_id,management_zone,soil_texture,rooting_depth_cm,drainage_class,organic_matter_percent,available_water_capacity,notes
+field-a,north_block,silt_loam,90,moderately_well_drained,3.2,0.18,Main irrigated maize zone
+field-a,south_block,sandy_loam,70,well_drained,2.1,0.12,Fast-draining section
+orchard-b,salinity_zone,clay_loam,100,poorly_drained,2.8,0.20,Salinity and drainage risk
+regional-network,mixed_zone,mixed,80,variable,2.5,0.15,Regional drought-monitoring network
+conservation-c,soil_health_zone,loam,85,moderately_well_drained,4.0,0.17,Soil stewardship monitoring

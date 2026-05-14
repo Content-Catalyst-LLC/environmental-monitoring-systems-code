@@ -1,0 +1,6 @@
+record_id,sensor_id,timestamp,parameter,value,unit,quality_flag,telemetry_status
+rec-001,sm-001,2026-05-01T08:00:00Z,volumetric_water_content,0.24,m3_m3,pass,received
+rec-002,sm-002,2026-05-01T08:00:00Z,volumetric_water_content,0.28,m3_m3,pass,received
+rec-003,sm-003,2026-05-01T08:00:00Z,volumetric_water_content,0.15,m3_m3,review_required,received
+rec-004,ec-001,2026-05-01T08:00:00Z,electrical_conductivity,2.8,dS_m,pass,received
+rec-005,sm-001,2026-05-01T09:00:00Z,volumetric_water_content,0.23,m3_m3,pass,received
