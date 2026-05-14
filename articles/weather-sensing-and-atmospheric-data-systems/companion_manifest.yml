@@ -1,0 +1,33 @@
+article:
+  title: "Weather Sensing and Atmospheric Data Systems"
+  slug: "weather-sensing-and-atmospheric-data-systems"
+  subtitle: "Observation, Telemetry, Data Assimilation, and Real-Time Atmospheric Intelligence"
+  series: "Environmental Monitoring Systems"
+  site_url: "https://sustainablecatalyst.com/weather-sensing-and-atmospheric-data-systems/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/environmental-monitoring-systems-code/tree/main/articles/weather-sensing-and-atmospheric-data-systems"
+
+navigation_note:
+  top_gateway_rule: "Use the five-button navigation to point to article maps / pillar pages whenever possible; reserve individual article links for Related articles."
+  github_block_position: "Place the GitHub repository section after the code samples."
+
+technical_level: "research-grade weather sensing, atmospheric observations, telemetry, latency, quality control, platform ecology, data assimilation, nowcasting, uncertainty, and governance scaffold"
+
+workflows:
+  mathematical_lens: "Observation latency, freshness, platform coverage, assimilation readiness, and weather evidence quality"
+  python:
+    - "Weather-sensing readiness scoring"
+    - "Latency, telemetry, QC, assimilation, coverage, and governance triage"
+    - "Atmospheric evidence-quality review"
+  r:
+    - "Observation coverage and latency reporting"
+    - "Assimilation readiness and governance summary tables"
+  sql:
+    - "Observation platform registry"
+    - "Atmospheric observation records"
+    - "Telemetry and latency log"
+    - "Quality-control flags"
+    - "Assimilation readiness records"
+    - "Coverage and blind-spot audit"
+    - "Forecast-use log"
+    - "Weather-sensing readiness scores"
+    - "Governance and data-sharing log"

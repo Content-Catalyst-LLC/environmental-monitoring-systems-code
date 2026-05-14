@@ -1,0 +1,8 @@
+observation_id,platform_id,observation_time,arrival_time,variable,value,unit,latitude,longitude,platform_type,qc_flag,assimilation_eligible
+obs-001,met-001,2026-05-01T12:00:00Z,2026-05-01T12:02:00Z,temperature,24.2,degC,38.6300,-90.2100,surface_station,pass,true
+obs-002,met-001,2026-05-01T12:00:00Z,2026-05-01T12:02:00Z,wind_speed,6.4,m_s,38.6300,-90.2100,surface_station,pass,true
+obs-003,met-002,2026-05-01T12:00:00Z,2026-05-01T12:01:00Z,visibility,8.0,km,38.7500,-90.3700,automated_airport_station,pass,true
+obs-004,met-003,2026-05-01T12:00:00Z,2026-05-01T12:24:00Z,profile_complete,1,boolean,38.6900,-90.3100,upper_air_radiosonde,pass,true
+obs-005,met-004,2026-05-01T12:05:00Z,2026-05-01T12:07:00Z,reflectivity_max,48,dBZ,38.8100,-90.4200,weather_radar,pass,true
+obs-006,met-005,2026-05-01T12:00:00Z,2026-05-01T12:08:00Z,water_vapor_channel,0.74,index,0.0000,0.0000,satellite,pass,true
+obs-007,met-007,2026-05-01T12:00:00Z,2026-05-01T12:45:00Z,sea_level_pressure,1004.8,hPa,36.9000,-89.9000,marine_buoy,review_required,false

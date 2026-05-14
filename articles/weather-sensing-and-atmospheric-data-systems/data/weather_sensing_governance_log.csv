@@ -1,0 +1,6 @@
+governance_id,date,program_id,decision,owner,status,public_note_required
+gov-001,2026-05-01,surface-weather-network,Approved for public forecast support with vertical-coverage caveat,meteorology_agency,closed,true
+gov-002,2026-05-02,upper-air-profile-network,Maintain profile coverage and document representativeness limits,meteorology_agency,open,true
+gov-003,2026-05-03,radar-nowcasting-network,Add low-level beam-height caveat to severe-weather products,radar_team,open,true
+gov-004,2026-05-04,satellite-atmospheric-feed,Expose retrieval uncertainty in public evidence package,satellite_team,open,true
+gov-005,2026-05-05,marine-observation-network,Prioritize buoy telemetry and maintenance remediation,ocean_agency,open,true

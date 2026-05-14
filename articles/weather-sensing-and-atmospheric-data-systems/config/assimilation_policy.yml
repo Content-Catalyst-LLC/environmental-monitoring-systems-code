@@ -1,0 +1,13 @@
+assimilation_policy:
+  version: "1.0.0"
+  rule: "Assimilation-ready observations require complete metadata, supported format, QC pass or accepted provisional flag, latency within budget, and available error model or uncertainty caveat."
+  required_fields:
+    - observation_id
+    - platform_id
+    - cycle_time
+    - metadata_complete
+    - qc_passed
+    - latency_within_budget
+    - format_supported
+    - error_model_available
+    - assimilable

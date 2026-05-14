@@ -1,0 +1,7 @@
+latency_id,platform_id,window_start,window_end,expected_reports,received_reports,median_latency_minutes,max_latency_minutes,outage_minutes,freshness_status
+lat-001,met-001,2026-05-01T12:00:00Z,2026-05-01T13:00:00Z,12,12,2,3,0,pass
+lat-002,met-002,2026-05-01T12:00:00Z,2026-05-01T13:00:00Z,60,59,1,4,1,pass
+lat-003,met-003,2026-05-01T00:00:00Z,2026-05-01T12:00:00Z,1,1,24,24,0,pass
+lat-004,met-004,2026-05-01T12:00:00Z,2026-05-01T13:00:00Z,12,11,3,9,5,review_required
+lat-005,met-005,2026-05-01T12:00:00Z,2026-05-01T13:00:00Z,6,6,8,10,0,pass
+lat-006,met-007,2026-05-01T12:00:00Z,2026-05-01T13:00:00Z,2,1,45,45,30,review_required

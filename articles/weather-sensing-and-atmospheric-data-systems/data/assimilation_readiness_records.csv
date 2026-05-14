@@ -1,0 +1,8 @@
+assimilation_id,observation_id,platform_id,cycle_time,metadata_complete,qc_passed,latency_within_budget,format_supported,error_model_available,assimilable,reason
+assim-001,obs-001,met-001,2026-05-01T12:00:00Z,true,true,true,true,true,true,Surface observation ready
+assim-002,obs-002,met-001,2026-05-01T12:00:00Z,true,true,true,true,true,true,Wind observation ready
+assim-003,obs-003,met-002,2026-05-01T12:00:00Z,true,true,true,true,true,true,Aviation observation ready
+assim-004,obs-004,met-003,2026-05-01T12:00:00Z,true,true,true,true,true,true,Upper-air profile ready
+assim-005,obs-005,met-004,2026-05-01T12:00:00Z,true,true,true,true,true,true,Radar feature ready for nowcast use
+assim-006,obs-006,met-005,2026-05-01T12:00:00Z,true,true,true,true,true,true,Satellite retrieval ready with uncertainty caveat
+assim-007,obs-007,met-007,2026-05-01T12:00:00Z,true,false,false,true,true,false,Stale buoy report flagged for review

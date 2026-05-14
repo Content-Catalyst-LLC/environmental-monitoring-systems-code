@@ -1,0 +1,7 @@
+program_id,operational_use,geography,observation_freshness,spatial_coverage,vertical_coverage,qc_completeness,assimilation_readiness,representativeness,uncertainty_communication,governance_readiness,high_stakes_use
+surface-weather-network,public_forecast_and_aviation,regional_land_network,0.88,0.82,0.58,0.86,0.78,0.80,0.76,0.80,true
+upper-air-profile-network,model_initialization_and_convective_forecasting,synoptic_profile_sites,0.78,0.70,0.82,0.84,0.80,0.72,0.78,0.76,true
+radar-nowcasting-network,severe_weather_nowcasting,convective_risk_region,0.86,0.76,0.64,0.82,0.74,0.70,0.76,0.78,true
+satellite-atmospheric-feed,remote_sensing_and_assimilation,broad_regional_domain,0.84,0.86,0.68,0.80,0.82,0.74,0.72,0.78,true
+aircraft-observation-network,aviation_and_model_support,flight_corridors,0.80,0.74,0.72,0.78,0.76,0.68,0.72,0.74,true
+marine-observation-network,marine_forecast_and_storm_tracking,coastal_and_ocean_region,0.72,0.62,0.52,0.76,0.68,0.64,0.72,0.74,true

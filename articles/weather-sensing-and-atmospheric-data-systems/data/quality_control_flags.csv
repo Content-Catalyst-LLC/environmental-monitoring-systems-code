@@ -1,0 +1,8 @@
+qc_id,observation_id,platform_id,check_type,check_result,flag,severity,review_note
+qc-001,obs-001,met-001,range_check,pass,valid,low,Temperature within expected range
+qc-002,obs-002,met-001,internal_consistency,pass,valid,low,Wind report internally consistent
+qc-003,obs-003,met-002,temporal_consistency,pass,valid,low,Visibility change plausible
+qc-004,obs-004,met-003,profile_completeness,pass,valid,low,Upper-air profile complete
+qc-005,obs-005,met-004,spatial_consistency,pass,valid,medium,Radar reflectivity consistent with nearby observations
+qc-006,obs-006,met-005,retrieval_quality,pass,valid,medium,Satellite retrieval accepted with caveat
+qc-007,obs-007,met-007,latency_check,review_required,stale,high,Buoy report arrived beyond operational latency budget

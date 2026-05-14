@@ -1,0 +1,14 @@
+quality_control_policy:
+  version: "1.0.0"
+  required_checks:
+    - platform_metadata_complete
+    - timestamp_valid
+    - geolocation_valid
+    - unit_valid
+    - range_check
+    - internal_consistency
+    - temporal_consistency
+    - spatial_consistency
+    - station_health
+    - latency_budget
+  rule: "Forecast-use observations must not be treated as operationally ready unless metadata, timing, QC status, and valid-use context are documented."

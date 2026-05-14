@@ -1,0 +1,24 @@
+weather_sensing_objective:
+  version: "1.0.0"
+  title: "Weather Sensing and Atmospheric Data Systems"
+  purpose: "Demonstrate real-time atmospheric observation readiness, latency, quality control, platform coverage, assimilation readiness, uncertainty communication, and governance."
+  operational_uses:
+    - public_forecast
+    - severe_weather_nowcasting
+    - aviation_services
+    - marine_guidance
+    - hydrometeorological_forecasting
+    - energy_operations
+    - infrastructure_decision_support
+    - public_warning
+  observation_platforms:
+    - surface_station
+    - automated_airport_station
+    - upper_air_radiosonde
+    - wind_profiler
+    - weather_radar
+    - satellite
+    - aircraft_reports
+    - marine_buoy
+    - ship_report
+    - lightning_network

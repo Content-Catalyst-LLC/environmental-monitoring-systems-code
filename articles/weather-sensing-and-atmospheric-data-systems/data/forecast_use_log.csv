@@ -1,0 +1,6 @@
+forecast_use_id,program_id,platform_id,workflow,forecast_cycle,decision_context,used,status,notes
+use-001,surface-weather-network,met-001,public_forecast,2026-05-01T12:00:00Z,near_surface_condition_analysis,true,closed,Surface observations used in regional analysis
+use-002,surface-weather-network,met-002,aviation_forecast,2026-05-01T12:00:00Z,airport_visibility_and_ceiling,true,closed,Airport observation used in aviation product
+use-003,upper-air-profile-network,met-003,nwp_initialization,2026-05-01T12:00:00Z,convective_environment_assessment,true,closed,Upper-air profile assimilated
+use-004,radar-nowcasting-network,met-004,severe_weather_nowcast,2026-05-01T12:00:00Z,storm_tracking_and_warning_support,true,closed,Radar nowcast feed active
+use-005,marine-observation-network,met-007,marine_forecast,2026-05-01T12:00:00Z,marine_pressure_and_wind_context,false,review_required,Buoy report stale beyond latency budget

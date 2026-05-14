@@ -1,0 +1,8 @@
+platform_id,platform_name,platform_type,owner,latitude,longitude,elevation_m,variables,update_frequency_minutes,operational_status,assimilation_relevance,notes
+met-001,Central Surface Weather Station,surface_station,meteorology_agency,38.6300,-90.2100,145,temperature_pressure_humidity_wind_precipitation,5,active,high,Primary regional surface station
+met-002,Airport ASOS Station,automated_airport_station,aviation_authority,38.7500,-90.3700,171,temperature_pressure_wind_visibility_ceiling_present_weather,1,active,high,Aviation-critical station
+met-003,Regional Radiosonde Site,upper_air_radiosonde,meteorology_agency,38.6900,-90.3100,155,temperature_humidity_pressure_wind_profile,720,active,high,Upper-air profile launch site
+met-004,Doppler Radar Domain,weather_radar,meteorology_agency,38.8100,-90.4200,210,reflectivity_velocity_precipitation_structure,5,active,high,Convective storm monitoring
+met-005,Geostationary Satellite Feed,satellite,space_agency,0.0000,0.0000,35786000,radiances_clouds_water_vapor_motion_vectors,10,active,high,Broad cloud and moisture coverage
+met-006,Aircraft Observation Corridor,aircraft_reports,aviation_network,38.7000,-90.3000,NA,temperature_wind_turbulence,15,active,medium,Dense along aviation corridor
+met-007,Coastal Buoy Atmospheric Station,marine_buoy,ocean_agency,36.9000,-89.9000,0,pressure_wind_temperature_wave_state,30,review_required,medium,Marine observation gap reduction

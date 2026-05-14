@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AtmosphericObservation",
+  "type": "object",
+  "required": [
+    "observation_id",
+    "platform_id",
+    "observation_time",
+    "arrival_time",
+    "variable",
+    "value",
+    "unit",
+    "platform_type",
+    "qc_flag"
+  ],
+  "properties": {
+    "observation_id": {"type": "string"},
+    "platform_id": {"type": "string"},
+    "observation_time": {"type": "string"},
+    "arrival_time": {"type": "string"},
+    "variable": {"type": "string"},
+    "value": {"type": "number"},
+    "unit": {"type": "string"},
+    "latitude": {"type": "number"},
+    "longitude": {"type": "number"},
+    "platform_type": {"type": "string"},
+    "qc_flag": {"type": "string"},
+    "assimilation_eligible": {"type": "boolean"}
+  }
+}

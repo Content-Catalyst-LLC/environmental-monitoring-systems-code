@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ObservationPlatform",
+  "type": "object",
+  "required": [
+    "platform_id",
+    "platform_name",
+    "platform_type",
+    "owner",
+    "variables",
+    "update_frequency_minutes",
+    "operational_status"
+  ],
+  "properties": {
+    "platform_id": {"type": "string"},
+    "platform_name": {"type": "string"},
+    "platform_type": {"type": "string"},
+    "owner": {"type": "string"},
+    "latitude": {"type": "number"},
+    "longitude": {"type": "number"},
+    "elevation_m": {"type": ["number", "string"]},
+    "variables": {"type": "string"},
+    "update_frequency_minutes": {"type": "number"},
+    "operational_status": {"type": "string"},
+    "assimilation_relevance": {"type": "string"},
+    "notes": {"type": "string"}
+  }
+}

@@ -1,0 +1,6 @@
+audit_id,program_id,coverage_dimension,target_zone_or_structure,coverage_score,evidence_gap,priority,notes
+audit-001,surface-weather-network,vertical_constraint,boundary_layer_and_upper_air_structure,0.58,Dense surface observations cannot resolve vertical stability and shear,high,Strengthen upper-air and profiler integration
+audit-002,radar-nowcasting-network,radar_gap,low_level_beam_coverage,0.64,Low-level radar coverage weak at far ranges and obstructed terrain,high,Document beam-height caveats and supplement with surface reports
+audit-003,marine-observation-network,marine_gap,coastal_and_ocean_region,0.52,Sparse buoy and ship reports limit oceanic atmospheric constraint,high,Prioritize marine platform maintenance and satellite validation
+audit-004,satellite-atmospheric-feed,retrieval_uncertainty,cloud_and_moisture_retrievals,0.72,Satellite retrieval uncertainty not always visible in public products,medium,Expose retrieval uncertainty and valid-use caveats
+audit-005,regional-observation-exchange,data_interoperability,cross_agency_platforms,0.70,Metadata and update-frequency differences reduce combined use,medium,Improve schema and shared platform registry

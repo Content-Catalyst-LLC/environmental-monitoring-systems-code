@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "name": "weather_sensing_platforms",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "platform_id": "met-001",
+        "platform_type": "surface_station",
+        "operational_use": "public forecast"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2100, 38.6300]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "platform_id": "met-003",
+        "platform_type": "upper_air_radiosonde",
+        "operational_use": "model initialization"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.3100, 38.6900]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "platform_id": "met-004",
+        "platform_type": "weather_radar",
+        "operational_use": "nowcasting"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.4200, 38.8100]}
+    }
+  ]
+}
