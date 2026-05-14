@@ -1,0 +1,12 @@
+detectability_policy:
+  version: "1.0.0"
+  required_fields:
+    - method_id
+    - effort_units
+    - survey_timing
+    - season
+    - observer_or_model
+    - detection_probability_or_note
+    - non_detection_interpretation
+    - quality_flag
+  rule: "Non-detection should not be treated as absence without effort, season, method, and detectability context."

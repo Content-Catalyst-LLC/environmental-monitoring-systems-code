@@ -1,0 +1,11 @@
+inclusion_governance_policy:
+  version: "1.0.0"
+  required_fields:
+    - knowledge_source
+    - consent_status
+    - ownership_model
+    - sensitive_location_policy
+    - interpretation_role
+    - public_use_status
+    - benefit_or_capacity_notes
+  rule: "Community-based, Indigenous, and local knowledge should not be reduced to extractive data inputs without consent, ownership, interpretive context, and valid-use limits."

@@ -1,0 +1,6 @@
+accountability_id,date,program_id,claim,decision,owner,status,public_note_required
+acct-001,2026-05-01,forest-biodiversity-monitoring,Forest biodiversity stable,Require taxonomic bias caveat before public claim,forest_team,open,true
+acct-002,2026-05-02,wetland-biodiversity-monitoring,Wetland amphibian monitoring supports restoration review,Approved with seasonal-detectability caveat,wetland_team,closed,true
+acct-003,2026-05-03,stream-edna-monitoring,eDNA indicates native fish presence,Require field or habitat validation before high-confidence claim,stream_team,open,true
+acct-004,2026-05-04,urban-biodiversity-monitoring,Urban biodiversity improving,Require effort correction and underserved-area coverage review,urban_ecology_team,open,true
+acct-005,2026-05-05,grassland-insect-monitoring,Pollinator restoration response detected,Use as screening evidence pending repeat surveys,restoration_team,open,true

@@ -1,0 +1,12 @@
+indicator_mapping_policy:
+  version: "1.0.0"
+  required_fields:
+    - indicator_id
+    - biodiversity_dimension
+    - ebv_link
+    - policy_or_reporting_use
+    - underlying_observations
+    - proxy_limit
+    - uncertainty_statement
+    - valid_use
+  rule: "Indicators and EBVs should preserve traceability to underlying observations and proxy limits."

@@ -1,0 +1,8 @@
+method_id,method_name,best_for,detectability_limits,data_burden,governance_note
+field_transect,Field transects and surveys,direct species and habitat observation,Observer skill season weather access and effort affect detection,medium,Requires protocol continuity and effort metadata
+camera_trap,Camera traps,mobile and elusive fauna,Body size placement movement behavior and baiting influence detection,high,Image classification and location sensitivity needed
+acoustic_recorder,Automated acoustic monitoring,vocal birds amphibians insects and soundscape indicators,Vocal activity season noise and model accuracy shape detection,high,Model cards needed for automated classification
+edna,eDNA and molecular detection,cryptic aquatic rare or hard-to-detect taxa,DNA persistence transport contamination and taxonomic resolution affect inference,medium,Detection does not always equal local living presence
+remote_sensing,Remote sensing,habitat extent structure productivity and fragmentation,Habitat visibility does not equal species observation,high,Must link habitat proxies to biological evidence
+community_monitoring,Community-based monitoring,place-based change local observations and long-duration knowledge,Method standardization may differ from formal protocols,medium,Requires consent ownership and interpretation governance
+citizen_science,Citizen science observation,broad geographic occurrence data,Effort unevenness taxonomic bias and accessibility bias,high,Needs validation and effort-aware modeling

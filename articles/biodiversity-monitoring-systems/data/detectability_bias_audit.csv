@@ -1,0 +1,6 @@
+audit_id,program_id,bias_dimension,target_group_or_zone,score,evidence_gap,priority,notes
+audit-001,forest-biodiversity-monitoring,taxonomic_bias,invertebrates_and_soil_biota,0.42,Monitoring dominated by birds and large mammals,high,Add insect soil and microbial methods
+audit-002,wetland-biodiversity-monitoring,seasonal_bias,amphibian_breeding_windows,0.68,Surveys do not cover full breeding season,medium,Add weather-triggered acoustic sampling
+audit-003,stream-edna-monitoring,method_bias,local_presence_interpretation,0.60,eDNA transport complicates site-level presence,high,Pair with habitat and field validation
+audit-004,urban-biodiversity-monitoring,effort_bias,underserved_neighborhoods,0.48,Citizen-science effort uneven across neighborhoods,high,Support community-based monitoring and effort correction
+audit-005,coastal-biodiversity-monitoring,habitat_visibility_bias,below_canopy_and_benthic_taxa,0.52,Remote-sensing habitat proxy misses many taxa,high,Add field and molecular surveys

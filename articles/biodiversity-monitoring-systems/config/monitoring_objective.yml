@@ -1,0 +1,35 @@
+monitoring_objective:
+  version: "1.0.0"
+  title: "Biodiversity Monitoring Systems"
+  purpose: "Demonstrate biodiversity monitoring readiness, detectability-aware inference, EBV/indicator mapping, method integration, inclusion governance, and conservation accountability"
+  biodiversity_dimensions:
+    - occurrence
+    - abundance
+    - distribution
+    - community
+    - genetic
+    - habitat
+    - function
+    - pressure
+    - response
+  decision_uses:
+    - conservation_reporting
+    - national_biodiversity_strategy
+    - gbf_monitoring
+    - restoration_accountability
+    - invasive_species_response
+    - protected_area_evaluation
+    - biodiversity_finance_review
+    - public_ecological_accountability
+  required_evidence_dimensions:
+    - program_id
+    - target_taxa
+    - geography
+    - observation_method
+    - effort
+    - detectability_note
+    - quality_flag
+    - indicator_linkage
+    - habitat_context
+    - uncertainty_statement
+    - governance_owner

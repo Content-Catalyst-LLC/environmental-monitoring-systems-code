@@ -1,0 +1,45 @@
+article:
+  title: "Biodiversity Monitoring Systems"
+  slug: "biodiversity-monitoring-systems"
+  subtitle: "Ecological Observation, Indicators, and Conservation Accountability"
+  series: "Environmental Monitoring Systems"
+  site_url: "https://sustainablecatalyst.com/biodiversity-monitoring-systems/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/environmental-monitoring-systems-code/tree/main/articles/biodiversity-monitoring-systems"
+
+navigation_note:
+  top_gateway_rule: "Use the five-button navigation to point to article maps / pillar pages whenever possible; reserve related article links for the Related articles section."
+  preferred_gateway_targets:
+    - "/publications/"
+    - "/environmental-monitoring-systems/"
+    - "/biology/"
+    - "/remote-sensing-systems-in-environmental-monitoring/"
+    - "/risk-resilience/"
+
+technical_level: "research-grade biodiversity monitoring, detectability-aware inference, EBV/indicator mapping, method integration, bias audit, community monitoring governance, and conservation accountability scaffold"
+
+workflows:
+  mathematical_lens: "Taxonomic coverage, spatial representativeness, detectability adjustment, method diversity, EBV readiness, uncertainty communication, and biodiversity evidence quality"
+  python:
+    - "Biodiversity monitoring readiness scoring"
+    - "Detectability, representativeness, indicator readiness, uncertainty, and reporting triage"
+    - "High-stakes biodiversity claim review"
+  r:
+    - "Monitoring-program summaries"
+    - "Bias and representativeness reporting"
+    - "Indicator and GBF reporting readiness"
+  sql:
+    - "Biodiversity dimension matrix"
+    - "Observation method registry"
+    - "Species observation records"
+    - "Indicator registry"
+    - "Detectability audit"
+    - "Community monitoring governance"
+    - "Monitoring readiness scores"
+    - "Conservation accountability log"
+  typescript:
+    - "Species observation, indicator, monitoring-program, detectability, and reporting-card types"
+  systems:
+    - "C species-observation record scaffold"
+    - "C++ observation event queue"
+    - "Go monitoring program status endpoint"
+    - "Rust biodiversity observation validator"

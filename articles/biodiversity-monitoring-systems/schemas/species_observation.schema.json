@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SpeciesObservation",
+  "type": "object",
+  "required": [
+    "observation_id",
+    "program_id",
+    "site_id",
+    "taxon_group",
+    "species_or_taxon",
+    "method_id",
+    "observation_date",
+    "detected",
+    "effort_units",
+    "quality_flag"
+  ],
+  "properties": {
+    "observation_id": {"type": "string"},
+    "program_id": {"type": "string"},
+    "site_id": {"type": "string"},
+    "taxon_group": {"type": "string"},
+    "species_or_taxon": {"type": "string"},
+    "method_id": {"type": "string"},
+    "observation_date": {"type": "string", "format": "date"},
+    "detected": {"type": "boolean"},
+    "count_or_index": {"type": ["number", "string"]},
+    "effort_units": {"type": "string"},
+    "quality_flag": {"type": "string"},
+    "detectability_note": {"type": "string"},
+    "habitat_context": {"type": "string"}
+  }
+}

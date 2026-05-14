@@ -1,0 +1,10 @@
+dimension_id,dimension_name,definition,example_measures,primary_risk
+occurrence,Species occurrence,Whether a species is detected or inferred at a place and time,presence records occupancy detections,Non-detection mistaken for absence
+abundance,Abundance and population trend,Number or relative abundance of organisms through time,count index trend estimate,Changing effort mistaken for population trend
+distribution,Species distribution,Spatial range and changes in range occupancy,range maps occupancy grids distribution shifts,Coarse maps hide local decline
+community,Community composition,Species assemblage identity turnover and structure,richness beta diversity composition turnover,Richness hides homogenization or specialist loss
+genetic,Genetic diversity,Variation within populations or species,genetic markers eDNA diversity proxies,Sampling and interpretation limits
+habitat,Habitat extent and structure,Habitat area fragmentation structure and condition,remote sensing fragmentation habitat quality,Habitat visibility mistaken for species viability
+function,Ecological function,Traits interactions trophic roles and ecosystem functions,functional diversity trophic indicators pollination,Function inferred from weak proxies
+pressure,Pressures and threats,Drivers affecting biodiversity,invasive species land-use change pollution disturbance,Pressure tracked without biological response
+response,Management response,Conservation restoration protection and stewardship action,restoration action protected status intervention record,Action mistaken for ecological outcome

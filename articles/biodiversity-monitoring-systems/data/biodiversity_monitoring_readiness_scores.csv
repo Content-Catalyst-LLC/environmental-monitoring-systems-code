@@ -1,0 +1,7 @@
+program_id,ecosystem_context,geography,taxonomic_coverage,spatial_representativeness,method_diversity,detectability_adjustment,observation_quality,indicator_readiness,habitat_context_linkage,uncertainty_communication,governance_readiness,high_stakes_use
+forest-biodiversity-monitoring,forest,regional_forest,0.64,0.72,0.70,0.68,0.80,0.76,0.82,0.74,0.80,true
+wetland-biodiversity-monitoring,wetland,regional_watershed,0.70,0.76,0.74,0.72,0.82,0.78,0.84,0.76,0.82,true
+stream-edna-monitoring,river_stream,watershed_network,0.62,0.68,0.72,0.64,0.76,0.70,0.78,0.72,0.76,true
+grassland-insect-monitoring,grassland,restoration_landscape,0.58,0.66,0.64,0.62,0.74,0.68,0.72,0.70,0.74,false
+urban-biodiversity-monitoring,urban_ecology,metro_region,0.55,0.52,0.70,0.58,0.70,0.66,0.76,0.68,0.72,true
+coastal-biodiversity-monitoring,coastal_marsh,coastal_region,0.68,0.70,0.66,0.62,0.78,0.72,0.82,0.74,0.78,true

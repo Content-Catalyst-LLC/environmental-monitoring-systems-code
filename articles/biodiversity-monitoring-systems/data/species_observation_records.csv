@@ -1,0 +1,8 @@
+observation_id,program_id,site_id,taxon_group,species_or_taxon,method_id,observation_date,detected,count_or_index,effort_units,quality_flag,detectability_note,habitat_context
+obs-001,forest-biodiversity-monitoring,forest-site-a,birds,Wood Thrush,acoustic_recorder,2026-05-01,true,3,12_hours,pass,Detection depends on song season and classifier confidence,interior_forest_patch
+obs-002,forest-biodiversity-monitoring,forest-site-a,mammals,White-tailed Deer,camera_trap,2026-05-01,true,5,20_camera_nights,pass,Large mammals overrepresented by camera traps,fragmented_forest_edge
+obs-003,wetland-biodiversity-monitoring,wetland-site-b,amphibians,Spring Peeper,acoustic_recorder,2026-05-02,true,0.82,10_hours,pass,Vocalization tied to weather and season,seasonally_flooded_wetland
+obs-004,stream-edna-monitoring,stream-site-c,fish,Native fish assemblage,edna,2026-05-03,true,0.64,3_samples,review_required,DNA transport and persistence create interpretation limits,headwater_stream
+obs-005,grassland-insect-monitoring,grassland-site-d,insects,Pollinator guild,field_transect,2026-05-04,true,18,2_transects,pass,Weather and flower availability affect detection,native_grassland_restoration
+obs-006,urban-biodiversity-monitoring,urban-site-e,birds,Urban bird assemblage,citizen_science,2026-05-05,true,27,variable_effort,review_required,Uneven effort and taxonomic bias,urban_green_corridor
+obs-007,coastal-biodiversity-monitoring,coastal-site-f,plants,Marsh plant community,remote_sensing,2026-05-06,true,0.71,1_scene,pass,Habitat proxy not direct species observation,coastal_marsh

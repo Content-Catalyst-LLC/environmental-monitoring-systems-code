@@ -1,0 +1,36 @@
+{
+  "type": "FeatureCollection",
+  "name": "biodiversity_monitoring_sites",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "forest-site-a",
+        "program_id": "forest-biodiversity-monitoring",
+        "ecosystem_context": "forest",
+        "monitoring_role": "acoustic_camera_field"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.7000, 39.1000]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "wetland-site-b",
+        "program_id": "wetland-biodiversity-monitoring",
+        "ecosystem_context": "wetland",
+        "monitoring_role": "amphibian_acoustic_and_field"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.3000, 38.5700]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "stream-site-c",
+        "program_id": "stream-edna-monitoring",
+        "ecosystem_context": "river_stream",
+        "monitoring_role": "edna_and_habitat_context"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2380, 38.7390]}
+    }
+  ]
+}

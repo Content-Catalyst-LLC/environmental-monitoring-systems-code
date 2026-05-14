@@ -1,0 +1,8 @@
+indicator_id,indicator_name,dimension_id,ebv_link,gbf_or_policy_use,proxy_limit,baseline_or_reference,review_status
+ind-occupancy,Detection-adjusted occupancy,occurrence,Species populations / species distributions,site occupancy and species persistence,Requires detectability model and repeated effort,repeat_survey_baseline,approved
+ind-abundance,Relative abundance trend,abundance,Species populations,population trend reporting,Effort shifts can mimic trend,long_term_monitoring_baseline,approved
+ind-community-turnover,Community turnover index,community,Community composition,ecological condition and homogenization review,Richness may hide specialist decline,reference_community,review_required
+ind-habitat-fragmentation,Habitat fragmentation index,habitat,Ecosystem structure,habitat quality and connectivity reporting,Habitat pattern does not equal species viability,landscape_reference,approved
+ind-edna-presence,eDNA detection index,occurrence,Species distributions,cryptic taxa screening,DNA detection may not equal local living presence,site_sampling_protocol,review_required
+ind-invasive-pressure,Invasive spread indicator,pressure,Species populations / pressures,invasive-species response,Pressure does not directly measure native response,management_threshold,approved
+ind-restoration-response,Biodiversity restoration response,response,Community composition / ecosystem function,restoration accountability,Visible response may not indicate full ecological recovery,restoration_reference,review_required
