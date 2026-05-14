@@ -1,0 +1,8 @@
+sensor_id,sensor_name,platform_type,instrument_class,owner,latitude,longitude,height_m,pollutants,update_frequency_minutes,operational_status,valid_use,notes
+aq-001,Reference PM2.5 Station,fixed_station,reference_grade,air_district,38.6300,-90.2100,3.0,PM2.5,60,active,regulatory_trend_and_public_reporting,Primary regional PM2.5 monitor
+aq-002,Reference Ozone Station,fixed_station,reference_grade,air_district,38.6700,-90.2500,4.0,O3,60,active,regulatory_trend_and_public_reporting,Photochemical ozone monitoring
+aq-003,Near-Road NO2 Monitor,fixed_station,reference_grade,transportation_air_program,38.7100,-90.3000,3.5,NO2,5,active,near_road_exposure_screening,Near highway corridor
+aq-004,Community PM Sensor Node,distributed_sensor,low_cost_sensor,community_network,38.6900,-90.2800,2.5,PM2.5,1,review_required,neighborhood_screening_not_regulatory,Requires collocation correction
+aq-005,Mobile Monitoring Vehicle,mobile_platform,research_grade,research_team,38.7000,-90.3100,2.0,NO2_black_carbon_PM2.5,1,active,spatial_gradient_mapping,Repeat transects required
+aq-006,Satellite Aerosol Product,remote_sensing,satellite_product,space_agency,0.0000,0.0000,NA,AOD_PM2.5_proxy,1440,active,regional_context_not_local_exposure,Requires surface validation
+aq-007,Wildfire Smoke Sensor Node,distributed_sensor,supplemental_sensor,public_health_team,38.6500,-90.1800,2.5,PM2.5,1,active,smoke_event_public_health_screening,Used for smoke advisories with caveat

@@ -1,0 +1,36 @@
+{
+  "type": "FeatureCollection",
+  "name": "air_quality_monitoring_sites",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "sensor_id": "aq-001",
+        "platform_type": "fixed_station",
+        "instrument_class": "reference_grade",
+        "pollutants": "PM2.5"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2100, 38.6300]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sensor_id": "aq-003",
+        "platform_type": "fixed_station",
+        "instrument_class": "reference_grade",
+        "pollutants": "NO2"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.3000, 38.7100]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sensor_id": "aq-004",
+        "platform_type": "distributed_sensor",
+        "instrument_class": "low_cost_sensor",
+        "pollutants": "PM2.5"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2800, 38.6900]}
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AirQualitySensor",
+  "type": "object",
+  "required": [
+    "sensor_id",
+    "sensor_name",
+    "platform_type",
+    "instrument_class",
+    "owner",
+    "pollutants",
+    "update_frequency_minutes",
+    "operational_status",
+    "valid_use"
+  ],
+  "properties": {
+    "sensor_id": {"type": "string"},
+    "sensor_name": {"type": "string"},
+    "platform_type": {"type": "string"},
+    "instrument_class": {"type": "string"},
+    "owner": {"type": "string"},
+    "latitude": {"type": "number"},
+    "longitude": {"type": "number"},
+    "height_m": {"type": ["number", "string"]},
+    "pollutants": {"type": "string"},
+    "update_frequency_minutes": {"type": "number"},
+    "operational_status": {"type": "string"},
+    "valid_use": {"type": "string"},
+    "notes": {"type": "string"}
+  }
+}

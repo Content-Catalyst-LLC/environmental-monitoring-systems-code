@@ -1,0 +1,6 @@
+meteorological_context_id,timestamp,wind_speed_m_s,wind_direction_deg,temperature_c,relative_humidity_percent,boundary_layer_context,dispersion_condition,notes
+met-001,2026-05-01T12:00:00Z,3.2,240,24.2,52,mixed_layer_developing,moderate_dispersion,Regional daytime mixing
+met-002,2026-05-01T12:05:00Z,1.4,210,25.0,58,street_canyon_local,limited_dispersion,Near-road corridor with weak wind
+met-003,2026-05-01T12:10:00Z,2.0,190,25.4,55,urban_surface_layer,moderate_dispersion,Mobile transect context
+met-004,2026-05-01T00:00:00Z,4.5,270,21.0,60,regional_transport,good_dispersion,Satellite regional context
+met-005,2026-05-01T12:05:00Z,2.8,315,23.6,42,smoke_transport_layer,variable_dispersion,Wildfire smoke plume context

@@ -1,0 +1,8 @@
+qc_id,observation_id,sensor_id,check_type,check_result,flag,severity,review_note
+qc-001,obs-001,aq-001,completeness_check,pass,valid,low,Hourly reference PM2.5 record complete
+qc-002,obs-002,aq-002,range_check,pass,valid,low,Ozone value within expected range
+qc-003,obs-003,aq-003,temporal_consistency,pass,valid,medium,NO2 spike plausible for near-road context
+qc-004,obs-004,aq-004,collocation_status,review_required,provisional,high,Community sensor correction pending
+qc-005,obs-005,aq-005,route_context,pass,valid,medium,Mobile measurement linked to transect route
+qc-006,obs-006,aq-006,retrieval_quality,pass,valid,medium,Satellite retrieval accepted with regional caveat
+qc-007,obs-007,aq-007,smoke_event_check,pass,valid,medium,PM2.5 event consistent with smoke context

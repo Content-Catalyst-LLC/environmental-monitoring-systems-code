@@ -1,0 +1,8 @@
+calibration_id,sensor_id,event_date,event_type,reference_sensor,result,correction_method,status,notes
+cal-001,aq-001,2026-01-15,annual_calibration,reference_lab,within_tolerance,none,pass,Reference station calibration current
+cal-002,aq-002,2026-01-20,annual_calibration,reference_lab,within_tolerance,none,pass,Ozone station calibration current
+cal-003,aq-003,2026-02-01,quarterly_audit,reference_lab,within_tolerance,none,pass,Near-road monitor audit passed
+cal-004,aq-004,2026-04-01,collocation,aq-001,bias_detected,linear_correction,review_required,Community sensor correction still under review
+cal-005,aq-005,2026-03-15,field_validation,aq-003,within_tolerance,route_normalization,pass,Mobile platform validated for transect work
+cal-006,aq-006,2026-03-30,satellite_surface_validation,aq-001,moderate_agreement,regional_bias_correction,pass,Satellite proxy valid for regional context
+cal-007,aq-007,2026-04-20,smoke_event_collocation,aq-001,within_tolerance,smoke_specific_correction,pass,Supplemental smoke sensor validated for event guidance

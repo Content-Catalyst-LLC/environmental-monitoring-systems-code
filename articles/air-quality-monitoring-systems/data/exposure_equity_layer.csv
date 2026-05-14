@@ -1,0 +1,6 @@
+exposure_id,program_id,geography,population_group,source_context,exposure_relevance_score,vulnerability_score,monitoring_coverage_score,priority,notes
+exp-001,reference-regulatory-network,regional_air_district,general_population,regional_background,0.72,0.60,0.70,medium,Good trend context but limited hotspot visibility
+exp-002,community-sensor-network,near_road_neighborhoods,children_elderly_asthma_vulnerable,highway_and_freight_routes,0.84,0.82,0.86,high,Important environmental justice visibility layer
+exp-003,mobile-monitoring-program,urban_freight_and_port_corridors,outdoor_workers_and_near_source_residents,freight_port_warehouse_corridors,0.86,0.78,0.88,high,Repeat transects needed for stable inference
+exp-004,wildfire-smoke-monitoring,regional_smoke_exposure_zone,respiratory_vulnerable_population,wildfire_smoke_transport,0.78,0.80,0.74,high,Supports short-term public-health advisories
+exp-005,satellite-regional-monitoring,regional_domain,rural_and_data_sparse_populations,regional_aerosol_transport,0.66,0.70,0.80,medium,Surface validation needed for local exposure

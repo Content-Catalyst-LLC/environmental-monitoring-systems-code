@@ -1,0 +1,7 @@
+governance_id,date,program_id,decision,owner,status,public_note_required
+gov-001,2026-05-01,reference-regulatory-network,Approved for compliance and long-term trend reporting with spatial coverage caveat,air_district,closed,true
+gov-002,2026-05-02,community-sensor-network,Require collocation correction before public hotspot claims,community_network,open,true
+gov-003,2026-05-03,mobile-monitoring-program,Repeat transects required before stable spatial-gradient claim,research_team,open,true
+gov-004,2026-05-04,wildfire-smoke-monitoring,Approved smoke advisory workflow with rapid-change caveat,public_health_team,closed,true
+gov-005,2026-05-05,satellite-regional-monitoring,Use satellite product for regional context not local exposure claim,space_agency,open,true
+gov-006,2026-05-06,industrial-corridor-screening,Add source-proximity and wind-direction caveats to industrial corridor report,air_district,open,true

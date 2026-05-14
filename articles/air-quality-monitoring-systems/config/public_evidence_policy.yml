@@ -1,0 +1,3 @@
+public_evidence_policy:
+  version: "1.0.0"
+  rule: "Public air-quality claims must include pollutant, averaging period, platform type, calibration status, QC status, data completeness, spatial caveat, exposure caveat, uncertainty statement, and governance owner."

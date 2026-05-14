@@ -1,0 +1,6 @@
+alert_id,program_id,pollutant,threshold_type,threshold_value,unit,geography,message_type,status,public_caveat
+alert-001,reference-regulatory-network,PM2.5,AQI_category,moderate,index,regional_air_district,dashboard_update,active,AQI simplifies pollutant-specific risk
+alert-002,near-road-monitoring,NO2,screening_threshold,40,ppb,near_road_corridor,technical_review,active,Near-road values are not city-wide averages
+alert-003,community-sensor-network,PM2.5,screening_threshold,20,ug_m3,near_road_neighborhoods,community_dashboard,review_required,Community sensor values are provisional until correction finalized
+alert-004,wildfire-smoke-monitoring,PM2.5,health_advisory,35,ug_m3,regional_smoke_exposure_zone,public_health_advisory,active,Smoke conditions can change rapidly
+alert-005,satellite-regional-monitoring,AOD_PM2.5_proxy,regional_context,0.4,index,regional_domain,situational_awareness,active,Satellite proxy is not a local exposure measurement

@@ -1,0 +1,7 @@
+program_id,monitoring_purpose,geography,pollutant_focus,calibration_quality,data_completeness,spatial_coverage,temporal_coverage,meteorological_context,exposure_relevance,uncertainty_communication,governance_readiness,high_stakes_use
+reference-regulatory-network,compliance_and_long_term_trends,regional_air_district,PM2.5_O3_NO2_SO2_CO,0.92,0.88,0.70,0.86,0.78,0.72,0.82,0.86,true
+community-sensor-network,neighborhood_hotspot_visibility,near_road_and_industrial_corridors,PM2.5_NO2,0.72,0.80,0.86,0.78,0.72,0.82,0.74,0.76,true
+mobile-monitoring-program,spatial_gradient_mapping,urban_freight_and_port_corridors,NO2_black_carbon_PM2.5,0.78,0.70,0.88,0.66,0.76,0.84,0.72,0.74,true
+wildfire-smoke-monitoring,public_health_advisory,regional_smoke_exposure_zone,PM2.5,0.80,0.76,0.74,0.82,0.84,0.76,0.78,0.80,true
+satellite-regional-monitoring,regional_context_and_smoke_tracking,regional_domain,AOD_PM2.5_proxy,0.76,0.74,0.84,0.72,0.80,0.66,0.74,0.78,true
+industrial-corridor-screening,industrial_oversight_and_hotspot_detection,industrial_corridor,SO2_NO2_PM2.5,0.74,0.72,0.78,0.70,0.74,0.82,0.72,0.76,true

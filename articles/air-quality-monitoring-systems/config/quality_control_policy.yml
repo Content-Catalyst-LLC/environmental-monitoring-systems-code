@@ -1,0 +1,16 @@
+quality_control_policy:
+  version: "1.0.0"
+  required_checks:
+    - sensor_metadata_complete
+    - timestamp_valid
+    - geolocation_valid
+    - unit_valid
+    - pollutant_code_valid
+    - calibration_current
+    - range_check
+    - temporal_consistency
+    - drift_check
+    - humidity_or_environmental_correction
+    - data_completeness
+    - qc_flag_present
+  rule: "Air-quality measurements must not be used for public claims unless calibration, QC status, siting context, and uncertainty are documented."

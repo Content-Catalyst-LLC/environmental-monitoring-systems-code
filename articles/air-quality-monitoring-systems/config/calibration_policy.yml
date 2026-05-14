@@ -1,0 +1,11 @@
+calibration_policy:
+  version: "1.0.0"
+  rule: "Reference comparison, collocation, correction model, drift review, or explicit valid-use caveat is required before supplemental sensors support public claims."
+  required_fields:
+    - sensor_id
+    - event_date
+    - event_type
+    - reference_sensor
+    - result
+    - correction_method
+    - status

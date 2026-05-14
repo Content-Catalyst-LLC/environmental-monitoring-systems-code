@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PollutantObservation",
+  "type": "object",
+  "required": [
+    "observation_id",
+    "sensor_id",
+    "observation_time",
+    "pollutant",
+    "value",
+    "unit",
+    "averaging_period_minutes",
+    "qc_flag",
+    "calibration_status"
+  ],
+  "properties": {
+    "observation_id": {"type": "string"},
+    "sensor_id": {"type": "string"},
+    "observation_time": {"type": "string"},
+    "arrival_time": {"type": "string"},
+    "pollutant": {"type": "string"},
+    "value": {"type": "number"},
+    "unit": {"type": "string"},
+    "averaging_period_minutes": {"type": "number"},
+    "qc_flag": {"type": "string"},
+    "calibration_status": {"type": "string"},
+    "meteorological_context_id": {"type": "string"}
+  }
+}

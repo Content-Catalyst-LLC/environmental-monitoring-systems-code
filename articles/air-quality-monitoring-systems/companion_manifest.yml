@@ -1,0 +1,32 @@
+article:
+  title: "Air Quality Monitoring Systems"
+  slug: "air-quality-monitoring-systems"
+  subtitle: "Sensors, Pollutants, Exposure, Public Health, Environmental Justice, and Atmospheric Governance"
+  series: "Environmental Monitoring Systems"
+  site_url: "https://sustainablecatalyst.com/air-quality-monitoring-systems/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/environmental-monitoring-systems-code/tree/main/articles/air-quality-monitoring-systems"
+
+navigation_note:
+  top_gateway_rule: "Use the five-button navigation to point to article maps / pillar pages whenever possible; reserve individual article links for Related articles."
+  github_block_position: "Place the GitHub repository section after the code samples."
+
+technical_level: "research-grade air quality monitoring, calibration, exposure, public-health evidence, environmental justice, dashboards, decision support, and governance scaffold"
+
+workflows:
+  mathematical_lens: "Concentration, exposure, data completeness, network coverage, calibration, and air-quality evidence quality"
+  python:
+    - "Air-quality monitoring readiness scoring"
+    - "Calibration, completeness, coverage, exposure, uncertainty, and governance triage"
+    - "Pollutant monitoring evidence-quality review"
+  r:
+    - "Air-quality monitoring readiness reporting"
+    - "Pollutant, calibration, exposure, and governance summary tables"
+  sql:
+    - "Air quality sensor registry"
+    - "Pollutant observation records"
+    - "Calibration and collocation log"
+    - "Quality-control flags"
+    - "Meteorological context table"
+    - "Exposure and equity layer"
+    - "Dashboard and alert records"
+    - "Air quality governance log"

@@ -1,0 +1,23 @@
+air_quality_monitoring_objective:
+  version: "1.0.0"
+  title: "Air Quality Monitoring Systems"
+  purpose: "Demonstrate pollutant monitoring readiness, calibration, completeness, spatial coverage, exposure relevance, uncertainty communication, and atmospheric governance."
+  pollutants:
+    - PM2.5
+    - PM10
+    - O3
+    - NO2
+    - SO2
+    - CO
+    - VOCs
+    - black_carbon
+    - AOD_PM2.5_proxy
+  decision_uses:
+    - regulatory_reporting
+    - public_health_advisory
+    - environmental_justice_assessment
+    - hotspot_detection
+    - intervention_evaluation
+    - wildfire_smoke_response
+    - industrial_oversight
+    - urban_planning
